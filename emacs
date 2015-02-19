@@ -83,4 +83,10 @@
   (interactive)
   (delete-process "Tern"))
 
+(add-to-list 'load-path "~/.emacs.d/my")
+(require 'nodejs)
+(require 'espresso)
+;;;js2-highlight vars
+;;;(require 'js2-highlight-vars)
 
+(require 'highlight-parentheses)
