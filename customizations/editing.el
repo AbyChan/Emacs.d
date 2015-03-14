@@ -91,5 +91,8 @@
 
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 
+(require 'autopair)
+(autopair-global-mode)
+
 (define-key js-mode-map "{" 'paredit-open-curly)
 (define-key js-mode-map "}" 'paredit-close-curly-and-newline)
