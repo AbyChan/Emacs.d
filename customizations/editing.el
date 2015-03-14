@@ -90,3 +90,6 @@
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 (add-hook 'js2-mode-hook 'ac-js2-mode)
+
+(define-key js-mode-map "{" 'paredit-open-curly)
+(define-key js-mode-map "}" 'paredit-close-curly-and-newline)
