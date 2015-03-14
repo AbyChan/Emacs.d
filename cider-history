@@ -1,0 +1,20 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of CIDER REPL session
+;; Edit at your own risk
+
+("(map titleize #{\"Elbows\" \"Soap Carving\"})" "(map titleize [\"Hamsters\" \"Ragnarok\"])" "(titleize bb)" "(titleize 'hi')" "(-titleize 'hi')" "(defn titleize
+  [topic]
+  (str topic \" for the Brave and True\"))" "(defn titleize
+  [topic]
+  (str topic \" for the Brave and True\"))
+
+(map titleize [\"Hamsters\" \"Ragnarok\"])
+; => (\"Hamsters for the Brave and True\" \"Ragnarok for the Brave and True\")
+
+(map titleize '(\"Empathy\" \"Decorating\"))
+; => (\"Empathy for the Brave and True\" \"Decorating for the Brave and True\")
+
+(map titleize #{\"Elbows\" \"Soap Carving\"})" "(-main)" "-main" "train ()" "train" "(+ 1 2 3 4)
+(println \"I'm cuckoo for Cocoa Puffs\")
+(map inc [1 2 3 4])
+(reduce + [5 6 100])")

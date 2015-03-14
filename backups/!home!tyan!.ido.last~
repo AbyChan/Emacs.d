@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/" . "SERVER/")
+ ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/" . "Art-Daily/")
+ ("/ssh:linaro@10.42.0.30:/" . "home/")
+ ("/ssh:linaro@10.42.0.30:/home/linaro/" . "USBSPACE/")
+ ("/ssh:linaro@10.42.0.30:/home/" . "linaro/")
+ ("/home/tyan/dev/clojure/clojure-noob/src/" . "clojure_noob/")
+ ("/home/tyan/dev/clojure/" . "clojure-noob/")
+ ("/home/tyan/dev/" . "clojure/")
+ ("/home/tyan/" . "dev/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/route/"
+ "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/"
+ "/ssh:linaro@10.42.0.30:/home/linaro/HappyBird-ChatRoom/"
+ "/ssh:linaro@10.42.0.30:/home/linaro/Windshaft/"
+ "/home/tyan/dev/clojure/clojure-noob/src/clojure_noob/"
+ "/home/tyan/dev/clojure/clojure-noob/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "admin.js"
+ "app.js"
+ "package.json"
+ "chatsocket.js"
+ "README.md"
+ "HOWTO_RELEASE"
+ "core.clj"
+ "LICENSE"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/tyan/" (21763 61167 22035 765000) ".jline-jython.history" ".emacs.d/" ".redis-commander" ".outlookcom-95fdd31e7961793317aad4f0ccc43faf/" "SRC/" ".IdeaIC14/" ".lein/" ".sbclrc" ".vnc/" ".WebStorm9/" ".ionic/" ".PyCharm40/" ".slime/" ".mongorc.js" "Movie/" ".xsession-errors" ".mplayer/" ".ICEauthority" "VirtualTemp/" "logs/" ".Rhistory" ".dbshell" ".gnu-emacs-custom~" ".bashrc" ".atom/" ".pgadmin_histoqueries" ".sunpinyin/" ".RData" ".pgpass" "workPlace/" ".minecraft/" ".RubyMine70/" ".gnu-emacs-custom" ".rstudio-desktop/" ".java/" "workspace/" "Article/" ".pgadmin3" "project/" ".gitconfig" ".tilda/" ".netbeans/" "CompileUSR/" ".plugman/" "record/" ".PyCharm30/" ".xprofile" "R/" ".subversion/" ".node-gyp/" ".icons/" ".vim/" ".y2usersettings" ".mapbox-studio/" "DB/" ".pyhistory" ".mysql/" ".kde/" ".bash_profile" ".android/" "IMG/" "VirtualBox VMs/" ".nbi/" "AWK/" "github/" ".y2log" ".recently-used" ".gnome2/" ".pip/" ".qt/" ".gem/" ".ssh/" ".vagrant.d/" ".mysql_history" ".gradle/" "library/" ".viminfo" "npm-debug.log" ".ido.last" ".psql_history" "virtualMachine/" ".chewing/" ".cordova/" "Book/" ".fonts.conf" "hack/" "dev/" ".gnome/" ".presage/" ".gnupg/" ".smartgit/" ".npm/" ".m2/" ".pki/" ".python-eggs/" ".macromedia/" ".adobe/" ".tilemill/" ".mozilla/" ".face.icon" ".thumbnails/" "usr/" ".directory" ".h2.server.properties" "Game/" ".esd_auth" ".cache/" ".skel/" ".gtkrc-2.0" ".kde4/" ".dbus/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".xsession-errors-:0" ".tern-port" ".dmrc" ".AndroidStudio/" ".Xauthority" ".meteorsession" ".argouml/" ".local/" ".config/" ".fonts/" "bin/" ".xim.template" ".xinitrc.template" ".bash_history" ".inputrc" ".profile" "../" "./")
+
+ ("/home/" (21737 15748 953962 707000) "tyan/" "../" "./")
+
+ ("/home/tyan/dev/clojure/clojure-noob/src/clojure_noob/" (21732 17032 761543 954000) "core.clj" "../" "./")
+
+ ("/home/tyan/dev/clojure/clojure-noob/src/" (21732 5964 151276 166000) "clojure_noob/" "../" "./")
+
+ ("/home/tyan/dev/clojure/clojure-noob/" (21732 46132 526899 182000) ".lein-repl-history" "target/" "resources/" "LICENSE" "test/" "src/" ".hgignore" ".gitignore" "doc/" "README.md" "project.clj" "../" "./")
+
+ ("/home/tyan/dev/clojure/" (21732 8528 986039 416000) "emacs-for-clojure/" "clojure-noob/" "action/" "guestbook/" "../" "./")
+
+ ("/home/tyan/dev/" (21720 39302 166213 994000) "react/" "wgs2mars.js/" "Meteor/" "clojure/" "lisp/" "NodeJs/" "db/" "AP/" "DataSet/" "DataMining/" "javascript/" ".directory" "frontApp/" "R/" "python/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
