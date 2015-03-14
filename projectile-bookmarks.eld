@@ -1,0 +1,1 @@
+("~/.emacs.d/" "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily" "/ssh:linaro@10.42.0.30:/home/linaro/HappyBird-ChatRoom" "/ssh:linaro@10.42.0.30:/home/linaro/Windshaft" "~/github/restify-postGIS/" "~/dev/clojure/clojure-noob/")
