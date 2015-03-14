@@ -6,6 +6,9 @@
 
 (setq ac-js2-evaluate-calls t)
 
+(setq js2-strict-missing-semi-warning nil)
+(setq js2-missing-semi-one-line-override t)
+
 (eval-after-load "sgml-mode"
   '(progn
      (require 'tagedit)
