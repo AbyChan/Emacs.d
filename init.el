@@ -137,8 +137,8 @@
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
  '(coffee-tab-width 2)
- '(custom-enabled-themes (quote (tomorrow-night-eighties)))
- '(custom-safe-themes (quote ("cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" default)))
+ '(custom-enabled-themes nil)
+ '(custom-safe-themes (quote ("7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" default)))
  '(delete-selection-mode nil)
  '(show-paren-mode t)
  '(tool-bar-mode nil)

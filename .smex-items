@@ -3,18 +3,20 @@
 (
  list-packages
  mkdir
+ js2-mode
  magit-status
  2C-split
  cider-jack-in
  cd
- 5x5
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 2)
  (2C-split . 1)
- (list-packages . 6)
+ (list-packages . 8)
  (magit-status . 2)
- (mkdir . 1)
+ (mkdir . 3)
+ (js2-mode . 1)
+ (yas-reload-all . 1)
 )

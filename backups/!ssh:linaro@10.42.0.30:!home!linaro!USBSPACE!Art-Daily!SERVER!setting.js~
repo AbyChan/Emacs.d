@@ -1,0 +1,7 @@
+var setting = {
+    port: 3000,
+    db_address: '127.0.0.1:27017',
+    db_database: 'art_daily'
+}
+
+module.exports = setting
