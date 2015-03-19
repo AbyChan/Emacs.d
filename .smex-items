@@ -1,22 +1,23 @@
 
 ;; ----- smex-history -----
 (
+ html-mode
  list-packages
  mkdir
  js2-mode
  magit-status
  2C-split
  cider-jack-in
- cd
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 2)
  (2C-split . 1)
- (list-packages . 8)
+ (list-packages . 10)
  (magit-status . 2)
  (mkdir . 3)
  (js2-mode . 1)
  (yas-reload-all . 1)
+ (html-mode . 3)
 )

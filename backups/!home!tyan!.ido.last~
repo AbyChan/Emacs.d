@@ -2,6 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/" . "styles/")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/" . "app/")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/" . "WWW/")
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/" . "SERVER/")
+ ("/home/tyan/Linaro/USBSPACE/" . "Aero-Map/")
+ ("/home/tyan/Linaro/" . "USBSPACE/")
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/" . "views/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/" . "www/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/" . "SERVER/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/" . "Art-Daily/")
@@ -11,11 +18,17 @@
  ("/home/tyan/dev/clojure/clojure-noob/src/" . "clojure_noob/")
  ("/home/tyan/dev/clojure/" . "clojure-noob/")
  ("/home/tyan/dev/" . "clojure/")
- ("/home/tyan/" . "dev/")
+ ("/home/tyan/" . "Linaro/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/styles/"
+ "/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/scripts/"
+ "/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/"
+ "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/views/"
+ "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/test/"
+ "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/models/"
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/test/"
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/"
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/"
@@ -30,35 +43,47 @@
 
 ;; ----- ido-work-file-list -----
 (
- "models_test.js"
- "test2.js"
- "test.js"
- "app.js"
- "models.js"
+ "main.css"
+ "map.js"
+ "mobile.js"
+ "mobile.html"
  "index.html"
- "login.html"
- "admin.js"
- "api_user.js"
- "api_article.js"
+ "panel.ejs"
+ "testif.js"
+ "err.ejs"
+ "article.js"
+ "models_test.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/test/" (ftp . 396242.6955555556) "test2.js" "./" "models.js" "../" "test.js")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/styles/" (21769 10783 0 0) "../" "main.css" "./")
 
- ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/" (ftp . 396240.7394444444) "db.js" "package.json" "./" "www/" "setting.js" "views/" "test/" "app.js" "models/" "../" "routes/" "node_modules/" ".gitignore")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/scripts/" (21769 30022 0 0) "../" "mobile.js" "lib/" "./" "main.js")
 
- ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/" (ftp . 396240.7391666667) "./" "SERVER/" "README.md" ".git/" "../")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/" (21769 30472 0 0) "../" "images/" "scripts/" "favicon.ico" "robots.txt" "styles/" "index.html" "./")
 
- ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/" (ftp . 396240.7391666667) "./" "mongoui-master/" "Art-Daily/" "lost+found/" "master.zip" "HappyBird-ChatRoom/" "metasploit-framework/" "../")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/" (21769 13210 0 0) ".gitignore" "node_modules/" "../" ".yo-rc.json" ".editorconfig" ".bowerrc" "test/" "Gruntfile.js" "bower.json" "./" "package.json" "bower_components/" ".jshintrc" ".gitattributes" "app/")
 
- ("/ssh:linaro@10.42.0.30:/home/linaro/" (ftp . 396240.7388888889) ".bashrc" ".profile" ".zshrc" ".bash_profile" "harfbuzz-0.9.26/" "Game/" ".mongorc.js" "bin/" ".gem/" "node-v0.10.30/" ".pip/" "node-v0.10.6-linux-arm-pi/" ".config/" ".m2/" "jdk1.8.0_33/" ".bash_history" ".msf4/" ".sudo_as_admin_successful" ".gitconfig" ".viminfo" ".dbshell" ".npm/" "tmp/" "emacs-24.4/" "node-v0.12.0/" ".mkshrc" "./" "redis-2.8.19/" "node-v0.10.6/" "../" ".bash_logout" ".cache/" "node-v0.10.26/" ".virtualenvs/" ".psql_history" ".aptitude/" ".zlogin" "logs/" "dump.rdb" "redis-commander/" ".redis-commander" ".emacs.d/" ".node-gyp/" ".ssh/" "WORKSHOP/" "node-v0.10.9/" ".rediscli_history" "USBSPACE/" ".vim/" ".rvm/" ".lein/")
+ ("/home/tyan/Linaro/USBSPACE/Aero-Map/" (21769 8487 0 0) "../" ".git/" "README.md" "WWW/" "SERVER/" "./" "APP/")
 
- ("/ssh:linaro@10.42.0.30:/home/" (ftp . 396240.73833333334) "keeper/" "linaro/" "./" "../")
+ ("/home/tyan/Linaro/" (21769 10796 0 0) ".lein/" ".rvm/" ".vim/" "USBSPACE/" "minecraft-starwars/" ".rediscli_history" "node-v0.10.9/" "WORKSHOP/" ".ssh/" ".node-gyp/" ".emacs.d/" ".redis-commander" "redis-commander/" ".composer/" "dump.rdb" "logs/" ".zlogin" ".aptitude/" ".psql_history" ".virtualenvs/" "node-v0.10.26/" ".cache/" ".bash_logout" "../" "node-v0.10.6/" "redis-2.8.19/" "./" ".mkshrc" "node-v0.12.0/" "emacs-24.4/" "tmp/" ".npm/" ".dbshell" ".viminfo" ".mysql_history" ".gitconfig" ".sudo_as_admin_successful" ".msf4/" ".local/" ".bash_history" "jdk1.8.0_33/" ".m2/" ".config/" "node-v0.10.6-linux-arm-pi/" ".pip/" "node-v0.10.30/" ".gem/" "bin/" ".Trash-1000/" ".mongorc.js" "Game/" "zepto.js" "harfbuzz-0.9.26/" ".bash_profile" ".zshrc" ".profile" ".bashrc")
 
- ("/ssh:linaro@10.42.0.30:/" (ftp . 396240.7377777778) "mnt/" "sbin/" "sys/" "bin/" "lib/" "opt/" "srv/" "tmp/" "md5sum.txt" "proc/" "./" "../" "lost+found/" "etc/" "var/" "home/" "boot/" "root/" "run/" "media/" "usr/" "dev/")
+ ("/home/tyan/" (21769 12990 413610 199000) ".jline-jython.history" "Linaro/" ".emacs.d/" ".redis-commander" ".outlookcom-95fdd31e7961793317aad4f0ccc43faf/" "SRC/" ".IdeaIC14/" ".lein/" ".sbclrc" ".gimp-2.8/" ".vnc/" ".WebStorm9/" ".ionic/" ".PyCharm40/" ".slime/" ".mongorc.js" "Movie/" ".viminfo" ".mplayer/" ".ICEauthority" "VirtualTemp/" "logs/" ".Rhistory" ".dbshell" ".gnu-emacs-custom~" ".bashrc" ".atom/" ".pgadmin_histoqueries" ".sunpinyin/" ".aliedit/" ".RData" ".pgpass" "workPlace/" ".minecraft/" ".RubyMine70/" ".gnu-emacs-custom" ".rstudio-desktop/" ".java/" "workspace/" "Article/" ".pgadmin3" "project/" ".gitconfig" ".tilda/" ".netbeans/" "CompileUSR/" ".plugman/" "record/" ".PyCharm30/" ".xprofile" "R/" ".subversion/" ".node-gyp/" ".icons/" ".vim/" ".y2usersettings" ".mapbox-studio/" "DB/" ".pyhistory" ".mysql/" ".kde/" ".bash_profile" ".android/" "IMG/" "VirtualBox VMs/" ".nbi/" "AWK/" "github/" ".y2log" ".recently-used" ".gnome2/" ".pip/" ".qt/" ".gem/" ".ssh/" ".vagrant.d/" ".mysql_history" ".gradle/" "library/" ".ido.last" ".xsession-errors" "Raspberry/" ".psql_history" "virtualMachine/" ".chewing/" ".cordova/" "Book/" ".fonts.conf" "hack/" "dev/" ".gnome/" ".presage/" ".gnupg/" ".smartgit/" ".npm/" ".m2/" ".pki/" ".python-eggs/" ".macromedia/" ".adobe/" ".tilemill/" ".mozilla/" ".face.icon" ".thumbnails/" "usr/" ".directory" ".h2.server.properties" "Game/" ".esd_auth" ".cache/" ".skel/" ".gtkrc-2.0" ".kde4/" ".dbus/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".xsession-errors-:0" ".tern-port" ".dmrc" ".AndroidStudio/" ".Xauthority" ".meteorsession" ".argouml/" ".local/" ".config/" ".fonts/" "bin/" ".xim.template" ".xinitrc.template" ".bash_history" ".inputrc" ".profile" "../" "./")
 
- ("/home/tyan/" (21766 9162 712097 81000) ".jline-jython.history" ".emacs.d/" ".redis-commander" ".outlookcom-95fdd31e7961793317aad4f0ccc43faf/" ".viminfo" "SRC/" ".IdeaIC14/" ".lein/" ".sbclrc" ".ido.last" ".vnc/" ".WebStorm9/" ".ionic/" ".PyCharm40/" ".slime/" ".mongorc.js" "Movie/" ".mplayer/" ".ICEauthority" "VirtualTemp/" "logs/" ".Rhistory" ".dbshell" ".gnu-emacs-custom~" ".bashrc" ".atom/" ".pgadmin_histoqueries" ".sunpinyin/" "dic.txt" ".RData" ".pgpass" "workPlace/" ".minecraft/" ".RubyMine70/" ".gnu-emacs-custom" ".rstudio-desktop/" ".java/" "workspace/" "Article/" ".pgadmin3" "project/" ".gitconfig" ".tilda/" ".netbeans/" "CompileUSR/" ".plugman/" "record/" ".PyCharm30/" ".xprofile" "R/" ".subversion/" ".node-gyp/" ".icons/" ".vim/" ".y2usersettings" ".mapbox-studio/" "DB/" ".pyhistory" ".mysql/" ".kde/" ".bash_profile" ".android/" "IMG/" "VirtualBox VMs/" ".nbi/" "AWK/" "github/" ".y2log" ".recently-used" ".gnome2/" ".pip/" ".qt/" ".gem/" ".ssh/" ".vagrant.d/" ".mysql_history" ".gradle/" "library/" ".xsession-errors" "npm-debug.log" ".psql_history" "virtualMachine/" ".chewing/" ".cordova/" "Book/" ".fonts.conf" "hack/" "dev/" ".gnome/" ".presage/" ".gnupg/" ".smartgit/" ".npm/" ".m2/" ".pki/" ".python-eggs/" ".macromedia/" ".adobe/" ".tilemill/" ".mozilla/" ".face.icon" ".thumbnails/" "usr/" ".directory" ".h2.server.properties" "Game/" ".esd_auth" ".cache/" ".skel/" ".gtkrc-2.0" ".kde4/" ".dbus/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".xsession-errors-:0" ".tern-port" ".dmrc" ".AndroidStudio/" ".Xauthority" ".meteorsession" ".argouml/" ".local/" ".config/" ".fonts/" "bin/" ".xim.template" ".xinitrc.template" ".bash_history" ".inputrc" ".profile" "../" "./")
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/views/" (21767 53476 0 0) "../" "panel.ejs" "./" "err.ejs")
+
+ ("/home/tyan/Linaro/USBSPACE/" (21768 1678 0 0) "../" "Aero-Map/" "metasploit-framework/" "HappyBird-ChatRoom/" "Pen-Pal-Forest/" "lost+found/" "Art-Daily/" "mongoui-master/" "./" "myproject/")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/test/" (21767 37105 0 0) "test.js" "../" "article.js" "models.js" "admin.js" "./" "test2.js")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/" (21767 55472 0 0) ".gitignore" "node_modules/" "routes/" "../" "models/" "app.js" "test/" "views/" "README" "setting.js" "media/" "www/" "./" "package.json" "db.js")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/routes/" (21764 23277 0 0) "../" "api_article.js" "middleware.js" "api_user.js" "admin.js" "./" "home.js")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/" (21763 55699 0 0) "../" ".git/" "README.md" "SERVER/" "./")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/models/" (21766 32170 0 0) "../" "article.js" "user.js" "admin.js" "./" "stars.js")
 
  ("/home/" (21737 15748 953962 707000) "tyan/" "../" "./")
 
