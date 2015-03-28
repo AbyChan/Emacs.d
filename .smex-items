@@ -20,4 +20,5 @@
  (js2-mode . 1)
  (yas-reload-all . 1)
  (html-mode . 3)
+ (kill-other-buffers . 1)
 )

@@ -11,6 +11,8 @@
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
+;;sr-speedbarzz
+(global-set-key (kbd "s-z") 'sr-speedbar-toggle)
 ;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))

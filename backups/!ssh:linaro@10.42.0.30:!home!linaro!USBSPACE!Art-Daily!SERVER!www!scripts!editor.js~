@@ -1,0 +1,4 @@
+(function () {
+    aloha.dom.query('#editor', document).forEach(aloha);
+    $('#big-bad-bold-button').on('click', aloha.ui.command(aloha.ui.commands.bold))
+} ())
