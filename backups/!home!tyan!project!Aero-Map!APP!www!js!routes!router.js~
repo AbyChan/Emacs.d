@@ -1,0 +1,13 @@
+/*global Author:Tyan*/
+
+AeroMap.Routers = AeroMap.Routers || {}
+
+
+    
+    AeroMap.Routers.AppRouter = function() {
+        alert('fuck')
+    }
+
+    
+
+

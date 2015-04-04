@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <15/03/16 10:52:37 /home/tyan/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <15/03/28 18:09:01 /home/tyan/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -18,4 +18,8 @@
   ("id" "/usr/bin/id")
   ("gid-integer" 1000)
   ("uid-integer" 1000)
-  ("ls" "/bin/ls --color=never")))
+  ("ls" "/bin/ls --color=never")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("gid-string" "linaro"))
+ (["scp" nil "ssh" nil nil]
+  nil))

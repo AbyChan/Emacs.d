@@ -1,0 +1,11 @@
+
+AeroMap.Views = AeroMap.Views || {}
+
+(function () {
+    'use strict'
+    
+    AeroMap.Views.MapView = Backbone.View.extend({
+        
+    })
+} ())
+

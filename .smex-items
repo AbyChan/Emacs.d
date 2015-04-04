@@ -1,23 +1,17 @@
 
 ;; ----- smex-history -----
 (
- html-mode
  list-packages
- mkdir
- js2-mode
- magit-status
- 2C-split
- cider-jack-in
+ sr-speedbar-open
+ cd
+ 5x5
+ arp
+ dbx
+ dig
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 2)
- (2C-split . 1)
- (list-packages . 10)
- (magit-status . 2)
- (mkdir . 3)
- (js2-mode . 1)
- (yas-reload-all . 1)
- (html-mode . 3)
+ (list-packages . 3)
+ (sr-speedbar-open . 1)
 )

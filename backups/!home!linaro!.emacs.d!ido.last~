@@ -1,0 +1,52 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/winston/lib/" . "winston/")
+ ("/home/linaro/USBSPACE/Art-Daily/SERVER/" . "views/")
+ ("/home/linaro/USBSPACE/Art-Daily/" . "SERVER/")
+ ("/home/linaro/USBSPACE/Happy-Together-App/SERVER/" . "main/")
+ ("/home/linaro/USBSPACE/Happy-Together-App/" . "SERVER/")
+ ("/home/linaro/USBSPACE/" . "Art-Daily/")
+ ("/home/linaro/" . "USBSPACE/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/winston/lib/winston/"
+ "/home/linaro/USBSPACE/Art-Daily/SERVER/views/"
+ "/home/linaro/USBSPACE/Art-Daily/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "logger.js"
+ "panel.ejs"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/winston/lib/winston/" (21784 60696 564017 919000) "logger.js" "common.js" "transports.js" "../" "config.js" "container.js" "exception.js" "config/" "transports/" "./")
+
+ ("/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/winston/lib/" (21784 60696 514017 919000) "../" "winston/" "winston.js" "./")
+
+ ("/home/linaro/USBSPACE/Art-Daily/SERVER/views/" (21770 43229 337711 202000) "../" "panel.ejs" "./" "err.ejs" "editor.ejs")
+
+ ("/home/linaro/USBSPACE/Art-Daily/SERVER/" (21782 5578 101690 305000) ".gitignore" "node_modules/" "routes/" "../" "models/" "app.js" "img/" "test/" "views/" "README" "setting.js" "media/" "www/" "./" "package.json" "db.js")
+
+ ("/home/linaro/USBSPACE/Art-Daily/" (21770 42645 417710 923000) "../" ".git/" "README.md" "SERVER/" "./" "APP/")
+
+ ("/home/linaro/USBSPACE/Happy-Together-App/SERVER/main/" (21778 16465 600058 155000) ".gitignore" "../" "project.clj" "src/" "README.md" "test/" "Procfile" "resources/" "env/" ".lein-env" "migrations/" "target/" "./")
+
+ ("/home/linaro/USBSPACE/Happy-Together-App/SERVER/" (21778 15452 410057 673000) "../" "main/" "./")
+
+ ("/home/linaro/USBSPACE/Happy-Together-App/" (21778 15113 450057 510000) "../" ".git/" "README.md" "SERVER/" "./" "APP/")
+
+ ("/home/linaro/USBSPACE/" (21778 21450 680060 533000) "../" "Aero-Map/" "Happy-Together-App/" "metasploit-framework/" "HappyBird-ChatRoom/" "Pen-Pal-Forest/" "lost+found/" "Art-Daily/" "mongoui-master/" "./")
+
+ ("/home/linaro/" (21783 20113 368571 894000) ".lein/" ".rvm/" ".vim/" "USBSPACE/" ".rediscli_history" "WORKSHOP/" ".ssh/" "goagent/" ".node-gyp/" ".emacs.d/" ".redis-commander" "redis-commander/" ".composer/" "dump.rdb" "logs/" ".zlogin" ".aptitude/" ".psql_history" ".virtualenvs/" ".cache/" ".bash_logout" "../" "redis-2.8.19/" "./" ".mkshrc" "emacs-24.4/" "tmp/" ".npm/" ".dbshell" ".viminfo" ".mysql_history" ".gitconfig" ".sudo_as_admin_successful" ".msf4/" ".local/" ".bash_history" "jdk1.8.0_33/" ".m2/" ".config/" ".pip/" ".gem/" "bin/" ".Trash-1000/" ".mongorc.js" "Game/" ".bash_profile" ".zshrc" ".profile" ".bashrc")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

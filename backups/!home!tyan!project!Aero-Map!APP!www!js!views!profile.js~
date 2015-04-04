@@ -1,0 +1,16 @@
+
+AeroMap.Views = AeroMap.Views || {}
+
+AeroMap.Views.ProfileView = Backbone.View.extend({
+    el: '.am-context',
+    
+    initialize: function () {
+        
+    },
+   
+    render: function () {
+        
+    },
+    
+    
+})

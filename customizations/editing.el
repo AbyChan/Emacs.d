@@ -109,3 +109,106 @@
       "Kill all other buffers."
       (interactive)
       (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
+
+;;scroll half of page
+(defun window-half-height ()
+  (max 1 (/ (1- (window-height (selected-window))) 2)))
+
+(defun scroll-up-half ()
+  (interactive)
+  (scroll-up (window-half-height)))
+
+(defun scroll-down-half ()         
+  (interactive)                    
+  (scroll-down (window-half-height)))
+
+(global-set-key [next] 'scroll-up-half)
+(global-set-key [prior] 'scroll-down-half)
+
+;;**********************web-mode
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(add-to-list 'auto-mode-alist '("\\.api\\'" . web-mode))
+(setq web-mode-content-types-alist
+  '(("json" . "/some/path/*\\.api\\'")
+    ("xml" . "/other/path/*\\.api\\'")))
+
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2))
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+
+(setq web-mode-markup-indent-offset 2)
+
+(setq web-mode-css-indent-offset 2)
+
+(setq web-mode-code-indent-offset 2)
+
+(setq web-mode-style-padding 1)
+(setq web-mode-block-padding 0)
+(setq web-mode-script-padding 1)
+
+(setq web-mode-comment-style 2)
+
+(setq web-mode-extra-auto-pairs
+      '(("erb"  . (("beg" "end")))
+        ("php"  . (("beg" "end")
+                   ("beg" "end")))))
+
+;;end web-mode********************************************
+
+;;python-mode********************************************
+(setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
+(setq interpreter-mode-alist (cons '("python" . python-mode)
+interpreter-mode-alist))
+(autoload 'python-mode "python-mode" "Python editing mode." t)
+
+(global-font-lock-mode t)
+(setq font-lock-maximum-decoration t)
+
+(setq-default indent-tabs-mode nil)
+(setq default-tab-width 4)
+
+
+
+(setq
+ python-shell-interpreter "ipython"
+ python-shell-interpreter-args ""
+ python-shell-prompt-regexp "In \\[[0-9]+\\]: "
+ python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: "
+ python-shell-completion-setup-code
+   "from IPython.core.completerlib import module_completion"
+ python-shell-completion-module-string-code
+   "';'.join(module_completion('''%s'''))\n"
+ python-shell-completion-string-code
+   "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
+
+(setq python-shell-completion-string-code
+      "';'.join(__IP.complete('''%s'''))\n"
+      python-shell-completion-module-string-code "")
+(setq
+ python-shell-interpreter "C:\\Python27\\python.exe"
+ python-shell-interpreter-args
+ "-i C:\\Python27\\Scripts\\ipython-script.py")
+
+(when (load "flymake" t)
+      (defun flymake-pylint-init ()
+        (let* ((temp-file (flymake-init-create-temp-buffer-copy
+                           'flymake-create-temp-inplace))
+           (local-file (file-relative-name
+                        temp-file
+                        (file-name-directory buffer-file-name))))
+          (list "epylint" (list local-file))))
+)
+
+(add-to-list 'flymake-allowed-file-name-masks
+             '("\\.py\\'" flymake-pylint-init))
+;;end python-mode********************************************
