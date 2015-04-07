@@ -139,14 +139,15 @@
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    (vector "#eaeaea" "#d54e53" "#b9ca4a" "#e7c547" "#7aa6da" "#c397d8" "#70c0b1" "#000000"))
- '(blink-cursor-mode nil)
  '(coffee-tab-width 2)
  '(custom-enabled-themes (quote (zenburn)))
  '(custom-safe-themes
    (quote
     ("b7ae665db6008ca68767f8fc96ae19783e1db3b96f45508acf56d23beb1454f6" "23051e2b6a86156f28ba7b497c963b422423031ca30d9a4ba2a282bf09bf9ac4" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" "cf08ae4c26cacce2eebff39d129ea0a21c9d7bf70ea9b945588c1c66392578d1" "5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" default)))
  '(delete-selection-mode nil)
+ '(display-time-mode t)
  '(fci-rule-color "#2a2a2a")
+ '(menu-bar-mode nil)
  '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(tooltip-mode nil))

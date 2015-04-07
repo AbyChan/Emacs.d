@@ -1,0 +1,143 @@
+var knex = require('../../db').knex
+
+var createUsers = function() {
+    knex.schema.createTable('Users', function(table) {
+        table.increments().unique()
+        table.string('username')
+            .unique()
+            .notNullable() 
+        table.string('password')
+            .notNullable()
+        table.string('email')
+            .unique()
+            .notNullable() 
+        table.timestamps()
+    })
+}
+
+var createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname').unique()
+        table.enu('sex', ['male', 'female'])
+        table.text('self_description')
+        table.integer('city')
+
+        table.string('password')
+        table.string('email').unique()
+        table.timestamps()
+    })
+}
+
+var createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname').unique()
+        table.enu('sex', ['male', 'female'])
+        table.text('self_description')
+        table.integer('city')
+
+        table.string('password')
+        table.string('email').unique()
+        table.timestamps()
+    })
+}
+
+var createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname').unique()
+        table.enu('sex', ['male', 'female'])
+        table.text('self_description')
+        table.integer('city')
+        table.integer('school')
+
+        table.string('password')
+        table.string('email').unique()
+        table.timestamps()
+    })
+}
+
+var createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname').unique()
+        table.enu('sex', ['male', 'female'])
+        table.text('self_description')
+        table.integer('city')
+        table.integer('school')
+
+        table.string('password')
+        table.string('email').unique()
+        table.timestamps()
+    })
+}
+
+var createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname').unique()
+        table.enu('sex', ['male', 'female'])
+        table.text('self_description')
+        table.integer('city')
+        table.integer('school')
+        table.integer('interest')
+        table.string('id_card')
+        table.string('public_mail')
+        table.string('phono_number')
+        table.string('qq')
+    })
+}
+
+var createUsersSetting = function() {
+    
+}
+
+var createUsersInfomation = function() {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

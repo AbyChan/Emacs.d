@@ -2,6 +2,20 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/" . "schema/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/" . "database/")
+ ("/ssh:linaro@10.42.0.16:USBSPACE/Aero-Map/SERVER/" . "ReserveServer/")
+ ("/ssh:linaro@10.42.0.16:USBSPACE/Aero-Map/" . "SERVER/")
+ ("/ssh:linaro@10.42.0.16:USBSPACE/" . "Aero-Map/")
+ ("/ssh:linaro@10.42.0.16:" . "USBSPACE/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/databse/" . "schema/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/" . "models/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/" . "ReserveServer/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/" . "SERVER/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/" . "Aero-Map/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/" . "USBSPACE/")
+ ("/ssh:linaro@10.42.0.16:/home/" . "linaro/")
+ ("/ssh:linaro@10.42.0.16:/" . "home/")
  ("/home/linaro/USBSPACE/Art-Daily/APP/app/www/" . "templates/")
  ("/home/linaro/USBSPACE/Art-Daily/APP/app/" . "www/")
  ("/home/linaro/USBSPACE/Art-Daily/APP/" . "app/")
@@ -16,6 +30,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/database/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/schema/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/"
+ "/ssh:linaro@10.42.0.16:USBSPACE/Aero-Map/SERVER/ReserveServer/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/databse/schema/"
  "/home/linaro/USBSPACE/Art-Daily/APP/app/www/"
  "/home/linaro/USBSPACE/Art-Daily/APP/app/www/js/"
  "/home/linaro/USBSPACE/Art-Daily/APP/app/www/templates/"
@@ -27,20 +48,24 @@
 
 ;; ----- ido-work-file-list -----
 (
- "index.html"
- "controllers.js"
- "daily.html"
+ "schema.js"
+ "user_schema.js"
+ "user.js"
+ "tools.js"
+ "init.js"
  "app.js"
- "tab-chats.html"
- "services.js"
+ "knex.doc"
+ "db.js"
  "setting.js"
- "logger.js"
- "panel.ejs"
- "README.md"
+ "index.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/tyan/" (21794 8206 529518 625000) ".local/" ".mplayer/" "音乐/" ".gstreamer-0.10/" ".xsession-errors.old" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".gnupg/" ".kde/" "IMG/" ".gnome2/" ".zshrc" ".kderc" ".youdao-dict/" ".lesshst" "record/" ".dbus/" "BAIDUDISK/" ".xinputrc" "文档/" ".pgpass" "公共/" ".gitconfig" ".cache/" ".pulse-cookie" ".mozilla/" ".ICEauthority" ".pki/" ".Xauthority" ".gvfs/" ".viminfo" ".bash_history" ".welcome" "VIRT-VMs/" "DASH/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".alias" ".virt-manager/" ".mission-control/" ".adobe/" "PACKAGE/" ".epiphany" ".goldendict/" "./" ".emacs.d/" ".python-eggs/" ".zsh-update" ".oh-my-zsh/" "pgadmin.log" "视频/" "WORKSPACE/" ".thumbnails/" ".bash_logout" ".aptitude/" ".gconf/" ".fontconfig/" ".xscreensaver" ".presage/" ".gtk-bookmarks" "lost+found/" ".gksu.lock" ".profile" ".gnome2_private/" "newBook/" ".zshrc.pre-oh-my-zsh" "USR/" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".directory" ".netrc" "GITHUB/" ".fonts.conf" "../" ".pulse/" "下载/" ".macromedia/" ".zsh_history" "桌面/" "SDK/" "图片/" "模板/" ".bashrc" ".VirtualBox/" ".xsession-errors" ".zcompdump" "VirtualBox VMs/" ".npm/" "Book/")
+
+ ("/home/" (21789 3759 911481 742000) "./" "tyan/" "lost+found/" "../")
+
  ("/home/linaro/USBSPACE/Art-Daily/APP/app/www/templates/" (21787 22427 694261 337000) "tab-chats.html" "../" "tab-account.html" "tabs.html" "chat-detail.html" "daily.html" "tab-dash.html" "./")
 
  ("/home/linaro/USBSPACE/Art-Daily/APP/app/www/js/" (21786 35346 163539 448000) "../" "app.js" "controllers.js" "setting.js" "./" "services.js")

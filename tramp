@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <15/03/28 18:09:01 /home/tyan/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <15/04/06 23:52:01 /home/tyan/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -21,5 +21,27 @@
   ("ls" "/bin/ls --color=never")
   ("locale" "LC_ALL=en_US.utf8")
   ("gid-string" "linaro"))
+ (["ssh" "linaro" "10.42.0.16" nil nil]
+  ("uname" "Linux 3.4.39")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "linaro")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("gid-integer" 1000)
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 1000)
+  ("tmpdir" "/ssh:linaro@10.42.0.16:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("ls-dired" t))
  (["scp" nil "ssh" nil nil]
   nil))

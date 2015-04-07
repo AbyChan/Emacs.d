@@ -1,0 +1,83 @@
+var knex = require('../../db').knex,
+    async = require('async')
+
+exports.createUsers = function() {
+    knex.schema.createTable('Users', function(table) {
+        table.increments().unique()
+        table.string('username')
+            .unique()
+            .notNullable()
+        table.string('password')
+            .notNullable()
+        table.string('email')
+            .unique()
+            .notNullable()
+        table.timestamps()
+    })
+}
+
+exports.createUsersDetail = function() {
+    knex.schema.createTable('UsersInfomation', function(table) {
+        table.increments().unique()
+        table.integer('user_id')
+            .unique()
+            .unsigner()
+            .notNullable()
+            .referencesCoulumn('id')
+            .inTable('Users')
+        table.string('nickname')
+            .unique()
+            .notNullable()
+        table.enu('sex', ['male', 'female', 'secert'])
+            .notNullable()
+        table.text('self_description')
+        table.integer('city')
+        table.integer('school')
+        table.integer('interest')
+        table.string('public_mail')
+        table.string('phono_number')
+        table.string('qq')
+    })
+}
+
+
+exports.createUsersSetting = function() {
+
+}
+
+exports.createUsersInfomation = function() {
+
+}
+
+exports.drop_all_tables = function(callback) {
+    async.series([
+        function(next) {
+            knex.schema.dropTableIfExists('Users').then(function(success) {
+                next()
+            }, function(error) {
+                next()
+            })
+        },
+        function(next) {
+            knex.schema.dropTableIfExists('UsersInfomation').then(function(success) {
+                callback(true)
+            }, function(error) {
+                callback(false)
+            })
+        }
+    ])
+}
+
+exports.recreate = function() {
+    knex.schema.hasTable('Users').then(function(exists) {
+        if (!exists) {
+            return knex.schema.createTable('users', function(t) {
+                t.increments('id').primary();
+                t.string('first_name', 100);
+                t.string('last_name', 100);
+                t.text('bio');
+            });
+        }
+    });
+}
+

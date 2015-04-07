@@ -1,17 +1,22 @@
 
 ;; ----- smex-history -----
 (
- list-packages
+ view-file
+ speedbar
+ close-display-connection
+ shell
  sr-speedbar-open
+ list-packages
  cd
- 5x5
- arp
- dbx
- dig
 )
 
 ;; ----- smex-data -----
 (
- (list-packages . 3)
- (sr-speedbar-open . 1)
+ (list-packages . 2)
+ (speedbar . 6)
+ (sr-speedbar-open . 5)
+ (kill-other-buffers . 1)
+ (shell . 1)
+ (close-display-connection . 1)
+ (view-file . 1)
 )

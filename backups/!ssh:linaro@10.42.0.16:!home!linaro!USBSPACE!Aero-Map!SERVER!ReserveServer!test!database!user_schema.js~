@@ -1,0 +1,36 @@
+var assert = require('assert'),
+    user_schema = require('../../database/schema/user')
+
+describe('drop', function() {
+    describe('#drop_all_table', function(){
+        it('shold return true', function(done){
+            user_schema.drop_all_tables(function(err, result){
+                if(err) return done(err)
+                console.log(result)
+                if(result){
+                    console.log('ssss'+result)
+                    done()
+                }else{
+                    throw done(new Error())
+                }
+            })
+        })
+    })
+})
+
+// describe('create', function() {
+//     describe('rec')
+// })
+
+// describe('truncate', function() {
+    
+// })
+
+
+
+
+
+
+
+
+

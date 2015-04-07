@@ -1,0 +1,25 @@
+var logger = require('../logger'),
+    user_schema = require('./schema/user')
+
+function create_all_tables() {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
