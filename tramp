@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ;; -*- emacs-lisp -*- <15/04/06 23:52:01 /home/tyan/.emacs.d/tramp>
+=======
+;; -*- emacs-lisp -*- <15/03/22 21:22:35 /home/tyan/.emacs.d/tramp>
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 

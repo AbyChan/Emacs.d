@@ -23,7 +23,8 @@
 (global-set-key (kbd "C-s") 'isearch-forward-regexp)
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
 (global-set-key (kbd "C-M-s") 'isearch-forward)
-(global-set-key (kbd "C-M-r") 'isearch-backward)
+(global-set-key (zkbd "C-M-r") 'isearch-backward)
+
 
 ;; Don't use hard tabs
 (setq-default indent-tabs-mode nil)
@@ -96,6 +97,8 @@
 
 (add-hook 'html-mode-hook 'ac-html-enable)
 
+
+
 (eval-after-load 'js2-mode
       '(define-key js2-mode-map (kbd "C-c b") 'web-beautify-js))
 (eval-after-load 'json-mode
@@ -110,6 +113,7 @@
       (interactive)
       (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
 
+<<<<<<< HEAD
 ;;scroll half of page
 (defun window-half-height ()
   (max 1 (/ (1- (window-height (selected-window))) 2)))
@@ -212,3 +216,6 @@ interpreter-mode-alist))
 (add-to-list 'flymake-allowed-file-name-masks
              '("\\.py\\'" flymake-pylint-init))
 ;;end python-mode********************************************
+=======
+
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc

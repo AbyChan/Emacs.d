@@ -12,6 +12,7 @@
 
 ;; ----- smex-data -----
 (
+<<<<<<< HEAD
  (list-packages . 2)
  (speedbar . 6)
  (sr-speedbar-open . 5)
@@ -19,4 +20,15 @@
  (shell . 1)
  (close-display-connection . 1)
  (view-file . 1)
+=======
+ (cider-jack-in . 2)
+ (2C-split . 1)
+ (list-packages . 10)
+ (magit-status . 2)
+ (mkdir . 3)
+ (js2-mode . 1)
+ (yas-reload-all . 1)
+ (html-mode . 3)
+ (kill-other-buffers . 1)
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
 )

@@ -2,11 +2,17 @@
 
 ;; ----- ido-last-directory-list -----
 (
+<<<<<<< HEAD
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/styles/" . "lib/")
  ("/home/tyan/project/Aero-Map/APP/www/js/" . "views/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/" . "styles/")
  ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/" . "scripts/")
  ("/home/tyan/project/Aero-Map/APP/www/" . "js/")
+=======
+ ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/" . "scripts/")
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/" . "scripts/")
+ ("/home/tyan/project/Aero-Map/APP/www/" . "img/")
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
  ("/home/tyan/project/Aero-Map/APP/" . "www/")
  ("/home/tyan/project/Aero-Map/" . "APP/")
  ("/home/tyan/project/" . "Aero-Map/")
@@ -31,6 +37,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+<<<<<<< HEAD
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/styles/"
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/views/"
  "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/scripts/"
@@ -46,6 +53,12 @@
  "/home/tyan/project/Aero-Map/APP/www/js/routes/"
  "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/scripts/"
  "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/views/"
+=======
+ "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Art-Daily/SERVER/www/scripts/"
+ "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/scripts/"
+ "/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/views/"
+ "/home/tyan/project/Aero-Map/APP/www/"
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
  "/home/tyan/project/Aero-Map/APP/www/img/"
  "/home/tyan/project/Aero-Map/"
  "/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/styles/"
@@ -63,6 +76,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+<<<<<<< HEAD
  "panel.css"
  "panel.ejs"
  "editor.ejs"
@@ -73,10 +87,23 @@
  "article.js"
  "api_article.js"
  "app.js"
+=======
+ "editor.js"
+ "editor.ejs"
+ "index.html"
+ "ionic.png"
+ "README.md"
+ "main.css"
+ "map.js"
+ "mobile.js"
+ "mobile.html"
+ "panel.ejs"
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+<<<<<<< HEAD
  ("/home/tyan/" (21782 551 802528 690000) ".jline-jython.history" "Linaro/" ".redis-commander" ".appgyver/" ".outlookcom-95fdd31e7961793317aad4f0ccc43faf/" "dic.txt" "SRC/" ".IdeaIC14/" ".lein/" ".sbclrc" ".gimp-2.8/" ".vnc/" ".WebStorm9/" ".ionic/" ".PyCharm40/" ".slime/" ".mongorc.js" "Movie/" ".viminfo" ".mplayer/" ".ICEauthority" "VirtualTemp/" "logs/" ".Rhistory" ".dbshell" ".gnu-emacs-custom~" ".bashrc" ".atom/" ".pgadmin_histoqueries" ".sunpinyin/" ".aliedit/" ".RData" ".pgpass" "workPlace/" ".minecraft/" ".RubyMine70/" ".gnu-emacs-custom" ".rstudio-desktop/" ".java/" "workspace/" "Article/" ".pgadmin3" "project/" ".gitconfig" ".tilda/" ".netbeans/" "CompileUSR/" ".plugman/" "record/" ".PyCharm30/" ".xprofile" "R/" ".subversion/" ".node-gyp/" ".icons/" ".vim/" ".y2usersettings" ".mapbox-studio/" "DB/" ".pyhistory" ".mysql/" ".kde/" ".bash_profile" ".android/" "IMG/" "VirtualBox VMs/" ".nbi/" "AWK/" "github/" ".y2log" ".recently-used" ".gnome2/" ".pip/" ".qt/" ".gem/" ".ssh/" ".vagrant.d/" ".mysql_history" ".gradle/" "library/" "emacs.d/" ".xsession-errors" "Raspberry/" ".psql_history" "virtualMachine/" ".chewing/" ".cordova/" "Book/" ".fonts.conf" "hack/" "dev/" ".gnome/" ".presage/" ".gnupg/" ".smartgit/" ".npm/" ".m2/" ".pki/" ".python-eggs/" ".macromedia/" ".adobe/" ".tilemill/" ".mozilla/" ".face.icon" ".thumbnails/" "usr/" ".directory" ".h2.server.properties" "Game/" ".esd_auth" ".cache/" ".skel/" ".gtkrc-2.0" ".kde4/" ".dbus/" "BaiduYun/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".xsession-errors-:0" ".tern-port" ".dmrc" ".AndroidStudio/" ".Xauthority" ".meteorsession" ".argouml/" ".ido.last~" ".local/" ".config/" ".fonts/" "bin/" ".xim.template" ".xinitrc.template" ".emacs.d/" ".bash_history" ".ido.last" ".inputrc" ".profile" "../" "./")
 
  ("/home/tyan/BaiduYun/crystal.tyan@gmail.com/" (21781 33619 79990 242000) "《雨季》第二卷·细雨绵绵[肥水系列].txt" "end.txt" "《乱雨纷纷》（全本）作者：rayamm.TXT" "apps/" "../" "./")
@@ -109,6 +136,30 @@
 
  ("/home/tyan/project/" (21770 36692 606720 513000) "Aero-Map/" "Art-Daily/" "ChatRoom/" "Javascript-Programming-Explore/" "socket.io/" "HappyBird-ChatRoom/" "NodeBB/" "Prediction-System-Exploration/" "H2-Research/" "StockForum/" "SocialMap/" "TyanCodeGroceryStore/" "django/" "Lumosity/" "StockPredict/" "django-cors-headers/" "pysqlite-2.6.3/" "Maple-Java-Httpd/" "TyanStockPredict/" "DjangoSocialMap/" "TextGame/" "vtch99.github.io/" "TyanDataStructrue-Algorithm/" ".directory" "../" "./")
 
+=======
+ ("/home/tyan/" (21771 22113 841961 456000) ".jline-jython.history" "Linaro/" ".emacs.d/" ".redis-commander" ".outlookcom-95fdd31e7961793317aad4f0ccc43faf/" "SRC/" ".IdeaIC14/" ".lein/" ".sbclrc" ".gimp-2.8/" ".vnc/" ".WebStorm9/" ".ionic/" ".PyCharm40/" ".slime/" ".mongorc.js" "Movie/" ".viminfo" ".mplayer/" ".ICEauthority" "VirtualTemp/" "logs/" ".Rhistory" ".dbshell" ".gnu-emacs-custom~" ".bashrc" ".atom/" ".pgadmin_histoqueries" ".sunpinyin/" ".aliedit/" ".RData" ".pgpass" "workPlace/" ".minecraft/" ".RubyMine70/" ".gnu-emacs-custom" ".rstudio-desktop/" ".java/" "workspace/" "Article/" ".pgadmin3" "project/" ".gitconfig" ".tilda/" ".netbeans/" "CompileUSR/" ".plugman/" "record/" ".PyCharm30/" ".xprofile" "R/" ".subversion/" ".node-gyp/" ".icons/" ".vim/" ".y2usersettings" ".mapbox-studio/" "DB/" ".pyhistory" ".mysql/" ".kde/" ".bash_profile" ".android/" "IMG/" "VirtualBox VMs/" ".nbi/" "AWK/" "github/" ".y2log" ".recently-used" ".gnome2/" ".pip/" ".qt/" ".gem/" ".ssh/" ".vagrant.d/" ".mysql_history" ".gradle/" "library/" ".xsession-errors" ".ido.last" "Raspberry/" ".psql_history" "virtualMachine/" ".chewing/" ".cordova/" "Book/" ".fonts.conf" "hack/" "dev/" ".gnome/" ".presage/" ".gnupg/" ".smartgit/" ".npm/" ".m2/" ".pki/" ".python-eggs/" ".macromedia/" ".adobe/" ".tilemill/" ".mozilla/" ".face.icon" ".thumbnails/" "usr/" ".directory" ".h2.server.properties" "Game/" ".esd_auth" ".cache/" ".skel/" ".gtkrc-2.0" ".kde4/" ".dbus/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".xsession-errors-:0" ".tern-port" ".dmrc" ".AndroidStudio/" ".Xauthority" ".meteorsession" ".argouml/" ".local/" ".config/" ".fonts/" "bin/" ".xim.template" ".xinitrc.template" ".bash_history" ".inputrc" ".profile" "../" "./")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/scripts/" (21764 23875 0 0) "../" "lib/" "./")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/www/" (21770 44171 0 0) "../" "admin/" "images/" "scripts/" "styles/" "./")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/" (21770 54484 0 0) ".gitignore" "node_modules/" "routes/" "../" "models/" "app.js" "img/" "test/" "views/" "README" "setting.js" "media/" "www/" "./" "package.json" "db.js")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/SERVER/views/" (21770 43229 0 0) "../" "panel.ejs" "./" "err.ejs" "editor.ejs")
+
+ ("/home/tyan/Linaro/USBSPACE/Art-Daily/" (21770 42645 0 0) "../" ".git/" "README.md" "SERVER/" "./" "APP/")
+
+ ("/home/tyan/project/Aero-Map/APP/" (21770 42597 525490 596000) "config.xml" "platforms/" "ionic.project" "plugins/" "www/" "scss/" "package.json" "hooks/" "gulpfile.js" "bower.json" ".gitignore" ".bowerrc" "../" "./")
+
+ ("/home/tyan/project/Aero-Map/APP/www/img/" (21770 36885 255101 72000) "ionic.png" "../" "./")
+
+ ("/home/tyan/project/Aero-Map/APP/www/" (21770 36900 974295 281000) "templates/" "img/" "css/" "lib/" "js/" "index.html" "../" "./")
+
+ ("/home/tyan/project/Aero-Map/" (21770 36849 527659 644000) "APP/" "WWW/" "README.md" ".git/" "../" "./")
+
+ ("/home/tyan/project/" (21770 36692 606720 513000) "Aero-Map/" "Art-Daily/" "ChatRoom/" "Javascript-Programming-Explore/" "socket.io/" "HappyBird-ChatRoom/" "NodeBB/" "Prediction-System-Exploration/" "H2-Research/" "StockForum/" "SocialMap/" "TyanCodeGroceryStore/" "django/" "Lumosity/" "StockPredict/" "django-cors-headers/" "pysqlite-2.6.3/" "Maple-Java-Httpd/" "TyanStockPredict/" "DjangoSocialMap/" "TextGame/" "vtch99.github.io/" "TyanDataStructrue-Algorithm/" ".directory" "../" "./")
+
+>>>>>>> b4aa14c847c41ca50056025a04dc4d297ef695fc
  ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/app/" (21769 34942 0 0) "../" "images/" "scripts/" "favicon.ico" "robots.txt" "styles/" "mobile.html" "index.html" "./")
 
  ("/home/tyan/Linaro/USBSPACE/Aero-Map/WWW/" (21770 30915 0 0) ".gitignore" "node_modules/" "../" ".tmp/" ".yo-rc.json" ".editorconfig" ".bowerrc" "test/" "Gruntfile.js" "bower.json" "./" "package.json" "bower_components/" ".jshintrc" ".gitattributes" "app/")
