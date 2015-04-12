@@ -17,14 +17,14 @@
 ;; Default theme
 (defun use-presentation-theme ()
   (interactive)
-  (when (boundp 'magnars/presentation-font)
-    (set-face-attribute 'default nil :font magnars/presentation-font)))
+  (when (boundp 'tyan/presentation-font)
+    (set-face-attribute 'default inconsolate :font tyan/presentation-font)))
 
 (defun use-default-theme ()
   (interactive)
-  (load-theme 'default-black)
-  (when (boundp 'magnars/default-font)
-    (set-face-attribute 'default nil :font magnars/default-font)))
+  (load-theme 'zenburn)
+  (when (boundp 'tyan/default-font)
+    (set-face-attribute 'default inconsolate :font magnars/default-font)))
 
 (defun toggle-presentation-mode ()
   (interactive)

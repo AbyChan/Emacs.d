@@ -36,8 +36,8 @@
 
 (define-key js2-mode-map (kbd ";")
   (λ (if (looking-at ";")
-         (forward-char)
-       (funcall 'self-insert-command 1))))
+          (forward-char)
+        (funcall 'self-insert-command 1))))
 
 (defun js2r--self-insert-wrapping (open close)
   (cond
