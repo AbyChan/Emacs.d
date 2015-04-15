@@ -39,6 +39,9 @@
 ;;(require 'setup-autopair)
 (require 'setup-auto-complete)
 (require 'setup-web-beautify)
+(require 'setup-sr-speedbar)
+(require 'sass-mode)
+
 
 (setq initial-scratch-message "
 			 	(つ -‘ _ ‘- )つ 
