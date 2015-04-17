@@ -56,7 +56,7 @@
 (global-set-key (kbd "C-x r t") 'inline-string-rectangle)
 
 ;; Quickly jump in document with ace-jump-mode
-;;(define-key global-map (kbd "C-ø") 'ace-jump-mode)
+(define-key global-map (kbd "C-#") 'ace-jump-mode)
 
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
@@ -238,7 +238,7 @@
 (global-set-key (kbd "C-c C-k") 'eval-buffer)
 
 ;; Create scratch buffer
-;;(global-set-key (kbd "C-c b") 'create-scratch-buffer)
+(global-set-key (kbd "C-c C-b") 'create-scratch-buffer)
 
 ;; Move windows, even in org-mode
 (global-set-key (kbd "<s-right>") 'windmove-right)
@@ -253,7 +253,7 @@
 ;; Clever newlines
 (global-set-key (kbd "C-o") 'open-line-and-indent)
 (global-set-key (kbd "<C-return>") 'open-line-below)
-(global-set-key (kbd "<C-S-return>") 'open-line-above)
+(global-set-key (kbd "<C-s-return>") 'open-line-above)
 (global-set-key (kbd "<M-return>") 'new-line-dwim)
 
 ;; Duplicate region
@@ -272,7 +272,7 @@
 (global-set-key (kbd "C-S-y") 'yank-unindented)
 
 ;; Toggle quotes
-(global-set-key (kbd "C-\"") 'toggle-quotes)
+;;(global-set-key (kbd "C-\"") 'toggle-quotes)
 
 ;; Sorting
 (global-set-key (kbd "M-s l") 'sort-lines)

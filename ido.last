@@ -2,68 +2,104 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tyan/.emacs.d.backup/" . "customizations/")
+ ("/home/tyan/PROJECT/" . "ClojureLearn/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/src/server/" . "routes/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/src/" . "server/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/" . "src/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/" . "server/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/" . "components/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/" . "foundation/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/" . "scss/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/" . "foundation/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/" . "bower_components/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/" . "src/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/" . "schema/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/" . "test/")
- ("/ssh:linaro@10.42.0.16:USBSPACE/" . "HappyBird-ChatRoom/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/" . "www/")
+ ("/ssh:linaro@10.42.0.16:USBSPACE/" . "ClojureLearn/")
  ("/ssh:linaro@10.42.0.16:" . "USBSPACE/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/" . "services/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/" . "test/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/" . "models/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/" . "services/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/" . "ReserveServer/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/" . "SERVER/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/" . "Aero-Map/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/" . "HappyBird-ChatRoom/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/" . "USBSPACE/")
  ("/ssh:linaro@10.42.0.16:/home/" . "linaro/")
  ("/ssh:linaro@10.42.0.16:/" . "home/")
  ("/home/tyan/.emacs.d/users/" . "tyan/")
- ("/home/tyan/.emacs.d/" . "users/")
+ ("/home/tyan/.emacs.d/" . "settings/")
  ("/home/tyan/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/tyan/.emacs.d/users/tyan/"
- "/ssh:linaro@10.42.0.16:"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/components/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/"
  "/home/tyan/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/services/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/services/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/models/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/schema/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/test/"
- "/ssh:linaro@10.42.0.16:USBSPACE/HappyBird-ChatRoom/"
- "/ssh:linaro@10.42.0.16:/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/"
  "/home/tyan/.emacs.d/settings/"
  "/home/tyan/.emacs.d/"
+ "/home/tyan/.emacs.d/users/tyan/"
+ "/home/tyan/.emacs.d.backup/customizations/"
+ "/ssh:linaro@10.42.0.16:USBSPACE/ClojureLearn/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/ClojureLearn/"
+ "/home/tyan/PROJECT/ClojureLearn/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/src/server/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/src/server/routes/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/schema/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/services/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/collection/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/models/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/routes/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/css/"
+ "/ssh:linaro@10.42.0.16:USBSPACE/HappyBird-ChatRoom/"
+ "/ssh:linaro@10.42.0.16:"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/services/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/test/"
+ "/ssh:linaro@10.42.0.16:/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "linaro@10.42.0.16"
- "setting.js"
- "markpost.js"
- "user.js"
- "users.js"
- "userdetail.js"
- "markpost_comment.js"
- "socket.js"
+ "_bottom-bar.scss"
+ "_panels.scss"
+ "gulpfile.js"
+ "foundation.scss"
+ "_functions.scss"
+ "_global.scss"
+ "_footer.scss"
+ "_top-bar.scss"
+ "index.html"
+ "zz.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tyan/" (21801 62470 389258 73000) ".smex-items" ".local/" ".mplayer/" "音乐/" ".gstreamer-0.10/" ".themes/" ".xsession-errors.old" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" ".remmina/" ".gnupg/" ".kde/" ".pip/" "IMG/" ".gnome2/" ".zshrc" ".kderc" ".youdao-dict/" ".lesshst" "record/" ".dbus/" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".pgpass" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".pulse-cookie" ".mozilla/" ".ICEauthority" ".pki/" ".Xauthority" ".gvfs/" ".viminfo" "welcome/" "sss" ".bash_history" ".gtkrc-2.0" ".welcome" "VIRT-VMs/" "DASH/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".alias" ".virt-manager/" ".mission-control/" ".adobe/" "PACKAGE/" ".epiphany" ".goldendict/" "./" "sss.txt" ".emacs.d/" ".python-eggs/" ".zsh-update" ".oh-my-zsh/" "pgadmin.log" ".freerdp/" "WORKSPACE/" ".thumbnails/" ".bash_logout" ".aptitude/" ".aliedit/" ".gconf/" ".fontconfig/" ".xscreensaver" ".presage/" ".gtk-bookmarks" "lost+found/" ".gksu.lock" ".profile" ".gnome2_private/" ".zshrc.pre-oh-my-zsh" ".fonts/" "USR/" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".directory" ".netrc" "GITHUB/" ".fonts.conf" "../" ".vimrc" ".pulse/" "下载/" ".macromedia/" ".zsh_history" "桌面/" "SDK/" "图片/" "npm-debug.log" "模板/" ".node-gyp/" "video/" ".bashrc" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".cnpmrc" ".zcompdump" "VirtualBox VMs/" ".npm/" "Book/")
+ ("/home/tyan/" (21807 44682 423553 309000) ".smex-items" ".local/" ".mplayer/" "音乐/" ".gstreamer-0.10/" "#wwrw.js#" ".themes/" ".xsession-errors.old" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" ".remmina/" ".gnupg/" ".kde/" ".pip/" "IMG/" "dic.txt" ".gnome2/" ".zshrc" ".kderc" ".youdao-dict/" ".lesshst" "record/" ".dbus/" "#suwu.js#" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".pgpass" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".pulse-cookie" ".mozilla/" ".ICEauthority" ".pki/" ".Xauthority" ".gvfs/" ".viminfo" "welcome/" "#zz.js#" ".lein/" "sss" ".bash_history" ".gtkrc-2.0" ".welcome" "VIRT-VMs/" "DASH/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".alias" ".virt-manager/" ".mission-control/" ".adobe/" "PACKAGE/" ".epiphany" ".goldendict/" "./" "sss.txt" ".emacs.d/" ".python-eggs/" ".zsh-update" ".android/" ".oh-my-zsh/" "pgadmin.log" "sdasd.js" ".freerdp/" "WORKSPACE/" ".thumbnails/" ".bash_logout" ".aptitude/" ".aliedit/" ".gconf/" ".java/" ".fontconfig/" ".xscreensaver" ".presage/" ".gtk-bookmarks" "lost+found/" ".gksu.lock" ".profile" ".gnome2_private/" ".zshrc.pre-oh-my-zsh" ".fonts/" "USR/" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".directory" ".netrc" "GITHUB/" ".m2/" ".fonts.conf" "../" ".vimrc" ".pulse/" "下载/" ".macromedia/" "docs/" ".zsh_history" "桌面/" "SDK/" "图片/" "模板/" ".node-gyp/" "video/" ".bashrc" "PROJECT/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" "#sdsd.js#" ".cnpmrc" ".zcompdump" "VirtualBox VMs/" ".npm/" "Book/")
 
- ("/home/tyan/.emacs.d/users/tyan/" (21797 97 552794 199000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "travel-mode.el")
+ ("/home/tyan/.emacs.d/users/tyan/" (21807 22854 596526 487000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "travel-mode.el")
 
- ("/home/tyan/.emacs.d/users/" (21797 97 568794 200000) "magnars/" "christian/" "./" "tyan/" "fimasvee/" "../")
+ ("/home/tyan/.emacs.d/" (21807 22860 436526 225000) "session.10c9d31fd2e9827751142884362743875300000041450040" "site-lisp/" "backups/" "defuns/" "project-archetypes/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" ".places" "var/" "ido.last" "recentf" "./" "README.md" "snippets/" "session.104a856311282860eb142888637225883100000040640040" "themes/" "custom.el" "history" "init.el" "tramp" "auto-save-list/" "#ido.last#" ".gitmodules" "../" "settings/" "users/")
 
- ("/home/tyan/.emacs.d/" (21801 61058 349321 28000) "site-lisp/" "backups/" "defuns/" ".mc-lists.el" "project-archetypes/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" ".places" "var/" "ido.last" "recentf" "./" "README.md" "snippets/" "themes/" "custom.el" "history" "init.el" "tramp" "auto-save-list/" ".gitmodules" "../" "settings/" "users/")
+ ("/home/tyan/.emacs.d/users/" (21801 62883 221239 666000) "magnars/" "christian/" "./" "tyan/" "fimasvee/" "../")
+
+ ("/home/tyan/.emacs.d/settings/" (21807 22764 188530 517000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-shell.el" "setup-ruby-mode.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-autopair.el" ".key-bindings.el.swp" "my-misc.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-auto-complete.el" "setup-yasnippet.el")
+
+ ("/home/tyan/.emacs.d.backup/customizations/" (21795 55044 236800 468000) "misc.el" "elisp-editing.el" "ui.el" "editing.el" "navigation.el" "setup-clojure.el" "./" "shell-integration.el" "../" "setup-js.el")
+
+ ("/home/tyan/.emacs.d.backup/" (21795 22017 889537 373000) ".smex-items" ".recentf" "backups/" "customizations/" ".git/" "ac-comphist.dat" "tutorial/" "elpa/" "ido.last" "./" "README.md" "snippets/" "themes/" "cider-history" "projectile-bookmarks.eld" "init.el" "tramp" "auto-save-list/" "session.1076da66373864e531142829551189726600000048640046" "places" "ac-dict/" ".recentf~" "../")
+
+ ("/home/tyan/PROJECT/ClojureLearn/" (21804 60901 727609 978000) "./" "../")
+
+ ("/home/tyan/PROJECT/" (21804 60901 727609 978000) "./" "../" "ClojureLearn/")
 
  ("/home/" (21789 3759 911481 742000) "./" "tyan/" "lost+found/" "../")
-
- ("/home/tyan/.emacs.d/settings/" (21795 39163 977154 798000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-shell.el" "setup-ruby-mode.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-autopair.el" ".key-bindings.el.swp" "my-misc.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-auto-complete.el" "setup-yasnippet.el")
 )
 
 ;; ----- ido-unc-hosts-cache -----

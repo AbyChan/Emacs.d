@@ -40,6 +40,7 @@
 (require 'setup-auto-complete)
 (require 'setup-web-beautify)
 (require 'setup-sr-speedbar)
+(require 'setup-autopair)
 (require 'sass-mode)
 
 

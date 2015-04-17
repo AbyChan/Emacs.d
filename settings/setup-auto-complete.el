@@ -10,7 +10,7 @@
 (require 'auto-dictionary)
 
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
-
+(add-to-list 'interpreter-mode-alist '("node" . js3-mode))
 
 (provide 'setup-auto-complete)
 
