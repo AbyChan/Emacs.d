@@ -78,6 +78,7 @@
 
 ;; JavaScript
 (autoload 'js2-mode "js2-mode" nil t)
+(autoload 'js3-mode "js3-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js3-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.jshintrc$" . javascript-mode))

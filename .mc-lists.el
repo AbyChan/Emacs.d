@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        haml-electric-backspace
         js3-mode-show-node
         subword-left
         subword-right

@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/web/" . "scripts/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/www/" . "scripts/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/" . "www/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/" . "SERVER/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/TyanDataStructrue-Algorithm/" . "Euler/")
  ("/home/tyan/.emacs.d.backup/" . "customizations/")
  ("/home/tyan/PROJECT/" . "ClojureLearn/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/CoffeeClub/server/src/server/" . "routes/")
@@ -12,10 +17,10 @@
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/" . "foundation/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/" . "scss/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/" . "foundation/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/" . "bower_components/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/" . "js/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/" . "src/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/database/" . "schema/")
- ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/" . "www/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/" . "web/")
  ("/ssh:linaro@10.42.0.16:USBSPACE/" . "ClojureLearn/")
  ("/ssh:linaro@10.42.0.16:" . "USBSPACE/")
  ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/" . "models/")
@@ -33,11 +38,23 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/components/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/socket.io/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/web/scripts/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/web/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/js/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/routes/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/scss/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/www/scripts/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/routes/"
+ "/ssh:10.42.0.16:"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/TyanDataStructrue-Algorithm/Euler/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/"
+ "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/components/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/bower_components/foundation/scss/foundation/"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/"
  "/home/tyan/"
  "/home/tyan/.emacs.d/settings/"
  "/home/tyan/.emacs.d/"
@@ -57,7 +74,6 @@
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/css/"
  "/ssh:linaro@10.42.0.16:USBSPACE/HappyBird-ChatRoom/"
  "/ssh:linaro@10.42.0.16:"
- "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/test/services/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/"
  "/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/test/"
@@ -67,21 +83,59 @@
 
 ;; ----- ido-work-file-list -----
 (
- "_bottom-bar.scss"
- "_panels.scss"
- "gulpfile.js"
- "foundation.scss"
- "_functions.scss"
- "_global.scss"
- "_footer.scss"
- "_top-bar.scss"
+ "app.js"
+ "index.js"
+ "chatsocket.js"
+ "setting.js"
+ "db.js"
  "index.html"
- "zz.js"
+ "helper.js"
+ "main.js"
+ "event.js"
+ "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tyan/" (21807 44682 423553 309000) ".smex-items" ".local/" ".mplayer/" "音乐/" ".gstreamer-0.10/" "#wwrw.js#" ".themes/" ".xsession-errors.old" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" ".remmina/" ".gnupg/" ".kde/" ".pip/" "IMG/" "dic.txt" ".gnome2/" ".zshrc" ".kderc" ".youdao-dict/" ".lesshst" "record/" ".dbus/" "#suwu.js#" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".pgpass" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".pulse-cookie" ".mozilla/" ".ICEauthority" ".pki/" ".Xauthority" ".gvfs/" ".viminfo" "welcome/" "#zz.js#" ".lein/" "sss" ".bash_history" ".gtkrc-2.0" ".welcome" "VIRT-VMs/" "DASH/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".alias" ".virt-manager/" ".mission-control/" ".adobe/" "PACKAGE/" ".epiphany" ".goldendict/" "./" "sss.txt" ".emacs.d/" ".python-eggs/" ".zsh-update" ".android/" ".oh-my-zsh/" "pgadmin.log" "sdasd.js" ".freerdp/" "WORKSPACE/" ".thumbnails/" ".bash_logout" ".aptitude/" ".aliedit/" ".gconf/" ".java/" ".fontconfig/" ".xscreensaver" ".presage/" ".gtk-bookmarks" "lost+found/" ".gksu.lock" ".profile" ".gnome2_private/" ".zshrc.pre-oh-my-zsh" ".fonts/" "USR/" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".directory" ".netrc" "GITHUB/" ".m2/" ".fonts.conf" "../" ".vimrc" ".pulse/" "下载/" ".macromedia/" "docs/" ".zsh_history" "桌面/" "SDK/" "图片/" "模板/" ".node-gyp/" "video/" ".bashrc" "PROJECT/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" "#sdsd.js#" ".cnpmrc" ".zcompdump" "VirtualBox VMs/" ".npm/" "Book/")
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/socket.io/lib/" (ftp . 397047.85777777777) "#_assh_blinaro@10.42.0.16_b_ahome_alinaro_aUSBSPACE_asocket.io_alib_asocket.js#" "./" "client.js" "#_assh_blinaro@10.42.0.16_b_ahome_alinaro_aUSBSPACE_asocket.io_alib_aclient.js#" "socket.js" "../" "namespace.js" "index.js" "#_assh_blinaro@10.42.0.16_b_ahome_alinaro_aUSBSPACE_asocket.io_alib_aindex.js#")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/socket.io/" (ftp . 397047.75444444444) "package.json" "./" ".npmignore" "examples/" "lib/" ".travis.yml" "Makefile" "test/" "LICENSE" ".git/" "History.md" "../" "Readme.md" ".gitignore" "index.js")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/" (ftp . 397047.7522222222) ".bashrc" "metasploit-framework/" ".profile" ".zshrc" ".bash_profile" "Game/" ".mongorc.js" "geohash-int/" ".Trash-1000/" ".v8flags.3.28.73.linaro.json" "bin/" "autojump/" ".gem/" ".pip/" ".welcome" ".config/" "html5-boilerplate/" ".gnupg/" ".zsh_history" ".m2/" "jdk1.8.0_33/" ".bash_history" ".local/" ".msf4/" ".sudo_as_admin_successful" ".gitconfig" ".mysql_history" ".cordova/" ".zcompdump-cubieboard4-5.0.2" ".viminfo" ".zshrc.backup" "TyanDataStructrue-Algorithm/" ".oh-my-zsh/" ".dbshell" ".npm/" "tmp/" ".zcompdump" ".zsh-update" "emacs-24.4/" ".selected_editor" ".mkshrc" "./" "redis-2.8.19/" ".java/" "../" ".bash_logout" ".cache/" ".virtualenvs/" ".psql_history" ".aptitude/" ".pki/" ".zlogin" ".cnpmrc" "logs/" "ardb/" "dump.rdb" ".composer/" "blog/" "redis-commander/" ".redis-commander" ".ionic/" ".emacs.d/" ".node-gyp/" "goagent/" ".httpie/" ".ssh/" ".lesshst" "WORKSHOP/" ".zshrc.pre-oh-my-zsh" ".rediscli_history" ".cnpm/" ".alias" "USBSPACE/" ".vim/" ".rvm/" ".lein/")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/" (ftp . 397047.7522222222) "foundation/" "./" "mongoui-master/" "Art-Daily/" "NetWork-Pen/" "lost+found/" "hexo/" "Pen-Pal-Forest/" "HappyBird-ChatRoom/" "node-express-boilerplate/" "ClojureLearn/" "Happy-Together-App/" "Aero-Map/" "socket.io/" "../" "CoffeeClub/")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/web/" (ftp . 397047.57) "components/" "temp/" "./" "index.html.backup" "login.html" "index.html" "styles/" "test/" "scripts/" "images/" "../" "reg.html" ".gitignore")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/web/scripts/" (ftp . 397047.5697222222) "main.js" "#_assh_blinaro@10.42.0.16_b_ahome_alinaro_aUSBSPACE_aHappyBird-ChatRoom_aweb_ascripts_achatsocket.js#" "./" "helper.js" "event.js" "temp.js" "chatsocket.js" "../")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/" (ftp . 397047.0238888889) "db.js" "package.json" ".tern-port" "./" "www/" ".idea/" "production.run" "setting.js" "public/" "views/" "web/" "test/" "upload/" "README.md" ".git/" "chatsocket.js" "app.js" "../" "routes/" "node_modules/" "bin/" ".gitignore" "logger.js")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/js/" (ftp . 397046.3425) "main.js" "plugins.js" "./" "vendor/" "../")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/" (ftp . 397046.02472222224) "upload_avatar.html" ".gitattributes" "bower_components/" "css/" "foundation.html" "./" "index.html" "tile-wide.png" "bower.json" "apple-touch-icon.png" "tile.png" "js/" "robots.txt" "favicon.ico" "img/" "scss/" "mobile_login.html" "crossdomain.xml" "browserconfig.xml" ".editorconfig" "404.html" "doc/" "test.html" "humans.txt" "../" ".gitignore")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/" (ftp . 397046.02444444445) ".gitattributes" ".jshintrc" "CONTRIBUTING.md" "package.json" "./" "gulpfile.js.backup" ".travis.yml" "test/" "README.md" ".jscsrc" "dist/" ".git/" "LICENSE.txt" "src/" ".editorconfig" "CHANGELOG.md" "gulpfile.js" "../" "node_modules/" ".gitignore")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/routes/" (ftp . 397045.90277777775) "./" "helper.js" "users.js" "../" "index.js")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/scss/" (ftp . 397037.3838888889) "app.scss" "./" "app.css" "../" "mobilelogin.scss")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/www/scripts/" (ftp . 397037.2413888889) "editor.js" "./" "lib/" "../")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/www/" (ftp . 397037.24055555556) "./" "styles/" "scripts/" "images/" "admin/" "../")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/routes/" (ftp . 397037.1311111111) "home.js" "./" "admin.js" "api_user.js" "middleware.js" "api_article.js" "../")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/SERVER/" (ftp . 397037.12833333336) "db.js" "package.json" "./" "www/" "media/" "setting.js" "README" "views/" "test/" "img/" "app.js" "dump.rdb" "models/" "../" "routes/" "node_modules/" ".gitignore")
+
+ ("/ssh:linaro@10.42.0.16:/home/linaro/USBSPACE/Art-Daily/" (ftp . 397037.12833333336) "APP/" "./" "SERVER/" "screenshot/" "README.md" ".git/" "../" ".gitignore")
+
+ ("/home/tyan/" (21809 58964 313753 17000) ".smex-items" ".local/" ".mplayer/" "音乐/" ".gstreamer-0.10/" ".themes/" ".xsession-errors.old" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" ".remmina/" ".gnupg/" ".kde/" ".pip/" "IMG/" ".gnome2/" ".zshrc" "Linaro/" ".kderc" ".youdao-dict/" ".lesshst" "record/" ".dbus/" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".pgpass" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".pulse-cookie" ".mozilla/" ".ICEauthority" ".pki/" ".Xauthority" ".gvfs/" ".viminfo" "welcome/" ".lein/" ".bash_history" ".gtkrc-2.0" ".welcome" "VIRT-VMs/" "DASH/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".alias" ".virt-manager/" ".mission-control/" ".adobe/" "PACKAGE/" ".epiphany" ".goldendict/" "./" ".emacs.d/" "WebPicture/" ".python-eggs/" ".zsh-update" ".android/" ".oh-my-zsh/" ".freerdp/" "WORKSPACE/" ".thumbnails/" ".bash_logout" ".aptitude/" ".aliedit/" ".gconf/" ".java/" ".fontconfig/" ".xscreensaver" ".presage/" ".gtk-bookmarks" "lost+found/" ".gksu.lock" ".profile" ".gnome2_private/" ".zshrc.pre-oh-my-zsh" ".fonts/" "USR/" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".directory" ".netrc" "GITHUB/" ".m2/" ".fonts.conf" "../" ".vimrc" ".pulse/" "下载/" ".macromedia/" "docs/" ".zsh_history" "桌面/" "SDK/" "图片/" "模板/" ".node-gyp/" "video/" ".bashrc" "PROJECT/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".cnpmrc" ".zcompdump" "VirtualBox VMs/" ".npm/" "Book/")
+
+ ("/ssh:linaro@10.42.0.16:/home/" (ftp . 397036.895) "keeper/" "linaro/" "./" "../")
+
+ ("/ssh:linaro@10.42.0.16:/" (ftp . 397036.89444444445) "mnt/" "sbin/" "sys/" "bin/" "lib/" "opt/" "srv/" "tmp/" "md5sum.txt" "proc/" "./" "../" "lost+found/" "etc/" "var/" "home/" "boot/" "root/" "run/" "media/" "usr/" "dev/")
 
  ("/home/tyan/.emacs.d/users/tyan/" (21807 22854 596526 487000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "travel-mode.el")
 

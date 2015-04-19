@@ -1,9 +1,10 @@
 (require 'auto-complete-config)
+(require 'auto-complete)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (setq-default ac-sources (add-to-list 'ac-sources 'ac-source-dictionary))
 (global-auto-complete-mode t)
 
-(setq ac-auto-start 2)
+(setq ac-auto-start 1)
 
 (setq ac-ignore-case nil)
 
@@ -11,6 +12,9 @@
 
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 (add-to-list 'interpreter-mode-alist '("node" . js3-mode))
+(add-to-list 'interpreter-mode-alist '("node" . sass-mode))
+
+(add-hook 'js3-mode-hook 'auto-complete-mode)
 
 (provide 'setup-auto-complete)
 

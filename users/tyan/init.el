@@ -36,7 +36,6 @@
 
 (setq magit-last-seen-setup-instructions "1.4.0")
 
-;;(require 'setup-autopair)
 (require 'setup-auto-complete)
 (require 'setup-web-beautify)
 (require 'setup-sr-speedbar)
@@ -65,8 +64,3 @@
 
                                        ▐▬▬▬▌
 ")
-
-(setq tramp-default-method "ssh")
-(add-to-list 'tramp-remote-path "/bin")
-(add-to-list 'tramp-remote-path "/usr/bin")
-(add-to-list 'tramp-remote-path "/usr/local/bin")
