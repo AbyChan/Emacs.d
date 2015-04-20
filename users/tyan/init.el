@@ -41,7 +41,7 @@
 (require 'setup-sr-speedbar)
 (require 'setup-autopair)
 (require 'sass-mode)
-
+(require 'setup-jshint)
 
 (setq initial-scratch-message "
 			 	(つ -‘ _ ‘- )つ 

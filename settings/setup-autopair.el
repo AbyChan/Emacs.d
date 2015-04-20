@@ -25,6 +25,8 @@
     (autopair-mode 0)
     ))
 
+
+;;(autopair-global-mode)
 (ad-activate 'paredit-mode)
 
 (provide 'setup-autopair)
