@@ -4,13 +4,18 @@
 (setq mc/cmds-to-run-for-all
       '(
         haml-electric-backspace
+        hippie-expand-no-case-fold
         js3-mode-show-node
         subword-left
         subword-right
+        tagedit-insert-equal
+        tagedit-insert-lt
         yas-expand
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        ibuffer
         mouse-buffer-menu
+        mouse-set-region
         ))

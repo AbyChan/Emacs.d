@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("user.js"
+ (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/user.js")
+ (front-context-string . "rm.Model.extend(")
+ (rear-context-string . ");\n\nvar User = o")
+ (position . 305))
+)

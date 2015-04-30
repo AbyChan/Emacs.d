@@ -64,3 +64,11 @@
 
                                        ▐▬▬▬▌
 ")
+
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
+(setq exec-path
+      '(
+    "/usr/local/bin"
+    "/usr/bin"
+    "/home/tyan//USR/node-v0.12.1-linux-x64/bin"
+    ))
