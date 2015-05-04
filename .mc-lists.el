@@ -5,6 +5,7 @@
       '(
         haml-electric-backspace
         hippie-expand-no-case-fold
+        js2-end-of-line
         js3-mode-show-node
         subword-left
         subword-right
@@ -16,6 +17,7 @@
 (setq mc/cmds-to-run-once
       '(
         ibuffer
+        js2-mode-show-node
         mouse-buffer-menu
         mouse-set-region
         ))

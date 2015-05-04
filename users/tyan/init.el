@@ -14,8 +14,8 @@
 (define-key global-map (kbd "M-s -") 'zoom-out)
 
 ;; No more scrolling surprises
-(global-unset-key (kbd "C-v"))
-(global-unset-key (kbd "M-v"))
+;;(global-unset-key (kbd "C-v"))
+;;(global-unset-key (kbd "M-v"))
 
 ;; No graphics please o.O
 (setq speedbar-use-images nil)
@@ -46,7 +46,7 @@
 (setq initial-scratch-message "
 			 	(つ -‘ _ ‘- )つ 
 			 Welcome to my Emacs
-				The God of Editor!
+				The God Editor!
 						-----Aby Chan
 	
                            
@@ -70,5 +70,5 @@
       '(
     "/usr/local/bin"
     "/usr/bin"
-    "/home/tyan//USR/node-v0.12.1-linux-x64/bin"
+    "/home/tyan/USR/node-v0.12.1-linux-x64/bin"
     ))
