@@ -37,9 +37,9 @@
 ;; Symbol and word specific mark-more
 (global-set-key (kbd "s-1") 'mc/mark-next-word-like-this)
 (global-set-key (kbd "s-2") 'mc/mark-previous-word-like-this)
-;;(global-set-key (kbd "M-s-3") 'mc/mark-all-words-like-this)
-;;(global-set-key (kbd "s-Æ") 'mc/mark-next-symbol-like-this)
-;;(global-set-key (kbd "s-Å") 'mc/mark-previous-symbol-like-this)
+(global-set-key (kbd "s-3") 'mc/mark-all-words-like-this)
+(global-set-key (kbd "s-4") 'mc/mark-next-symbol-like-this)
+(global-set-key (kbd "s-5") 'mc/mark-previous-symbol-like-this)
 ;;(global-set-key (kbd "M-s-Æ") 'mc/mark-all-symbols-like-this)
 
 ;; Extra multiple cursors stuff

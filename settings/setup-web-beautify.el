@@ -10,6 +10,6 @@
 (eval-after-load 'css-mode
   '(define-key css-mode-map (kbd "C-c b") 'web-beautify-css))
 (eval-after-load 'sass-mode
-  '(define-key css-mode-map (kbd "C-c b") 'web-beautify-css))
+  '(define-key sass-mode-map (kbd "C-c b") 'web-beautify-css))
 
 (provide 'setup-web-beautify)

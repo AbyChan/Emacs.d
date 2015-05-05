@@ -92,6 +92,8 @@
      groovy-mode
      prodigy
      cider
+     indent-guide
+     column-marker
      )))
 
 (condition-case nil

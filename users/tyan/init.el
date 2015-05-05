@@ -42,6 +42,9 @@
 (require 'setup-autopair)
 (require 'sass-mode)
 (require 'setup-jshint)
+(require 'setup-highlight)
+(require 'setup-column-marker)
+(require 'setup-indent-guide)
 
 (setq initial-scratch-message "
 			 	(つ -‘ _ ‘- )つ 
