@@ -132,7 +132,7 @@
 ;; Create new frame
 (define-key global-map (kbd "C-x C-n") 'make-frame-command)
 
-;; Jump to a definition in the current file. (This is awesome)
+; Jump to a definition in the current file. (This is awesome)
 (global-set-key (kbd "C-x C-i") 'ido-imenu)
 
 ;; File finding
@@ -264,12 +264,12 @@
 (global-set-key (kbd "<C-s-up>") 'move-text-up)
 
 ;; Fold the active region
-(global-set-key (kbd "C-c M-f") 'fold-this-all)
-(global-set-key (kbd "C-c C-f") 'fold-this)
+;;(global-set-key (kbd "C-c M-f") 'fold-this-all)
+(global-set-key (kbd "s-f") 'fold-this)
 ;;(global-set-key (kbd "C-c M-f") 'fold-this-unfold-all)
 
 ;; Yank and indent
-;;(global-set-key (kbd "C-S-y") 'yank-unindented)
+(global-set-key (kbd "C-s-y") 'yank-unindented)
 
 ;; Toggle quotes
 ;;(global-set-key (kbd "C-\"") 'toggle-quotes)

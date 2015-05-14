@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("user.js"
+(("main.js"
+ (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/js/main.js")
+ (front-context-string . "\n\n    socket.on(")
+ (rear-context-string . "g(data);\n    });")
+ (position . 1058))
+("app.js"
+ (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/CoffeeClub/backend/app.js")
+ (front-context-string . "if (setting.http")
+ (rear-context-string . "**************/\n")
+ (position . 1567))
+("analytics.js"
+ (filename . "~/WORKSPACE/DeadWater - Direction artistique & Développement web_files/analytics.js")
+ (front-context-string . "function La(a) {")
+ (rear-context-string . "\n    })();\n\n    ")
+ (position . 46993))
+("user.js"
  (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/models/user.js")
  (front-context-string . "rm.Model.extend(")
  (rear-context-string . ");\n\nvar User = o")

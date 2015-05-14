@@ -7,6 +7,7 @@
         hippie-expand-no-case-fold
         js2-end-of-line
         js3-mode-show-node
+        kill-region-or-backward-word
         subword-left
         subword-right
         tagedit-insert-equal
@@ -19,5 +20,6 @@
         ibuffer
         js2-mode-show-node
         mouse-buffer-menu
+        mouse-drag-vertical-line
         mouse-set-region
         ))

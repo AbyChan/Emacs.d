@@ -13,6 +13,7 @@
 (define-key global-map (kbd "M-s +") 'zoom-in)
 (define-key global-map (kbd "M-s -") 'zoom-out)
 
+(global-unset-key (kbd "C-c C-f"))
 ;; No more scrolling surprises
 ;;(global-unset-key (kbd "C-v"))
 ;;(global-unset-key (kbd "M-v"))
@@ -46,6 +47,9 @@
 (require 'setup-column-marker)
 (require 'setup-indent-guide)
 
+(require 'epa-file)
+(epa-file-enable)
+
 (setq initial-scratch-message "
 			 	(つ -‘ _ ‘- )つ 
 			 Welcome to my Emacs
@@ -75,3 +79,12 @@
     "/usr/bin"
     "/home/tyan/USR/node-v0.12.1-linux-x64/bin"
     ))
+
+
+    (setq mouse-wheel-scroll-amount '(4 ((shift) . 4))) ;; one line at a time
+    
+    (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+    
+    (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+    
+    (setq scroll-step 1) ;; keyboard scroll one line at a time
