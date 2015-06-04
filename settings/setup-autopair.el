@@ -10,24 +10,30 @@
 ;;               (setq autopair-dont-activate t)
 ;;               (autopair-mode -1)))
 
-(require 'autopair)
+;;(require 'autopair)
 
-(defvar autopair-modes '(r-mode ruby-mode js3-mode sass-mode))
-(defun turn-on-autopair-mode () (autopair-mode 1))
-(dolist (mode autopair-modes) (add-hook (intern (concat (symbol-name mode) "-hook")) 'turn-on-autopair-mode))
+;;(defvar autopair-modes '(r-mode ruby-mode js3-mode sass-mode))
+;;(defun turn-on-autopair-mode () (autopair-mode 1))
+;;(dolist (mode autopair-modes) (add-hook (intern (concat (symbol-name mode) "-hook")) 'turn-on-autopair-mode))
 
-(require 'paredit)
-(defadvice paredit-mode (around disable-autopairs-around (arg))
-  "Disable autopairs mode if paredit-mode is turned on"
-  ad-do-it
-  (if (null ad-return-value)
-      (autopair-mode 1)
-    (autopair-mode 0)
-    ))
+;;(require 'paredit)
+;;(defadvice paredit-mode (around disable-autopairs-around (arg))
+;;  "Disable autopairs mode if paredit-mode is turned on"
+;;  ad-do-it
+;;  (if (null ad-return-value)
+;;      (autopair-mode 1)
+;;    (autopair-mode 0)
+;;    ))
 
 
 ;;(autopair-global-mode)
-(ad-activate 'paredit-mode)
-
+;;(ad-activate 'paredit-mode)
+(setq electric-pair-preserve-balance nil)
+(electric-pair-mode 1)
+(setq electric-pair-pairs '(
+                            (?\" . ?\")
+                            (?\{ . ?\})
+                            (?\' . ?\')
+                            ) )
 (provide 'setup-autopair)
 

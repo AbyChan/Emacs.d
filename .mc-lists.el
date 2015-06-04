@@ -3,11 +3,13 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        autopair-insert-opening
         haml-electric-backspace
         hippie-expand-no-case-fold
         js2-end-of-line
         js3-mode-show-node
         kill-region-or-backward-word
+        previous-buffer
         subword-left
         subword-right
         tagedit-insert-equal

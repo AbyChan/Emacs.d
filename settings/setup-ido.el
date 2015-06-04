@@ -72,4 +72,7 @@
 (ido-ubiquitous-use-new-completing-read yas-expand 'yasnippet)
 (ido-ubiquitous-use-new-completing-read yas-visit-snippet-file 'yasnippet)
 
+(defadvice ido-find-file (before auto-refresh-ido nil activate)
+(setq ido-rescan t))
+
 (provide 'setup-ido)

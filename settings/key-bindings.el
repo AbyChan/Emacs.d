@@ -1,5 +1,7 @@
 ;; I don't need to kil emacs that easily
 ;; the mnemonic is C-x REALLY QUIT
+(global-set-key (kbd "C-c C-a") 'anything)
+
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
 (global-set-key (kbd "C-x C-c") 'delete-frame)
 
@@ -342,5 +344,6 @@
 (define-key occur-mode-map (kbd "v") 'occur-mode-display-occurrence)
 (define-key occur-mode-map (kbd "n") 'next-line)
 (define-key occur-mode-map (kbd "p") 'previous-line)
+
 
 (provide 'key-bindings)

@@ -57,43 +57,7 @@
 (defun init--install-packages ()
   (packages-install
    '(
-     auto-complete
-     magit
-     paredit
-     move-text
-     gist
-     htmlize
-     visual-regexp
-     markdown-mode
-     fill-column-indicator
-     flycheck
-     flycheck-pos-tip
-     flycheck-clojure
-     flx
-     flx-ido
-     dired-details
-     css-eldoc
-     yasnippet
-     smartparens
-     ido-vertical-mode
-     ido-at-point
-     simple-httpd
-     guide-key
-     nodejs-repl
-     restclient
-     highlight-escape-sequences
-     whitespace-cleanup-mode
-     elisp-slime-nav
-     git-commit-mode
-     gitconfig-mode
-     dockerfile-mode
-     gitignore-mode
-     clojure-mode
-     groovy-mode
-     prodigy
-     cider
-     indent-guide
-     column-marker
+
      )))
 
 (condition-case nil
@@ -129,7 +93,7 @@
 (require 'setup-perspective)
 (require 'setup-ffip)
 (require 'setup-html-mode)
-(require 'setup-paredit)
+;;(require 'setup-paredit)
 
 (require 'prodigy)
 (global-set-key (kbd "C-x M-m") 'prodigy)
@@ -234,3 +198,4 @@
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
 
+(require 'setup-rebind-move)

@@ -2,7 +2,32 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("main.js"
+(("localcola"
+ (filename . "~/linaro/Cola/app/index.html")
+ (front-context-string . "<html class=\"no-")
+ (rear-context-string . "<!doctype html>\n")
+ (position . 17))
+("cola.html"
+ (filename . "/ssh:linaro@10.42.0.30:/home/linaro/Cola/app/index.html")
+ (front-context-string . "<!doctype html>\n")
+ (rear-context-string)
+ (position . 1))
+("fourth.org"
+ (filename . "~/GITHUB/org/plan/2015/May/fourth.org")
+ (front-context-string)
+ (rear-context-string . "vares/radio.git\n")
+ (position . 186))
+("aeromapindex.html"
+ (filename . "~/GITHUB/Aero-Map/APP-Angular/www/index.html")
+ (front-context-string . "\n        <link h")
+ (rear-context-string . "oundation.css\">\n")
+ (position . 1439))
+("designindex.html"
+ (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/DesignGallery/app/index.html")
+ (front-context-string . "\n        <script")
+ (rear-context-string . "\"css/main.css\">\n")
+ (position . 546))
+("main.js"
  (filename . "/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/HappyBird-ChatRoom/www/src/js/main.js")
  (front-context-string . "\n\n    socket.on(")
  (rear-context-string . "g(data);\n    });")

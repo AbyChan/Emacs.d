@@ -35,6 +35,8 @@
   (delete-region (region-beginning) (region-end))
   (god-local-mode -1))
 
+(setq-default indent-tabs-mode nil)
+
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (require 'setup-auto-complete)
@@ -46,6 +48,9 @@
 (require 'setup-highlight)
 (require 'setup-column-marker)
 (require 'setup-indent-guide)
+;;(require 'setup-tern)
+(require 'setup-emmet)
+(require 'setup-cmd-t)
 
 (require 'epa-file)
 (epa-file-enable)
@@ -81,10 +86,10 @@
     ))
 
 
-    (setq mouse-wheel-scroll-amount '(4 ((shift) . 4))) ;; one line at a time
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
     
-    (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
     
-    (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
     
-    (setq scroll-step 1) ;; keyboard scroll one line at a time
+(setq scroll-step 1) ;; keyboard scroll one line at a time
