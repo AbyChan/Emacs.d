@@ -109,8 +109,9 @@
 (global-set-key (kbd "M-W") (λ (save-region-or-current-line 1)))
 
 ;; Make shell more convenient, and suspend-frame less
-(global-set-key (kbd "C-z") 'shell)
-(global-set-key (kbd "C-x M-z") 'suspend-frame)
+;;I don't like it and i don't need it
+;;(global-set-key (kbd "C-z") 'shell)
+;;(global-set-key (kbd "C-x M-z") 'suspend-frame)
 
 ;; Zap to char
 (global-set-key (kbd "M-z") 'zap-up-to-char)
@@ -345,5 +346,10 @@
 (define-key occur-mode-map (kbd "n") 'next-line)
 (define-key occur-mode-map (kbd "p") 'previous-line)
 
+(global-set-key (kbd "C-c <up>") 'windmove-up)
+(global-set-key (kbd "C-c <down>") 'windmove-down)
+(global-set-key (kbd "C-c <left>") 'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
 
+ (global-set-key (kbd "C-z") 'imenu-anywhere)
 (provide 'key-bindings)

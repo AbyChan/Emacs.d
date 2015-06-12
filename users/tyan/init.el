@@ -40,6 +40,8 @@
 (setq magit-last-seen-setup-instructions "1.4.0")
 
 (require 'setup-auto-complete)
+;;company not support js now
+;;(require 'setup-company)
 (require 'setup-web-beautify)
 (require 'setup-sr-speedbar)
 (require 'setup-autopair)
@@ -48,9 +50,12 @@
 (require 'setup-highlight)
 (require 'setup-column-marker)
 (require 'setup-indent-guide)
+;;ready in site-lisp
 ;;(require 'setup-tern)
+(require 'setup-pretty)
 (require 'setup-emmet)
 (require 'setup-cmd-t)
+(require 'setup-wrap-region)
 
 (require 'epa-file)
 (epa-file-enable)
@@ -86,7 +91,7 @@
     ))
 
 
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-scroll-amount '(2 ((shift) . 2))) ;; one line at a time
     
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
     

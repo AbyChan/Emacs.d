@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
         autopair-insert-opening
+        backward-kill-sentence
         haml-electric-backspace
         hippie-expand-no-case-fold
         js2-end-of-line
