@@ -28,7 +28,7 @@
     ("#49483E" . 100)))
  '(ido-use-filename-at-point nil)
  '(js2-allow-rhino-new-expr-initializer t)
- '(js2-auto-indent-p t)
+ '(js2-auto-indent-p t t)
  '(js2-strict-missing-semi-warning t)
  '(linum-format " %7i " t)
  '(magit-use-overlays nil)
@@ -96,6 +96,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Ubuntu Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal))))
+ '(default ((t (:family "Roboto" :foundry "unknown" :slant normal :weight normal :height 120 :width normal))))
  '(js2-error-face ((t nil)) t)
  '(js2-warning-face ((t nil)) t))

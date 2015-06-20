@@ -1,6 +1,9 @@
 [submodule "site-lisp/yaml-mode"]
         path = site-lisp/yaml-mode
         url = https://github.com/yoshiki/yaml-mode.git
+[submodule "site-lisp/window-numbering"]
+        path = site-lisp/window-numbering.el
+        url = https://github.com/nschum/window-numbering.el.git
 [submodule "site-lisp/js2-mode"]
         path = site-lisp/js2-mode
         url = https://github.com/magnars/js2-mode

@@ -58,6 +58,8 @@
 (require 'setup-wrap-region)
 
 (require 'epa-file)
+(require 'setup-final-newline)
+
 (epa-file-enable)
 
 (setq initial-scratch-message "

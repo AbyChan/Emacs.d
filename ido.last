@@ -2,9 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/root/linaro/CoffeeClub/backend/" . "routes/")
+ ("/root/linaro/LoveTime/backend/lib/" . "jasmine_examples/")
+ ("/root/linaro/LoveTime/backend/spec/helpers/" . "jasmine_examples/")
+ ("/root/linaro/LoveTime/backend/spec/" . "jasmine_examples/")
+ ("/root/linaro/LoveTime/backend/out/" . "modules/")
+ ("/root/linaro/LoveTime/backend/" . "spec/")
+ ("/root/.emacs.d/snippets/" . "js2-mode/")
+ ("/root/linaro/CoffeeClub/backend/" . "models/")
  ("/root/.emacs.d/users/" . "tyan/")
- ("/root/.emacs.d/" . "settings/")
+ ("/root/.emacs.d/" . "snippets/")
  ("/root/linaro/LoveTime/front/app/js/" . "vendor/")
  ("/root/linaro/CoffeeClub/" . "backend/")
  ("/root/linaro/Cola/app/" . "templates/")
@@ -13,10 +19,10 @@
  ("/root/linaro/Cola/components/cola/scss/" . "cola/")
  ("/root/linaro/Cola/components/cola/" . "scss/")
  ("/root/linaro/Cola/components/" . "cola/")
- ("/root/linaro/LoveTime/front/" . "app/")
- ("/root/linaro/LoveTime/" . "front/")
+ ("/root/linaro/LoveTime/front/" . "scss/")
+ ("/root/linaro/LoveTime/" . "backend/")
  ("/root/linaro/Cola/" . "app/")
- ("/root/linaro/" . "CoffeeClub/")
+ ("/root/linaro/" . "LoveTime/")
  ("/root/" . ".emacs.d/")
  ("/home/tyan/linaro/LoveTime/front/app/css/" . "vendor/")
  ("/home/tyan/linaro/CoffeeClub/front/app/css/" . "vendor/")
@@ -214,16 +220,26 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/root/.emacs.d/settings/"
- "/root/linaro/LoveTime/front/app/"
- "/root/linaro/CoffeeClub/backend/routes/"
- "/root/linaro/CoffeeClub/backend/"
+ "/root/.emacs.d/snippets/js2-mode/"
+ "/root/linaro/LoveTime/backend/spec/jasmine_examples/"
+ "/root/linaro/LoveTime/backend/spec/support/"
+ "/root/linaro/LoveTime/backend/spec/maintest/"
  "/root/linaro/LoveTime/backend/"
+ "/root/linaro/LoveTime/front/app/"
+ "/root/linaro/LoveTime/front/scss/"
+ "/root/linaro/LoveTime/backend/lib/jasmine_examples/"
+ "/root/linaro/LoveTime/backend/spec/helpers/jasmine_examples/"
+ "/root/linaro/LoveTime/backend/test/"
+ "/root/linaro/CoffeeClub/backend/models/"
+ "/root/linaro/CoffeeClub/backend/routes/"
+ "/root/linaro/LoveTime/backend/out/modules/"
+ "/root/linaro/LoveTime/backend/out/"
+ "/root/.emacs.d/settings/"
+ "/root/linaro/CoffeeClub/backend/"
  "/root/.emacs.d/"
  "/root/.emacs.d/users/tyan/"
  "/root/linaro/LoveTime/front/app/js/vendor/"
  "/root/linaro/CoffeeClub/"
- "/root/linaro/LoveTime/front/scss/"
  "/root/linaro/Cola/components/cola/scss/cola/"
  "/root/linaro/Cola/app/templates/"
  "/root/linaro/LoveTime/front/app/css/"
@@ -254,49 +270,71 @@
  "/home/tyan/linaro/Cola/components/cola/js/"
  "/home/tyan/linaro/Cola/app/js/lib/"
  "/home/tyan/linaro/Cola/components/cola/amd/"
- "/home/tyan/linaro/Cola/app/"
- "/home/tyan/linaro/Cola/dist/"
- "/home/tyan/GITHUB/jquery/build/tasks/"
- "/home/tyan/GITHUB/jquery/dist/"
- "/home/tyan/GITHUB/jquery/"
- "/home/tyan/RPI/PasswordGenerage/web/"
- "/home/tyan/GITHUB/jquery/src/"
- "/home/tyan/GITHUB/jquery/build/"
- "/home/tyan/linaro/CBLOCALSPACE/Guess-Game/"
- "/home/tyan/RPI/PasswordGenerage/web/static/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "setup-js2-mode.el"
- "index.html"
- "article.js"
- "app.js"
- "route.js"
+ "fn.yasnippet"
+ "PlayerSpec.js"
+ "jasmine.json"
+ "db.js"
  "setting.js"
- "init.el"
- "setup-jshint.el"
- "setup-tern.el"
- "md5.min.js"
+ "app.js"
+ "newline.html"
+ "login.scss"
+ "newline.scss"
+ "login.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/root/.emacs.d/settings/" (21892 12073 748604 24000) "setup-cmd-t.el" "setup-tern.el" "setup-wrap-region.el" "setup-js2-mode.el" "appearance.el" "setup-flycheck.el" "../" "sane-defaults.el" "key-bindings.el" "setup-emmet.el" "setup-indent-guide.el" "setup-rebind-move.el" "setup-rgrep.el" "setup-web-beautify.el" "setup-perspective.el" "setup-yasnippet.el" "setup-magit.el" "setup-ido.el" "setup-package.el" "mode-mappings.el" "mac.el" "setup-dired.el" "setup-paredit.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "setup-highlight.el" "setup-auto-complete.el" "setup-autopair.el" "setup-ruby-mode.el" "setup-html-mode.el" "setup-org.el" "setup-pretty.el" "my-misc.el" "setup-elnode.el" "setup-company.el" "setup-markdown-mode.el" "setup-jshint.el" "setup-ffip.el" "setup-hippie.el" "setup-web-mode.el" "setup-column-marker.el" "setup-clojure-mode.el" "./" "setup-shell.el" "setup-skewer.el")
+ ("/root/.emacs.d/snippets/js2-mode/" (21892 15438 980799 308000) "fn.yasnippet" "if" "super.yasnippet" "proto.yasnippet" "../" "invoc.yasnippet" "id.yasnippet" "el" "slice.yasnippet" "req.html" "mod.yasnippet" "switch.yasnippet" "ev.fire" "f" "prop.yasnippet" "for.yasnippet" "def" "try.yasnippet" "throw.yasnippet" "ydm" "rq.yasnippet" "req.json" "it.yasnippet" "ev.add" "while.yasnippet" "com" "if.yasnippet" "each" "init" "al" "assert.yasnippet" "for" "log.yasnippet" "exports.yasnippet" "rt.yasnippet" "class" "com.yasnippet" "method.yasnippet" "describe.yasnippet" ".yas-parents" "var.yasnippet" "cb.yasnippet" "log" "./" "wh.yasnippet" "ymc" "expect.yasnippet")
 
- ("/root/.emacs.d/" (21892 12073 748604 24000) "ido.last" "snippets/" "bookmarks" "project-archetypes/" "elpa/" "../" ".cask/" "themes/" "users/" "url/" "backups/" "jshintrc" "dictionaries/" "var/" ".places" "%backup%~" "#ido.last#" "ac-comphist.dat" "auto-save-list/" ".mc-lists.el" "tramp" "site-lisp/" "recentf" ".git/" "README.md" "settings/" ".gitmodules" "custom.el" "history" ".gitignore" "init.el" "./" "defuns/")
+ ("/root/.emacs.d/" (21893 508 910809 243000) "ido.last" "snippets/" "bookmarks" "project-archetypes/" "elpa/" "../" ".cask/" "themes/" "users/" "url/" "backups/" "jshintrc" "dictionaries/" "var/" ".places" "session.10679cda1d63823753143472634247529400000168550060" "%backup%~" "#ido.last#" "ac-comphist.dat" "auto-save-list/" ".mc-lists.el" "tramp" "site-lisp/" "recentf" ".git/" "README.md" "settings/" ".gitmodules" "custom.el" "history" ".gitignore" "init.el" "./" "defuns/")
 
- ("/root/" (21892 12091 140605 34000) ".golismero/" ".gtk-bookmarks" ".viminfo" ".bashrc" ".aptitude/" ".macromedia/" ".zgen/" ".gimp-2.8/" "../" ".zshrc" ".presage/" ".zcompdump-kali-4.3.17" "emacs-24.4.tar.gz" ".zprezto/" ".local/" "Downloads/" ".gstreamer-0.10/" ".gitconfig" ".zsh-update" "公共/" ".psensor/" ".npm/" ".pki/" ".mission-control/" "GITHUB/" ".emacs.d/" ".pulse/" "linaro/" ".thumbnails/" "chrome-data/" ".fonts/" ".ICEauthority" "bin/" ".zsh_history" "音乐/" "ctags-5.8/" ".mozilla/" "图片/" "文档/" ".config/" "Desktop/" ".profile" ".gconf/" "emacs-24.5.tar.gz" ".xsession-errors.old" ".adobe/" ".xsession-errors" ".ssh/" "emacs-24.5/" ".gnome2/" ".rnd" ".pulse-cookie" ".bash_history" ".smex-items" ".dbus/" "下载/" "模板/" ".percol.d/" ".gvfs/" "./" ".cache/" "emacs-24.4/" "视频/")
+ ("/root/" (21893 522 702810 43000) ".golismero/" ".gtk-bookmarks" ".viminfo" ".bashrc" ".aptitude/" ".macromedia/" ".zgen/" ".gimp-2.8/" "../" ".zshrc" ".presage/" ".zcompdump-kali-4.3.17" "emacs-24.4.tar.gz" ".zprezto/" ".local/" "Downloads/" ".gstreamer-0.10/" ".gitconfig" ".zsh-update" "公共/" ".psensor/" ".npm/" ".pki/" ".mission-control/" "GITHUB/" ".emacs.d/" ".pulse/" "linaro/" ".thumbnails/" "chrome-data/" ".fonts/" ".ICEauthority" "bin/" ".zsh_history" "音乐/" "ctags-5.8/" ".mozilla/" "图片/" "文档/" ".config/" "Desktop/" ".profile" ".gconf/" "emacs-24.5.tar.gz" ".xsession-errors.old" ".adobe/" ".xsession-errors" ".ssh/" "emacs-24.5/" ".gnome2/" ".rnd" ".pulse-cookie" ".bash_history" ".smex-items" ".dbus/" "下载/" "模板/" ".percol.d/" ".gvfs/" "./" ".cache/" "emacs-24.4/" "视频/")
 
- ("/root/linaro/LoveTime/backend/" (21892 12005 0 0) "app.js" "package.json" "route.js" "#app.js#" "../" "./" ".tern-port" "setting.js" "node_modules/")
+ ("/root/linaro/LoveTime/backend/spec/maintest/" (21893 766 0 0) ".#dbSpec.js" "../" "./" ".tern-port" "dbSpec.js")
 
- ("/root/linaro/CoffeeClub/backend/routes/" (21843 27637 0 0) "article.js" "../" "./" "coffeer.js" "error.js")
+ ("/root/linaro/LoveTime/backend/spec/" (21893 429 0 0) "helpers/" "support/" "../" "./" "jasmine_examples/" "maintest/")
+
+ ("/root/linaro/" (21892 64742 0 0) ".lein/" ".rvm/" ".netrc" ".vim/" ".heroku/" ".alias" ".cnpm/" ".rediscli_history" ".zgen/" ".swo" ".zshrc.pre-oh-my-zsh" "USB/" "Public/" "WORKSHOP/" "polymer-tutorial-master/" ".lesshst" ".ssh/" ".httpie/" "Music/" "goagent/" ".smex-items" ".thumbnails/" ".node-gyp/" ".emacs.d/" ".ionic/" "Videos/" "Pictures/" "ranger-1.7.1/" "DesignGallery/" ".vnc/" "gpg/" ".redis-commander" "redis-commander/" ".gconf/" "w3af/" ".composer/" ".openvas/" "dump.rdb" ".cnpmrc" ".zlogin" ".pki/" ".aptitude/" ".psql_history" ".virtualenvs/" "CBLOCALSPACE/" ".cache/" "lost+found/" ".bash_logout" "../" ".java/" "./" ".xsession-errors" ".mkshrc" ".selected_editor" "emacs-24.4/" ".zsh-update" "polymer/" ".zcompdump" "tmp/" "Downloads/" ".npm/" ".autojump/" ".dbshell" ".vimrc" ".oh-my-zsh/" ".zshrc.backup" "Documents/" ".viminfo" "LoveTime/" ".plugman/" ".zcompdump-cubieboard4-5.0.2" ".cordova/" "AbyChan.github.io/" ".mysql_history" ".gitconfig" ".sudo_as_admin_successful" ".grunt-init/" ".marks/" "foundation/" ".msf4/" "ssid=CMCC-EDU/" "Guess-Game/" ".vimrc.back" ".swp" ".local/" ".bash_history" "jdk1.8.0_33/" ".Xauthority" "PsychologyDog/" ".m2/" ".zsh_history" ".gnupg/" ".ICEauthority" ".index.html.swp" ".zshrc.bak" "radio/" ".jshintrc" "ctags-5.8/" ".oh-my-fish/" "html5-boilerplate/" ".config/" ".welcome" ".pip/" ".directory" ".rnd" ".gem/" "Desktop/" "bin/" ".dbus/" ".v8flags.3.28.73.linaro.json" ".Trash-1000/" "wustnmap.log" ".openvasrc" "Templates/" ".mongorc.js" ".bash_profile" ".zshrc" ".profile" "metasploit-framework/" ".gemrc" "CoffeeClub/" "materialize-master/" "Cola/" ".bashrc")
+
+ ("/root/linaro/LoveTime/front/app/" (21893 258 0 0) "js/" "upload.html" "crossdomain.xml" "favicon.ico" "robots.txt" "scss/" "login.html" "404.html" ".bowerrc" "css/" "../" "index.html" ".editorconfig" "./" "bower.json" "apple-touch-icon.png" "newline.html" "tile.png" "components/" "humans.txt" "img/" "font/" ".gitignore" "tile-wide.png" ".gitattributes" "doc/")
+
+ ("/root/linaro/LoveTime/front/scss/" (21892 3310 0 0) "login.scss" "newline.scss" "index.scss" "../" "./")
+
+ ("/root/linaro/LoveTime/backend/lib/jasmine_examples/" (21892 23940 0 0) "Player.js" "../" "./" "Song.js")
+
+ ("/root/linaro/LoveTime/backend/lib/" (21892 23940 0 0) "../" "./" "jasmine_examples/")
+
+ ("/root/linaro/LoveTime/backend/spec/jasmine_examples/" (21892 23940 0 0) "PlayerSpec.js" "../" "./")
+
+ ("/root/linaro/LoveTime/backend/test/" (21892 24166 0 0) "db.js" "route.js" "../" "./" "#dbconnect.js#" "dbconnect.js" ".#dbconnect.js")
+
+ ("/root/linaro/LoveTime/backend/spec/helpers/jasmine_examples/" (21892 23940 0 0) "../" "SpecHelper.js" "./")
+
+ ("/root/linaro/LoveTime/backend/spec/helpers/" (21892 23940 0 0) "../" "./" "jasmine_examples/")
+
+ ("/root/linaro/LoveTime/backend/spec/support/" (21892 23933 0 0) "jasmine.json" "../" "./")
+
+ ("/root/linaro/LoveTime/backend/" (21892 23940 0 0) "app.js" "db.js" "out/" "package.json" "route.js" "../" "./" "setting.js" "node_modules/" "lib/" "test/" "spec/")
+
+ ("/root/linaro/CoffeeClub/backend/models/" (21845 62345 0 0) "article.js" "../" "./" "coffeer.js")
+
+ ("/root/linaro/CoffeeClub/backend/routes/" (21892 15179 0 0) "article.js" "../" "./" "coffeer.js" "error.js")
+
+ ("/root/linaro/LoveTime/backend/out/modules/" (21892 15192 0 0) "../" "index.html" "./")
+
+ ("/root/linaro/LoveTime/backend/out/" (21892 15266 0 0) "classes/" "data.json" "modules/" "../" "index.html" "./" "api.js" "assets/" "files/")
+
+ ("/root/.emacs.d/snippets/" (21809 59653 0 0) "haskell-mode/" "csharp-mode/" "latex-mode/" "clojure-mode/" "snippet-mode/" "../" "tuareg-mode/" "erlang-mode/" "css-mode/" "js-mode/" "markdown-mode/" "cperl-mode/" "applescript-mode/" "chef-mode/" "erc-mode/" "git-commit-mode/" "prog-mode/" "org-mode/" "java-mode/" "cmake-mode/" "html-mode/" "nxml-mode/" "makefile-gmake-mode/" "conf-unix-mode/" "udev-mode/" "lua-mode/" "rst-mode/" "feature-mode/" "sql-mode/" "f90-mode/" "makefile-mode/" "LICENSE" "typerex-mode" "go-mode/" "makefile-automake-mode/" "c-mode/" "nsis-mode/" "ned-mode/" "js2-mode/" "js3-mode/" "antlr-mode/" "c++-mode/" "text-mode/" "nesc-mode/" "cc-mode/" "perl-mode/" "README.md" "ruby-mode/" "crappy-jsp-mode/" "python-mode/" "sh-mode/" "octave-mode/" "m4-mode/" "php-mode/" "CONTRIBUTORS.txt" "enh-ruby-mode" "cpp-omnet-mode/" "yaml-mode/" "fundamental-mode/" "makefile-bsdmake-mode/" "lisp-interaction-mode/" "ensime-mode" "rename_add_contr.py" "emacs-lisp-mode/" "scala-mode/" "./" "groovy-mode/")
+
+ ("/root/.emacs.d/settings/" (21892 12124 520606 971000) "setup-cmd-t.el" "setup-tern.el" "setup-wrap-region.el" "setup-js2-mode.el" "appearance.el" "setup-flycheck.el" "../" "sane-defaults.el" "key-bindings.el" "setup-emmet.el" "setup-indent-guide.el" "setup-rebind-move.el" "setup-rgrep.el" "setup-web-beautify.el" "setup-perspective.el" "setup-yasnippet.el" "setup-magit.el" "setup-ido.el" "setup-package.el" "mode-mappings.el" "mac.el" "setup-dired.el" "setup-paredit.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "setup-highlight.el" "setup-auto-complete.el" "setup-autopair.el" "setup-ruby-mode.el" "setup-html-mode.el" "setup-org.el" "setup-pretty.el" "my-misc.el" "setup-elnode.el" "setup-company.el" "setup-markdown-mode.el" "setup-jshint.el" "setup-ffip.el" "setup-hippie.el" "setup-web-mode.el" "setup-column-marker.el" "setup-clojure-mode.el" "./" "setup-shell.el" "setup-skewer.el")
 
  ("/root/.emacs.d/users/tyan/" (21892 9324 224444 470000) "../" "#sadas.js#" "travel-mode.el" "project-mappings.el" "my-defuns.el" "custom.el" "init.el" "./" "js2r-keys.el")
 
  ("/root/.emacs.d/users/" (21891 42640 146574 749000) "../" "fimasvee/" "christian/" "magnars/" "tyan/" "./" "root/")
-
- ("/root/linaro/" (21892 8978 0 0) ".lein/" ".rvm/" ".netrc" ".vim/" ".heroku/" ".alias" ".cnpm/" ".rediscli_history" ".zgen/" ".swo" ".zshrc.pre-oh-my-zsh" "USB/" "Public/" "WORKSHOP/" "polymer-tutorial-master/" ".lesshst" ".ssh/" ".httpie/" "Music/" "goagent/" ".smex-items" ".thumbnails/" ".node-gyp/" ".emacs.d/" ".ionic/" "Videos/" "Pictures/" "ranger-1.7.1/" "DesignGallery/" ".vnc/" "gpg/" ".redis-commander" "redis-commander/" ".gconf/" "w3af/" ".composer/" ".openvas/" "dump.rdb" ".cnpmrc" ".zlogin" ".pki/" ".aptitude/" ".psql_history" ".virtualenvs/" "CBLOCALSPACE/" ".cache/" "lost+found/" ".bash_logout" "../" ".java/" "./" ".xsession-errors" ".mkshrc" ".selected_editor" "emacs-24.4/" ".zsh-update" "polymer/" ".zcompdump" "tmp/" "Downloads/" ".npm/" ".autojump/" ".dbshell" ".vimrc" ".oh-my-zsh/" ".zshrc.backup" "Documents/" ".viminfo" "LoveTime/" ".plugman/" ".zcompdump-cubieboard4-5.0.2" ".cordova/" "AbyChan.github.io/" ".mysql_history" ".gitconfig" ".sudo_as_admin_successful" ".grunt-init/" ".marks/" "foundation/" ".msf4/" "ssid=CMCC-EDU/" "Guess-Game/" ".vimrc.back" ".swp" ".local/" ".bash_history" "jdk1.8.0_33/" ".Xauthority" "PsychologyDog/" ".m2/" ".zsh_history" ".gnupg/" ".ICEauthority" ".index.html.swp" ".zshrc.bak" "radio/" ".jshintrc" "ctags-5.8/" ".oh-my-fish/" "html5-boilerplate/" ".config/" ".welcome" ".pip/" ".directory" ".rnd" ".gem/" "Desktop/" "bin/" ".dbus/" ".v8flags.3.28.73.linaro.json" ".Trash-1000/" "wustnmap.log" ".openvasrc" "Templates/" ".mongorc.js" ".bash_profile" ".zshrc" ".profile" "metasploit-framework/" ".gemrc" "CoffeeClub/" "materialize-master/" "Cola/" ".bashrc")
 
  ("/root/linaro/LoveTime/front/app/js/vendor/" (21890 29830 0 0) "modernizr-2.8.3.min.js" "../" "./" "cola.js")
 
@@ -307,10 +345,6 @@
  ("/root/linaro/CoffeeClub/" (21831 21613 0 0) "front/" ".bowerrc" "../" ".editorconfig" "./" "backend/" ".jshintrc" ".gitignore" ".git/" "README.md")
 
  ("/root/linaro/LoveTime/" (21891 55872 0 0) "front/" "design/" "../" "./" "backend/" ".git/" "README.md")
-
- ("/root/linaro/LoveTime/front/app/" (21892 1757 0 0) "js/" "upload.html" "crossdomain.xml" "favicon.ico" "robots.txt" "scss/" "login.html" "404.html" ".bowerrc" "css/" "../" "index.html" ".editorconfig" "./" "bower.json" "apple-touch-icon.png" "newline.html" "tile.png" "components/" "humans.txt" "img/" "font/" ".gitignore" "tile-wide.png" ".gitattributes" "doc/")
-
- ("/root/linaro/LoveTime/front/scss/" (21892 1006 0 0) "login.scss" "newline.scss" "index.scss" "../" "./")
 
  ("/root/linaro/Cola/app/templates/" (21890 56698 0 0) "font-english-fancy.html" "component-container.html" "component-header.html" "font.html" "color-purple.html" "test-wave.html" "css-helper.html" "component-nav.html" "color-red.html" "#css-link.html#" "color-blue.html" "component.html" "css-typography.html" "dash.html" "color.html" "javascript.html" "css-grid.html" "js-dialogs.html" "color-while.html" "../" "font-english-offical.html" "./" "js-icon-float.html" "font-chinese.html" "#js-progress.html#" "component-icon-button.html" "component-card.html" "color-green.html" "css-form.html" "color-bule.html" "css-button.html" "js-progress.html" "color-yellow.html" "css-label.html" "color-dark.html" "css-link.html" "component-footer.html" "component-list.html" "color-font-palettes.html" "material-color.html" "color-palettes.html" "component-float-nav.html" "js-tip.html" "css.html" "component-hamburger.html" "component-font-icon-list.html" "test.html" "component-panel.html")
 
@@ -453,34 +487,6 @@
  ("/home/tyan/linaro/materialize-master/sass/" (21853 62186 0 0) "ghpages-materialize.scss" "materialize.scss" "../" "./" "components/" "style.scss")
 
  ("/home/tyan/linaro/materialize-master/" (21853 62186 0 0) "res/" "grid.html" "js/" "collapsible.html" "side-nav.html" "transitions.html" "package.json" "buttons.html" "robots.txt" "cards.html" "icons.html" "templates/" "media.html" "jade/" "navbar.html" "CONTRIBUTING.md" "waves.html" "pagination.html" "color.html" "forms.html" "modals.html" "parallax-demo.html" "parallax.html" "Gruntfile.js" "css/" "../" "index.html" "./" "bower.json" "package.js" "pushpin.html" "shadow.html" "typography.html" "fullscreen-slider-demo.html" "about.html" "dist/" "LICENSE" "tabs.html" "dialogs.html" "getting-started.html" "showcase.html" "preloader.html" "sass/" "footer.html" "mobile.html" "images/" "font/" "scrollspy.html" "collections.html" ".gitignore" "bin/" "badges.html" "CNAME" ".gitattributes" "README.md" "test/" "scrollfire.html" "sass.html" "media-css.html" "dropdown.html" "sitemap.xml" "table.html" "helpers.html" "CHANGELOG.md")
-
- ("/home/tyan/.vim/" (21870 64998 345087 408000) ".git/" ".editorconfig" "./" "README.md" "bundle/" ".netrwhist" "autoload/" "../" ".vimrc")
-
- ("/home/tyan/linaro/Cola/app/js/directive/" (21878 59374 0 0) "../" "./" "hamburger.js")
-
- ("/home/tyan/linaro/Cola/scss/" (21879 53568 0 0) "../" "./" "app.scss")
-
- ("/home/tyan/linaro/Cola/components/bootstrap/stylesheets/bootstrap/" (21849 40907 0 0) "_breadcrumbs.scss" "_media.scss" "_pagination.scss" "_forms.scss" "_theme.scss" "_responsive-embed.scss" "_panels.scss" "_glyphicons.scss" "_responsive-utilities.scss" "_alerts.scss" "_labels.scss" "_grid.scss" "../" "./" "_popovers.scss" "_thumbnails.scss" "_scaffolding.scss" "_buttons.scss" "_button-groups.scss" "_pager.scss" "_type.scss" "_tooltip.scss" "_modals.scss" "mixins/" "_jumbotron.scss" "_wells.scss" "_input-groups.scss" "_carousel.scss" "_print.scss" "_close.scss" "_component-animations.scss" "_dropdowns.scss" "_badges.scss" "_normalize.scss" "_navbar.scss" "_tables.scss" "_list-group.scss" "_mixins.scss" "_variables.scss" "_navs.scss" "_progress-bars.scss" "_code.scss" "_utilities.scss")
-
- ("/home/tyan/linaro/Cola/app/css/" (21869 53394 0 0) "font-awesome-ie7.css" "cola/" "font-awesome.css" "fonts.css" "../" "./" "app.css" "bootstrap.css" "foundation.css" "cola.css" "main.css" "normalize.css" "helper.css")
-
- ("/home/tyan/linaro/CoffeeClub/front/scss/" (21846 755 0 0) "_function.scss" "profile.scss" "login.scss" "editor.scss" "../" "./" "font.scss" "app.scss" "articles.scss" "signin.scss")
-
- ("/home/tyan/linaro/CoffeeClub/front/" (21835 21409 0 0) "package.json" "scss/" "../" "./" "app/" "components/" "gulpfile.js" ".gitignore" "node_modules/" "README.md" "test/")
-
- ("/home/tyan/linaro/CoffeeClub/" (21831 21613 0 0) "front/" ".bowerrc" "../" ".editorconfig" "./" "backend/" ".jshintrc" ".gitignore" ".git/" "README.md")
-
- ("/home/tyan/linaro/Cola/components/font-awesome/" (21869 53892 0 0) "_extras.scss" "../" "./" "_path.scss" "font-awesome.scss" "_bootstrap.scss" "_icons.scss" "font-awesome-ie7.scss" "_core.scss" "_mixins.scss" "_variables.scss")
-
- ("/home/tyan/linaro/Cola/components/" (21851 10849 0 0) "font-awesome/" "cola/" "../" "./" "foundation/" "bootstrap/")
-
- ("/home/tyan/linaro/Cola/app/components/" (21849 34704 0 0) "angular-ui-router/" "angular-animate/" "jquery/" "../" "./" "angular/")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/routes/" (21855 5287 838825 426000) "user.js" "friend.js" "helper.js" "./" "test.js" "api.js" "manager.js" "markpost.js" "../")
-
- ("/home/tyan/.emacs.d/users/tyan/" (21868 35874 328503 561000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "#sadas.js#" "travel-mode.el")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/" (21856 27692 20809 190000) "upload/" "somefile.log" "database/" "sql/" "socket/" "routes/" ".gitignore" "node_modules/" "setting.js" "cert/" "auth/" "templates/" "utils/" "./" "db.js" "collection/" "app.js" "models/" "../" "services/" "test/" "logger.js" "cache/" "package.json")
 )
 
 ;; ----- ido-unc-hosts-cache -----
