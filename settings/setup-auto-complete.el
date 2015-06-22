@@ -58,5 +58,10 @@
 
 (add-hook 'js3-mode-hook 'auto-complete-mode)
 
+(eval-after-load 'tern
+   '(progn
+         (require 'tern-auto-complete)
+               (tern-ac-setup)))
+
 (provide 'setup-auto-complete)
 

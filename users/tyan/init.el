@@ -56,6 +56,7 @@
 (require 'setup-emmet)
 (require 'setup-cmd-t)
 (require 'setup-wrap-region)
+(require 'setup-syntax-table)
 
 (require 'epa-file)
 (epa-file-enable)
@@ -91,10 +92,7 @@
     ))
 
 
-(setq mouse-wheel-scroll-amount '(2 ((shift) . 2))) ;; one line at a time
-    
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
-    
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
-    
 (setq scroll-step 1) ;; keyboard scroll one line at a time

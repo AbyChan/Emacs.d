@@ -14,6 +14,7 @@
         subword-left
         subword-right
         tagedit-insert-equal
+        tagedit-insert-hash
         tagedit-insert-lt
         yas-expand
         ))
