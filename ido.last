@@ -2,7 +2,27 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/tyan/linaro/CoffeeClub/front/app/js/" . "controller/")
+ ("/home/tyan/GITHUB/fis-quickstart-demo/js/" . "common/")
+ ("/home/tyan/GITHUB/fis-quickstart-demo/" . "js/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/source/hand/" . "index/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/" . "_partial/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/" . "layout/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/" . "_partial/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/" . "languages/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/" . "pacman-master/")
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/fastclick/" . "lib/")
+ ("/home/tyan/linaro/Cola/components/bootstrap/stylesheets/" . "bootstrap/")
+ ("/home/tyan/linaro/Cola/components/bootstrap/" . "stylesheets/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/" . "services/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/" . "ReserveServer/")
+ ("/home/tyan/linaro/CoffeeClub/backend/migrations/" . "sqls/")
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/" . "angular-touch/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/" . "controller/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/" . "js/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/" . "www/")
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/" . "SERVER/")
+ ("/home/tyan/linaro/CoffeeClub/backend/" . "models/")
+ ("/home/tyan/linaro/CoffeeClub/front/app/js/" . "directive/")
  ("/home/tyan/linaro/LoveTime/front/app/css/" . "vendor/")
  ("/home/tyan/linaro/CoffeeClub/front/app/css/" . "vendor/")
  ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/assets/stylesheets/" . "bootstrap/")
@@ -15,16 +35,16 @@
  ("/home/tyan/linaro/LoveTime/front/" . "app/")
  ("/home/tyan/linaro/LoveTime/" . "front/")
  ("/home/tyan/GITHUB/AbyChan.github.io/source/" . "_posts/")
- ("/home/tyan/GITHUB/AbyChan.github.io/" . "public/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/" . "themes/")
  ("/home/tyan/GITHUB/jquery/build/" . "tasks/")
  ("/home/tyan/GITHUB/jquery/" . "build/")
- ("/home/tyan/linaro/CBLOCALSPACE/" . "bootstrap-sass/")
+ ("/home/tyan/linaro/CBLOCALSPACE/" . "Aero-Map/")
  ("/home/tyan/linaro/materialize-master/sass/" . "components/")
  ("/home/tyan/linaro/materialize-master/" . "sass/")
  ("/home/tyan/RPI/PasswordGenerage/web/" . "static/")
- ("/home/tyan/RPI/PasswordGenerage/" . "web/")
+ ("/home/tyan/RPI/PasswordGenerage/" . "shell/")
  ("/home/tyan/RPI/" . "PasswordGenerage/")
- ("/home/tyan/linaro/Cola/app/js/" . "lib/")
+ ("/home/tyan/linaro/Cola/app/js/" . "directive/")
  ("/home/tyan/linaro/CoffeeClub/front/app/" . "js/")
  ("/home/tyan/linaro/CoffeeClub/front/" . "app/")
  ("/home/tyan/linaro/CoffeeClub/" . "front/")
@@ -34,7 +54,7 @@
  ("/home/tyan/linaro/Cola/components/" . "cola/")
  ("/home/tyan/linaro/Cola/app/" . "templates/")
  ("/home/tyan/linaro/Cola/" . "components/")
- ("/home/tyan/linaro/" . "Cola/")
+ ("/home/tyan/linaro/" . "CoffeeClub/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/CoffeeClub/front/app/" . "templates/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/CoffeeClub/front/" . "app/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/CoffeeClub/" . "front/")
@@ -138,13 +158,13 @@
  ("/home/tyan/GITHUB/Aero-Map/APP/www/" . "css/")
  ("/home/tyan/GITHUB/Aero-Map/APP/" . "scss/")
  ("/home/tyan/GITHUB/Aero-Map/" . "APP-Angular/")
- ("/home/tyan/GITHUB/" . "jquery/")
+ ("/home/tyan/GITHUB/" . "fis-quickstart-demo/")
  ("/home/" . "tyan/")
  ("/" . "home/")
  ("/ssh:pi@10.42.0.133:/home/pi/CoffeeClub/front/app/" . "css/")
  ("/ssh:pi@10.42.0.133:/home/pi/CoffeeClub/front/" . "components/")
  ("/home/tyan/WORKSPACE/" . "V76 by Vaughn - Customer Login_files/")
- ("/home/tyan/" . "linaro/")
+ ("/home/tyan/" . ".emacs.d/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/passport-local/" . "lib/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/passport/" . "lib/")
  ("/ssh:linaro@10.42.0.30:/home/linaro/USBSPACE/Aero-Map/SERVER/ReserveServer/node_modules/" . "passport-local/")
@@ -199,97 +219,241 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/tyan/linaro/CoffeeClub/front/app/js/controller/"
- "/home/tyan/linaro/CoffeeClub/front/app/js/"
- "/home/tyan/linaro/CoffeeClub/front/app/templates/"
- "/home/tyan/linaro/Cola/components/cola/scss/cola/"
- "/home/tyan/linaro/CoffeeClub/front/app/"
- "/home/tyan/linaro/LoveTime/front/app/"
- "/home/tyan/linaro/LoveTime/front/app/css/"
- "/home/tyan/linaro/LoveTime/front/scss/"
- "/home/tyan/linaro/CoffeeClub/front/scss/"
- "/home/tyan/linaro/Cola/app/templates/"
- "/home/tyan/linaro/Cola/components/cola/scss/"
- "/home/tyan/linaro/Cola/"
- "/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/assets/stylesheets/bootstrap/"
- "/home/tyan/linaro/PsychologyDog/front/"
- "/home/tyan/linaro/LoveTime/front/"
- "/home/tyan/linaro/Cola/components/cola/scss/cola/mixins/"
  "/home/tyan/.emacs.d/settings/"
+ "/home/tyan/RPI/PasswordGenerage/shell/"
+ "/home/tyan/RPI/PasswordGenerage/test/data/"
+ "/home/tyan/GITHUB/fis-quickstart-demo/js/common/"
+ "/home/tyan/GITHUB/fis-quickstart-demo/"
+ "/home/tyan/linaro/CoffeeClub/front/app/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/languages/"
  "/home/tyan/GITHUB/AbyChan.github.io/source/_posts/"
- "/home/tyan/GITHUB/AbyChan.github.io/"
- "/home/tyan/"
- "/home/tyan/linaro/LoveTime/front/src/css/"
- "/home/tyan/linaro/LoveTime/front/src/"
- "/home/tyan/linaro/Cola/components/cola/js/"
- "/home/tyan/linaro/Cola/app/js/lib/"
- "/home/tyan/linaro/Cola/components/cola/amd/"
- "/home/tyan/linaro/Cola/app/"
- "/home/tyan/linaro/Cola/dist/"
- "/home/tyan/GITHUB/jquery/build/tasks/"
- "/home/tyan/GITHUB/jquery/dist/"
- "/home/tyan/GITHUB/jquery/"
- "/home/tyan/RPI/PasswordGenerage/web/"
- "/home/tyan/GITHUB/jquery/src/"
- "/home/tyan/GITHUB/jquery/build/"
- "/home/tyan/linaro/CBLOCALSPACE/Guess-Game/"
- "/home/tyan/RPI/PasswordGenerage/web/static/"
- "/home/tyan/linaro/materialize-master/sass/components/"
- "/home/tyan/linaro/materialize-master/"
- "/home/tyan/linaro/Cola/app/js/directive/"
- "/home/tyan/linaro/Cola/app/js/"
+ "/home/tyan/GITHUB/AbyChan.github.io/source/hand/"
+ "/home/tyan/GITHUB/AbyChan.github.io/scaffolds/"
  "/home/tyan/GITHUB/AbyChan.github.io/source/"
- "/home/tyan/linaro/Cola/components/bootstrap/stylesheets/bootstrap/"
- "/home/tyan/linaro/Cola/app/misc/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/_partial/"
+ "/home/tyan/GITHUB/AbyChan.github.io/"
+ "/home/tyan/linaro/Cola/app/"
+ "/home/tyan/linaro/Cola/app/templates/"
+ "/home/tyan/linaro/Cola/components/cola/scss/cola/"
+ "/home/tyan/linaro/Cola/components/cola/scss/"
+ "/home/tyan/linaro/Cola/app/js/"
+ "/home/tyan/linaro/Cola/app/js/directive/"
+ "/home/tyan/linaro/CoffeeClub/front/app/js/directive/"
  "/home/tyan/linaro/Cola/scss/"
- "/home/tyan/linaro/Cola/components/font-awesome/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/components/font-awesome/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/app/css/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/app/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/app/templates/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/components/cola/scss/cola/"
- "/ssh:linaro@10.42.0.30:/home/linaro/Cola/scss/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_widget/"
+ "/home/tyan/linaro/CoffeeClub/backend/"
+ "/home/tyan/linaro/Cola/"
+ "/home/tyan/linaro/Cola/components/cola/scss/cola/mixins/"
+ "/home/tyan/linaro/CoffeeClub/front/app/templates/"
+ "/home/tyan/linaro/CoffeeClub/front/app/js/"
+ "/home/tyan/linaro/CoffeeClub/front/app/js/controller/"
+ "/home/tyan/linaro/CoffeeClub/front/app/bower_components/fastclick/"
+ "/home/tyan/linaro/Cola/components/cola/js/"
+ "/home/tyan/linaro/Cola/components/bootstrap/stylesheets/bootstrap/"
+ "/home/tyan/linaro/CoffeeClub/front/scss/"
+ "/home/tyan/.emacs.d/users/tyan/"
+ "/home/tyan/linaro/CoffeeClub/front/"
+ "/home/tyan/linaro/CoffeeClub/backend/migrations/sqls/"
+ "/home/tyan/linaro/CoffeeClub/backend/routes/"
+ "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/services/"
+ "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/routes/"
+ "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/models/"
+ "/home/tyan/linaro/CoffeeClub/backend/error/"
+ "/home/tyan/linaro/CoffeeClub/backend/models/"
+ "/home/tyan/linaro/CoffeeClub/backend/migrations/user/"
+ "/home/tyan/linaro/CoffeeClub/backend/migrations/data/"
+ "/home/tyan/linaro/CoffeeClub/front/app/bower_components/angular-ui-router/"
+ "/home/tyan/linaro/CoffeeClub/front/app/templates/blogs/"
+ "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/controller/"
+ "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/"
+ "/home/tyan/linaro/LoveTime/front/app/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "csignin.js"
- "home.js"
- "clogin.js"
- "app.js"
- "coffeesignin.html"
- "coffeelogin.html"
- "login.html"
- "_nav.scss"
- "_white-nav.scss"
+ "setup-pretty.el"
+ "app.py"
+ "simple.data"
+ "common.js"
  "index.html"
+ "_config.yml"
+ "zh-CN.yml"
+ "手作：怒目慈悲腰带.md"
+ "index.md"
+ "hand.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tyan/linaro/CoffeeClub/front/app/js/controller/" (21895 41860 0 0) "home.js" "blog.js" "profile.js" "forum.js" "wiki.js" "shop.js" "siginin.js" "editprofile.js" "../" "./" "login.js" "articles.js" "clogin.js" "logout.js" "dash.js" "editor.js")
+ ("/home/tyan/.emacs.d/settings/" (21896 57983 784814 895000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-column-marker.el" "setup-shell.el" "setup-company.el" "setup-ruby-mode.el" "setup-syntax-table.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-emmet.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-pretty.el" "setup-autopair.el" "my-misc.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-tern.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-cmd-t.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-indent-guide.el" "setup-jshint.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-wrap-region.el" "setup-highlight.el" "setup-auto-complete.el" "setup-rebind-move.el" "setup-yasnippet.el")
 
- ("/home/tyan/linaro/CoffeeClub/front/app/js/" (21894 53023 0 0) "directive/" "app.js" "index.js" "main.js" "controller/" "vendor/" "../" "./" "plugins.js" "controllers.js")
+ ("/home/tyan/.emacs.d/" (21925 12606 689110 818000) "session.10380c4f8c2a8c3004143357742282591200000028030070" "site-lisp/" "bookmarks" "backups/" "defuns/" ".mc-lists.el" "project-archetypes/" "dictionaries/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" "%backup%~" ".places" "var/" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "ido.last" "jshintrc" "session.109d7d823fdb5cb220143439019821730600000033880078" "recentf" "./" "README.md" "snippets/" "themes/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" "session.10a2e5b8b3000143376430800000023380044" "custom.el" "history" "session.10b88946934acdd785143339207024531100000027050071" "init.el" "tramp" "auto-save-list/" "#ido.last#" "url/" ".gitmodules" "../" "session.10862246bcbf3efedd143348470526092600000034330068" "session.1066327f75ce54337b143428583762700800000028830105" "session.107a63e790c86c225c143460802537543500000034690070" "settings/" "users/")
 
- ("/home/tyan/linaro/CoffeeClub/front/app/" (21895 41821 0 0) "js/" "icons/" "template/" "crossdomain.xml" "favicon.ico" "robots.txt" "templates/" "index2.html" "fonts/" "404.html" "css/" "../" "index.html" "./" "font-awesome-4.3.0/" "bower.json" "apple-touch-icon.png" "tile.png" "humans.txt" "bower_components/" "img/" "font/" ".gitignore" "tile-wide.png" "browserconfig.xml")
+ ("/home/tyan/" (21925 12602 85110 920000) "t/" "DesignBook/" ".plugman/" ".smex-items" ".openvasrc" ".local/" ".mplayer/" "音乐/" ".httpie/" ".gradle/" ".gstreamer-0.10/" "5350605f7c224.png" ".themes/" ".xsession-errors.old" ".xsession-errors-:0" ".zcompdump-linux-0pwr-5.0.7" ".recentf" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" "Tencent Files/" ".remmina/" ".gnupg/" "Screen_Shot_2015-06-16_at_9.32.55_AM.png" ".ionic/" ".kde/" ".thunderbird/" "fontconfig/" ".pip/" "IMG/" ".gnome2/" ".zshrc" ".mongorc.js" ".w3af/" "Linaro/" "BAIDU/" ".wine/" ".lesshst" ".subversion/" "record/" ".dbus/" "tyaniologo.png" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".face.icon" ".autojump/" ".pgpass" ".shutter/" "VIRTTMEP/" ".kde4/" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".xdg_menu_cache/" ".pulse-cookie" ".rnd" ".python_history" ".grunt-init/" ".zgen/" ".mozilla/" ".ICEauthority" ".gnome/" ".v8flags.3.28.73.tyan.json" ".pki/" ".y2usersettings" ".Xauthority" ".gvfs/" "keys/" ".viminfo" ".cordova/" ".marks/" ".meteorsession" "tmp/" "welcome/" ".lein/" ".cask/" ".gtkrc-2.0-kde4" ".zprofile" ".zsh-history-substring-search.zsh" ".bash_history" ".gtkrc-2.0" ".welcome" ".meteor/" "VIRT-VMs/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".zsh-syntax-highlighting.zsh" ".alias" ".esd_auth" ".virt-manager/" "design/" "Gentoo/" ".mission-control/" ".adobe/" ".skel/" "PACKAGE/" ".dia/" ".zcompdump-linux-vo40-5.0.7" ".epiphany" ".goldendict/" ".location.txt" "original.jpg" "linaro/" ".emacs.d/" ".mysql/" "WebPicture/" "gpg/" ".zcompdump.zwc" ".y2log" ".python-eggs/" ".zsh-update" ".pyhistory" ".installjammerinfo/" ".android/" ".oh-my-zsh/" "pgadmin.log" ".freerdp/" "视频/" ".zpreztorc" "WORKSPACE/" ".thumbnails/" ".aptitude/" ".aliedit/" ".sunpinyin/" "陈灿豪简历全栈.pdf" ".gconf/" ".java/" ".zcompdump-OpenSuSE-5.0.7" ".fontconfig/" ".zcompdump-Ubuntu-5.0.2" "Screen_Shot_2015-03-31_at_5.35.17_PM.png" ".recently-used" ".openyoudao/" ".presage/" "lost+found/" ".gphoto/" "gentoo/" ".gnome2_private/" ".zprezto/" ".zshenv" "5388f42459b69.png" ".zshrc.pre-oh-my-zsh" ".fonts/" ".dbshell" "USR/" "bcloud_3.7.1-3_all.deb" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".gem/" ".openvas/" ".netrc" "陈灿豪简历.pdf" ".opera/" "GITHUB/" ".m2/" ".fonts.conf" ".vimrc" ".pulse/" "下载/" ".zcompdump-CrystalKing-5.0.2" "RPI/" ".macromedia/" ".zlogin" "docs/" ".zsh_history" "桌面/" "SDK/" "VPN/" "图片/" "533313c86f1b3.png" ".zcompdump-Ubuntu-5.0.5" "模板/" ".node-gyp/" "video/" ".gimp-2.8/" "misc/" ".oh-my-fish/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".zlogout" ".cnpmrc" ".zcompdump" ".compiz/" ".keysnail.js" ".percol.d/" ".fis-tmp/" "VirtualBox VMs/" "raspberry/" ".argouml/" ".npm/" "Book/" "../" "./")
 
- ("/home/tyan/linaro/CoffeeClub/front/app/templates/" (21895 41584 0 0) "signin.html" "logout.html" "home.html" "forum.html" "dash.html" "profile.html" "login.html" "../" "./" "editor.html" "blog.html" "tabs.html" "coffeelogin.html" "shop.html" "articles.html" "wiki.html")
+ ("/home/tyan/RPI/PasswordGenerage/shell/" (21925 12413 0 0) "app.py" "./" "../")
 
- ("/home/tyan/linaro/Cola/components/cola/scss/cola/mixins/" (21894 58919 0 0) "_padding.scss" "_shadow.scss" "_placeholder.scss" "_grid.scss" "../" "./" "_center-block.scss" "_position.scss" "_transform.scss" "_clearfix.scss" "_border.scss" "_responsive-visibility.scss" "_radius.scss" "_scale.scss" "_transition.scss" "_margin.scss" "_grid-framework.scss")
+ ("/home/tyan/RPI/PasswordGenerage/" (21925 11291 0 0) "./" "../" "web/" ".git/" "test/" "README.md" "generager/" "shell/" "analysis/")
 
- ("/home/tyan/linaro/Cola/components/cola/scss/cola/" (21894 62240 0 0) "#_assh_blinaro@10.42.0.30_b_ahome_alinaro_aUSBSPACE_aCola_acomponents_acola_ascss_acola_a__mixins.scss#" "_img.scss" "_forms.scss" "_hamburger.scss" "_dialogs.scss" "_icon-button.scss" "_responsive-utilities.scss" "_list.scss" "_button.scss" "_color.scss" "_tip.scss" "_grid.scss" "../" "./" "_helper.scss" "_icon-float.scss" "_splash.scss" "extend/" "_tab.scss" "mixins/" "_footer.scss" "_jumbotron.scss" "_nav.scss" "_white-nav.scss" "_extend.scss" "#_link.scss#" "_card.scss" "_header.scss" "_link.scss" "_waves.scss" "_floatnav.scss" "_text.scss" "_log-nav.scss" "_normalize.scss" "_label.scss" "_mixins.scss" "_panel.scss" "_code.scss" "_utilities.scss")
+ ("/home/tyan/RPI/PasswordGenerage/test/" (21925 11291 0 0) "data/" "./" "../")
 
- ("/home/tyan/linaro/Cola/components/cola/scss/" (21894 59853 0 0) "cola.scss" "cola/" "_color.scss" "fonts.scss" "../" "./" "_functions.scss" "_materialColor.scss" "_variables.scss")
+ ("/home/tyan/RPI/PasswordGenerage/test/data/" (21925 11567 0 0) "simple.data" "./" "../")
 
- ("/home/tyan/linaro/" (21895 40494 0 0) ".lein/" ".rvm/" ".netrc" ".vim/" ".heroku/" ".alias" ".cnpm/" ".rediscli_history" "openssl-output" ".zgen/" ".swo" ".zshrc.pre-oh-my-zsh" "USB/" "Public/" "WORKSHOP/" "polymer-tutorial-master/" ".lesshst" ".ssh/" ".httpie/" "Music/" "goagent/" ".smex-items" ".thumbnails/" ".node-gyp/" ".emacs.d/" ".ionic/" "Videos/" "Pictures/" "openvas-check-setup" "package/" "ranger-1.7.1/" "DesignGallery/" ".vnc/" "gpg/" ".redis-commander" "redis-commander/" ".gconf/" "w3af/" ".composer/" ".openvas/" "dump.rdb" ".cnpmrc" ".zlogin" ".pki/" ".aptitude/" ".psql_history" ".virtualenvs/" "CBLOCALSPACE/" ".cache/" "lost+found/" ".bash_logout" "../" ".java/" "./" ".xsession-errors" ".mkshrc" ".selected_editor" "emacs-24.4/" ".zsh-update" "polymer/" ".zcompdump" "tmp/" "Downloads/" ".npm/" ".autojump/" ".dbshell" ".vimrc" ".oh-my-zsh/" ".zshrc.backup" "Documents/" ".viminfo" "LoveTime/" ".plugman/" ".zcompdump-cubieboard4-5.0.2" ".cordova/" "AbyChan.github.io/" ".mysql_history" ".gitconfig" ".sudo_as_admin_successful" ".grunt-init/" ".marks/" "foundation/" ".msf4/" "ssid=CMCC-EDU/" "Guess-Game/" ".vimrc.back" ".swp" ".local/" ".bash_history" "jdk1.8.0_33/" ".Xauthority" "PsychologyDog/" ".m2/" ".zsh_history" ".gnupg/" ".ICEauthority" ".index.html.swp" ".zshrc.bak" "mongo-express/" "radio/" ".jshintrc" "ctags-5.8/" ".oh-my-fish/" "html5-boilerplate/" ".config/" "wusthost" ".welcome" ".pip/" ".directory" ".rnd" ".gem/" "Desktop/" "bin/" ".dbus/" ".v8flags.3.28.73.linaro.json" ".Trash-1000/" "wustnmap.log" ".openvasrc" "wusthost~" "Templates/" ".mongorc.js" ".bash_profile" ".zshrc" ".profile" ".gemrc" "CoffeeClub/" "materialize-master/" "Cola/" ".bashrc")
+ ("/home/tyan/RPI/" (21925 9874 0 0) "Passdict2/" ".gitconfig" "wordlist/" ".sqlmap/" ".oh-my-fish/" "文档/" "PasswordGenerage/" ".w3af/" ".bashrc" ".gvfs/" ".vim/" ".npm/" "yunba" ".rnd" "./" ".zsh-update" "passdict/" ".ICEauthority" ".local/" ".thumbnails/" ".xsession-errors" "我的资源/" ".profile" ".oh-my-zsh/" ".pip/" "namedict/" "../" ".zprezto/" "模板/" "scripts-n-tools/" ".gconf/" ".wireshark/" ".ssh/" ".zsh_history" ".Xauthority" ".zcompdump-kali-4.3.17" ".tilda/" "demo.js" "下载/" "node-v0.12.0/" ".gtk-bookmarks" "bcloud_3.7.1-3_all.deb" ".zgen/" ".zshrc" "桌面/" ".gstreamer-0.10/" ".zsh_favlist" "公共/" ".vnc/" ".mozilla/" ".dbus/" "音乐/" "ssh_time_attack.py" ".gem/" "rop/" ".cache/" "视频/" "OpenVAS_TI.asc" ".config/" "vim/" ".viminfo" ".emacs.d/" ".aptitude/" ".bash_history" "Simple-OCR-Server/" "USB/" ".halberd/" ".msf4/" ".vimrc" "图片/" ".gnome2/" "redis-3.0.1/")
 
- ("/home/tyan/linaro/CoffeeClub/" (21894 26101 0 0) "front/" ".bowerrc" "../" ".editorconfig" "./" "backend/" ".jshintrc" ".gitignore" ".git/" "README.md")
+ ("/home/tyan/.emacs.d/users/tyan/" (21925 10197 637164 570000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "#sadas.js#" "travel-mode.el")
+
+ ("/home/tyan/GITHUB/fis-quickstart-demo/js/common/" (21923 56867 482397 335000) "common.js" "./" "../")
+
+ ("/home/tyan/GITHUB/fis-quickstart-demo/js/" (21923 56867 502397 336000) "views/" "main.js" "lib/" "collections/" "./" "models/" "../" "routers/" "common/")
+
+ ("/home/tyan/GITHUB/fis-quickstart-demo/" (21923 56867 502397 336000) ".gitignore" ".git/" "index.html" "js/" "./" "README.md" ".gitattributes" "css/" "../" "fis-conf.js" "package.json")
+
+ ("/home/tyan/GITHUB/" (21923 56850 826396 368000) "Resume/" "tornado/" "AbyChan.github.io/" "nanobar/" "Orbit-of-Five-Design/" "SocialMap/" "jquery/" "Aero-Map/" "My-Shell/" "Orange-Hexo/" "foundation/" "oh-my-zsh/" "emacs-color-theme-solarized/" "gnome-shell-extensions/" "zsh-history-substring-search/" "angular.js/" "html5-boilerplate/" "game/" "css-chassis/" "Art-Daily/" "./" "ResumeSample/" "TyanDataStructrue-Algorithm/" "emacs-color-themes/" "resume/" "org/" "bootstrap-sass/" "w3af/" "fis-quickstart-demo/" "zsh-syntax-highlighting/" "angular-foundation/" "hexo/" "bootstrap/" "angular-leaflet-directive/" "../" "fire-and-ice/" "CoffeeClub/" "vtch99.github.io/")
+
+ ("/home/tyan/linaro/" (21907 55705 0 0) ".lein/" ".rvm/" ".netrc" ".vim/" ".heroku/" ".alias" ".cnpm/" ".rediscli_history" "openssl-output" ".zgen/" ".swo" ".zshrc.pre-oh-my-zsh" "USB/" "Public/" "WORKSHOP/" ".lesshst" ".ssh/" ".httpie/" "Music/" "goagent/" ".smex-items" ".thumbnails/" ".node-gyp/" ".emacs.d/" ".ionic/" "Videos/" "Pictures/" "openvas-check-setup" "package/" "ranger-1.7.1/" ".vnc/" "gpg/" "CaptchaServer/" ".redis-commander" "redis-commander/" ".gconf/" ".composer/" ".openvas/" "dump.rdb" ".cnpmrc" ".zlogin" ".pki/" ".aptitude/" ".psql_history" ".virtualenvs/" "CBLOCALSPACE/" ".cache/" "lost+found/" ".bash_logout" "../" ".java/" "./" ".xsession-errors" ".mkshrc" ".selected_editor" "emacs-24.4/" ".zsh-update" ".zcompdump" "tmp/" "Downloads/" ".npm/" ".autojump/" ".dbshell" ".vimrc" ".oh-my-zsh/" ".zshrc.backup" "Documents/" ".viminfo" "LoveTime/" ".plugman/" ".zcompdump-cubieboard4-5.0.2" ".cordova/" "AbyChan.github.io/" ".mysql_history" "keys/" ".gitconfig" ".sudo_as_admin_successful" ".grunt-init/" ".marks/" "foundation/" ".msf4/" "ssid=CMCC-EDU/" "Guess-Game/" ".vimrc.back" ".swp" ".local/" ".bash_history" "jdk1.8.0_33/" ".Xauthority" "PsychologyDog/" ".m2/" ".zsh_history" ".gnupg/" ".ICEauthority" ".index.html.swp" ".zshrc.bak" "mongo-express/" "radio/" ".jshintrc" "ctags-5.8/" ".oh-my-fish/" "html5-boilerplate/" ".config/" "wusthost" ".welcome" ".pip/" ".directory" ".rnd" ".gem/" "Desktop/" "bin/" ".dbus/" ".v8flags.3.28.73.linaro.json" ".Trash-1000/" "wustnmap.log" ".openvasrc" "wusthost~" "Templates/" ".mongorc.js" "Ghost/" ".bash_profile" ".zshrc" ".profile" ".gemrc" "CoffeeClub/" "materialize-master/" "Cola/" ".bashrc")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/" (21907 59026 929211 478000) "_config.yml" ".git/" "layout/" "./" "README.md" "../" "LICENSE" "languages/" "source/" "scripts/")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/languages/" (21904 4826 377854 208000) "zh-CN.yml" "./" "default.yml" "zh-TW.yml" "../")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/source/_posts/" (21907 58839 453200 598000) "R语言中RMySQL的简单应用.md" "CubieBoard4用Chroot监狱安装Gentoo子系统/" "CubieBoard4用Chroot监狱安装Gentoo子系统.md" "OpenSuSE13-2-安装-oracle-12c.md" "linux下mysql四种启动方式AND烦人的编码.md" "Spring-事务无法回滚.md" "CSS实现auto高度过渡/" "chrome使用技巧/" "KNN实践判断iris花的品种.md" "安卓数据线ssh连树莓派（超简单）.md" "kali下进行wifi干扰/" "python数据采集百度知道.md" "chrome使用技巧.md" "shell中调用R语言并传入参数的两种方法/" "大数据与hadoop前景杂谈/" "决策树ID3-C4-5详解和python实现与R语言实现比较/" "Web前端架构杂谈：单页面应用和服务器模板系统.md" "Logout-究竟用GET还是POST/" "R语言中RMySQL的简单应用/" "CSS实现auto高度过渡.md" "OpenSuSE13-fcitx无法调用输入法问题.md" "linux下mysql启动报错Can-t-connect-to-local-MySQL-server-through-socket-tmp-mysql-sock-2.md" "arm-linux手工安装metasploit笔记.md" "安卓数据线ssh连树莓派（超简单）/" "linux二进制安装mysql5-6.md" "OpenSuSE13-fcitx无法调用输入法问题/" "sqoop-job-mapreduce运行失败.md" "linux网络分享杂谈/" "OpenSuSE无法读取OSS源的问题.md" "教大家申请免费ssl证书.md" "Emacs中自定义关键字显示/" "树莓派运载Realtek-RTL8188启动hotspot开启wifi（编译驱动）/" "jQuery的one方法简单实现.md" "HTML中的替换与非替换元素.md" "./" "Linux下自签发ssl证书.md" "Linux下uWSGI-NGINX部署Django-AngularJs.md" "打造漂亮的终端欢迎界面/" "Linux下uWSGI-NGINX部署Django-AngularJs/" "教大家申请免费ssl证书/" "shell中调用R语言并传入参数的两种方法.md" "linux下使用openVPN搭建VPN环境.md" "教你用Django实现一个简单的GIS功能.md" "KNN实践判断iris花的品种/" "教你用Django实现一个简单的GIS功能/" "junit4-spring单元测试java-lang-NoClassDefFoundError-org-springframework-core-SpringProperties.md" "postgresql-端口不对外开放问题.md" "kali下进行wifi干扰.md" "打造漂亮的终端欢迎界面.md" "前端需不需要OOP.md" "arm-linux手工安装metasploit笔记/" "树莓派运载Realtek-RTL8188启动hotspot开启wifi（编译驱动）.md" "linux网络分享杂谈.md" "把你的用户关进监牢里面-控制ssh登陆自动chroot.md" "../" "大数据与hadoop前景杂谈.md" "jQuery的one方法简单实现/" "sqoop-job-mapreduce运行失败/" "把你的用户关进监牢里面-控制ssh登陆自动chroot/" "Logout-究竟用GET还是POST.md" "决策树ID3-C4-5详解和python实现与R语言实现比较.md" "Web前端架构杂谈：单页面应用和服务器模板系统/" "postgresql-端口不对外开放问题/" "Emacs中自定义关键字显示.md" "Linux下自签发ssl证书/" "HTML中的替换与非替换元素/" "linux下使用openVPN搭建VPN环境/")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/source/hand/index/" (21907 57359 373114 710000) "./" "../")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/source/hand/" (21907 58006 333152 253000) "index.md" "./" "index/" "../")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/source/" (21907 57359 353114 709000) "icon.png" "_posts/" "404.html" "./" "README.md" "_hand/" "hand/" "tyanio2.png" "../" "demo/" "CNAME" "google281a0d5aa47339e0.html")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/" (21907 57826 733141 831000) "_config.yml" ".deploy_git/" ".gitignore" "node_modules/" ".git/" "scaffolds/" "genUrlList.py" "./" "README.md" "db.json" "themes/" "public/" "urlarchive" "../" "CNAME" "source/" "package.json")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/scaffolds/" (21865 25018 499704 575000) "draft.md" "page.md" "./" "post.md" "../")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/" (21904 4265 421821 656000) "after_footer.ejs" "footer.ejs" "header.ejs" "tags.ejs" "post/" "categories.ejs" "search.ejs" "comment.ejs" "archive.ejs" "./" "sidebar.ejs" "google_analytics.ejs" "pagination.ejs" "head.ejs" "../" "article.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/_partial/" (21887 41867 51970 408000) "footer.ejs" "after-footer.ejs" "header.ejs" "archive-post.ejs" "post/" "comment.ejs" "archive.ejs" "./" "google-analytics.ejs" "head.ejs" "../" "article.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/" (21885 15298 346824 757000) "tags.ejs" "post.ejs" "_partial/" "categories.ejs" "archive.ejs" "./" "layout.ejs" "_widget/" "page.ejs" "category.ejs" "tag.ejs" "../" "index.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/" (21865 25661 491675 908000) ".gitignore" ".git/" "layout/" "./" "README.md" "Gruntfile.js" "../" "LICENSE" "_source/" "languages/" "_config.yml.example" "source/" "scripts/" "package.json")
+
+ ("/home/tyan/linaro/Cola/app/templates/" (21907 19552 0 0) "font-english-fancy.html" "component-container.html" "component-header.html" "font.html" "color-purple.html" "test-wave.html" "css-helper.html" "component-nav.html" "color-red.html" "component-circle-card.html" "color-blue.html" "component.html" "css-typography.html" "dash.html" "color.html" "javascript.html" "css-grid.html" "js-dialogs.html" "color-while.html" "../" "font-english-offical.html" "./" "js-icon-float.html" "font-chinese.html" "#js-progress.html#" "component-icon-button.html" "css-color.html" "component-card.html" "color-green.html" "css-form.html" "color-bule.html" "css-button.html" "js-progress.html" "color-yellow.html" "css-label.html" "color-dark.html" "css-link.html" "component-footer.html" "component-list.html" "color-font-palettes.html" "material-color.html" "color-palettes.html" "component-pagination.html" "component-float-nav.html" "js-tip.html" "component-arrow.html" "css.html" "component-hamburger.html" "component-font-icon-list.html" "test.html" "component-panel.html")
+
+ ("/home/tyan/linaro/Cola/app/" (21907 16165 0 0) "js/" "crossdomain.xml" "favicon.ico" "robots.txt" "templates/" "404.html" "css/" "../" "index.html" "./" "bower.json" "stylesheets/" "apple-touch-icon.png" "app/" "tile.png" "components/" "params.json" "misc/" "humans.txt" "img/" "font/" ".gitignore" ".git/" "tile-wide.png" "icon/" "browserconfig.xml" "test.html")
+
+ ("/home/tyan/linaro/Cola/components/cola/scss/cola/" (21907 13687 0 0) "#_assh_blinaro@10.42.0.30_b_ahome_alinaro_aUSBSPACE_aCola_acomponents_acola_ascss_acola_a__mixins.scss#" "_img.scss" "_arrow.scss" "_pagination.scss" "_forms.scss" "_hamburger.scss" "_dialogs.scss" "_icon-button.scss" "_responsive-utilities.scss" "_list.scss" "_button.scss" "_color.scss" "_tip.scss" "_grid.scss" "../" "./" "_helper.scss" "_icon-float.scss" "_splash.scss" "extend/" "_tab.scss" "mixins/" "_footer.scss" "_jumbotron.scss" "_nav.scss" "_white-nav.scss" "_extend.scss" "#_link.scss#" "_card.scss" "_header.scss" "_link.scss" "_waves.scss" "_floatnav.scss" "_text.scss" "_log-nav.scss" "_normalize.scss" "_label.scss" "_mixins.scss" "_panel.scss" "_code.scss" "_utilities.scss" "_circle-card.scss")
+
+ ("/home/tyan/linaro/Cola/components/cola/scss/" (21907 13768 0 0) "cola.scss" "cola/" "_color.scss" "fonts.scss" "../" "./" "_functions.scss" "_materialColor.scss" "_variables.scss")
+
+ ("/home/tyan/linaro/Cola/app/font/" (21852 18820 0 0) "font-awesome/" "chinese/" "official/" "../" "./" "fancy/")
+
+ ("/home/tyan/linaro/Cola/app/js/" (21906 49975 0 0) "directive/" "app.js" "main.js" "vendor/" "../" "./" "plugins.js" "lib/" "controllers.js")
+
+ ("/home/tyan/linaro/Cola/scss/" (21906 49824 0 0) "#app.scss#" "../" "./" "app.scss" ".#app.scss")
+
+ ("/home/tyan/linaro/Cola/app/js/directive/" (21906 46857 0 0) "../" "./" ".tern-port" "hamburger.js" "ngPin.js")
+
+ ("/home/tyan/linaro/Cola/app/css/" (21869 53394 0 0) "font-awesome-ie7.css" "cola/" "font-awesome.css" "fonts.css" "../" "./" "app.css" "bootstrap.css" "foundation.css" "cola.css" "main.css" "normalize.css" "helper.css")
+
+ ("/home/tyan/linaro/Cola/app/js/vendor/" (21840 59368 0 0) "modernizr-2.8.3.min.js" "../" "./" "jquery-1.11.2.min.js")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/js/" (21905 16975 0 0) "directive/" "app.js" "templates/" "config.js" "index.js" "main.js" "controller/" "vendor/" "../" "./" "plugins.js" "controllers.js")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_widget/" (21906 23352 611338 272000) "recent_comment.ejs" "rss.ejs" "links.ejs" "tagcloud.ejs" "archive.ejs" "./" "category.ejs" "tag.ejs" "../")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/" (21904 4827 293854 261000) "post.ejs" "_partial/" "archive.ejs" "./" "layout.ejs" "_widget/" "page.ejs" "category.ejs" "tag.ejs" "../" "index.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/" (21904 1032 469634 49000) "landscape/" "pacman-master/" "pacman/" "minos/" "./" "../")
+
+ ("/home/tyan/linaro/CoffeeClub/front/" (21906 1445 0 0) "package.json" "scss/" "../" "./" "app/" "dist/" "components/" "gulpfile.js" ".jshintrc" ".gitignore" "node_modules/" "README.md" "test/" ".jscsrc")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/" (21905 61580 0 0) "app.js" "db.js" "logger.js" "package.json" "templates/" "migrations/" "record/" "dump.rdb" "../" "./" "models/" "routes/" "setting.js" ".gitignore" "database.json" "node_modules/" "error.js" "test/" "error/")
+
+ ("/home/tyan/linaro/CoffeeClub/" (21905 61524 0 0) "front/" ".bowerrc" "design/" "../" ".editorconfig" "./" "backend/" ".jshintrc" ".gitignore" ".git/" "README.md")
+
+ ("/home/tyan/linaro/Cola/components/cola/js/" (21905 4455 0 0) "announcement.js" "../" "./" "collapse.js" "nav.js" "observer.js" "event.js" "hamburger.js" "dialogs.js" "scrollspy.js" "cola.js" "waves.js")
+
+ ("/home/tyan/linaro/Cola/app/components/" (21849 34704 0 0) "angular-ui-router/" "angular-animate/" "jquery/" "../" "./" "angular/")
+
+ ("/home/tyan/linaro/Cola/" (21905 26410 0 0) "package.json" "scss/" ".bowerrc" "_site/" "../" "./" "bower.json" "app/" "dist/" "components/" "gulpfile.js" ".gitignore" ".git/" "node_modules/" "README.md" "test/" "gulp_templates/" ".jscsrc")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/" (21905 19778 0 0) "js/" "icons/" "crossdomain.xml" "favicon.ico" "robots.txt" "templates/" "404.html" "css/" "../" "index.html" "./" "font-awesome-4.3.0/" "bower.json" "apple-touch-icon.png" "tile.png" "humans.txt" "bower_components/" "img/" "font/" ".gitignore" "tile-wide.png" "icon/" "browserconfig.xml")
+
+ ("/home/tyan/linaro/Cola/app/img/" (21895 47721 0 0) "item-card.jpg" "color-palettes/" "circle-card1.jpg" "list-t2.jpg" "list-t4.jpg" "card-i-1.jpg" "card3.jpg" "card-r-1.jpg" "card-p-2.jpg" "../" "./" "list-t3.jpg" "card-p-3.jpg" "list-t1.jpg" "cola_logo.png" "card1.jpg" "card-c-3.jpg" "card-p-1.jpg" "card2.jpg" "card-c-1.jpeg" "card-c-2.jpg" "tarot/")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/templates/" (21905 19207 0 0) "order.html" "csignup.html" "signin.html" "logout.html" "building.html" "home.html" "forum.html" "dash.html" "profile.html" "signup.html" "login.html" "blogs/" "404.html" "newPost.html" "../" "demoblogarticle.html" "./" "editor.html" "blogarticle.html" "wikiarticle.html" "blog.html" "tabs.html" "coffeelogin.html" "widget/" "shop.html" "articles.html" "wiki.html")
+
+ ("/home/tyan/linaro/Cola/components/cola/scss/cola/mixins/" (21896 16250 0 0) "_padding.scss" "_shadow.scss" "_placeholder.scss" "_grid.scss" "../" "./" "_center-block.scss" "_position.scss" "_transform.scss" "_clearfix.scss" "_border.scss" "_responsive-visibility.scss" "_radius.scss" "_scale.scss" "_transition.scss" "_margin.scss" "_grid-framework.scss")
+
+ ("/home/tyan/linaro/Cola/components/" (21851 10849 0 0) "font-awesome/" "cola/" "../" "./" "foundation/" "bootstrap/")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/js/controller/" (21905 16664 0 0) "home.js" "demo.js" "blog.js" "profile.js" "forum.js" "wiki.js" "shop.js" "siginin.js" "editprofile.js" "newpost.js" "../" "./" "order.js" "login.js" "articles.js" ".tern-port" "clogin.js" "logout.js" "wikiarticle.js" "dash.js" "nav.js" "blogarticles.js" "signup.js" "editor.js")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/js/directive/" (21905 11364 0 0) "checkUsername.js" "../" "./" "hamburger.js" "navUnderline.js" "checkemail.js" "passwordVerify.js" "ngPin.js" "equals.js")
+
+ ("/home/tyan/linaro/CoffeeClub/front/scss/" (21905 3722 0 0) "../" "./" "app.scss")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/angular-touch/" (21905 3207 0 0) "package.json" "angular-touch.js" ".bower.json" "angular-touch.min.js.map" "angular-touch.min.js" "index.js" "../" "./" "bower.json" "README.md")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/" (21905 3207 0 0) "angular-ui-router/" "font-awesome/" "textAngular/" "angular-animate/" "jquery/" "../" "./" "rangy/" "angular-image-crop/" "bootstrap-css-only/" "angular-route/" "fastclick/" "angular-bootstrap/" "angular/" "angular-touch/" "ng-img-crop/" "bootstrap/" "angular-cookies/")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/fastclick/lib/" (21702 44869 0 0) "fastclick.js" "../" "./")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/fastclick/" (21905 1553 0 0) ".bower.json" "../" "./" "bower.json" "LICENSE" "lib/" "README.md")
+
+ ("/home/tyan/linaro/Cola/components/bootstrap/stylesheets/" (21848 31261 0 0) "bootstrap.scss" "_bootstrap-mincer.scss" "_bootstrap-compass.scss" "_bootstrap-sprockets.scss" "../" "./" "bootstrap/")
+
+ ("/home/tyan/linaro/Cola/components/bootstrap/" (21840 59368 0 0) "fonts/" "../" "./" "stylesheets/" "images/" "javascripts/")
+
+ ("/home/tyan/.emacs.d/users/" (21801 62883 221239 666000) "magnars/" "christian/" "./" "tyan/" "fimasvee/" "../")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/migrations/sqls/" (21900 19378 0 0) "20150625171250-add-product-down.sql" "20150503123410-add-coffeer-up.sql" "20150625175547-add-wiki-down.sql" "../" "./" "20150625175547-add-wiki-up.sql" "20150504043347-add-article-up.sql" "20150504043347-add-article-down.sql" "20150625171250-add-product-up.sql" "20150503123410-add-coffeer-down.sql" "20150625175258-add-blogcomment-up.sql" "20150625175258-add-blogcomment-down.sql" ".#20150625175547-add-wiki-up.sql")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/routes/" (21900 19244 0 0) "wiki.js" "article.js" "../" "./" "captcha.js" "product.js" ".tern-port" "coffeer.js" "helper.js" "error.js" "test.js")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/error/" (21900 17695 0 0) "loginError.js" "captchaError.js" "../" "./")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/models/" (21900 18380 0 0) "blogcomment.js" "wiki.js" "article.js" "../" "./" "product.js" "coffeer.js")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/services/" (21864 43061 0 0) "markpost.js" "friend.js" "./" "../" "user.js")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/routes/" (21900 18396 0 0) "helper.js" "markpost.js" ".tern-port" "friend.js" "manager.js" "./" "test.js" "../" "api.js" "user.js")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/models/" (21900 17987 0 0) "markpost.js" "usersetting.js" "userinfomation.js" "friends.js" "userlimit.js" "userfriendinfo.js" "markpost_comment.js" "./" ".#friends.js" "friend_request.js" "../" "#friends.js#" "userdetail.js" "user.js")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/ReserveServer/" (21868 26363 0 0) "utils/" "auth/" "setting.js" "db.js" "models/" "routes/" "services/" "socket/" "database/" "cert/" "cache/" "sql/" "node_modules/" "logger.js" "web-host" "app.js" "./" "somefile.log" ".gitignore" "templates/" "collection/" "../" "package.json" "test/" "upload/")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/SERVER/" (21848 42910 0 0) "WuhanCoordinate.data" "BB/" "python_env/" "./" ".gitignore" "ReserveServer-x/" "ReserveServer/" "../" "editconfig.json" "db_script/")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/" (21899 62261 0 0) "My-Shell/" "OCRServer/" "lost+found/" "captcha/" "angular.js/" "HappyBird-ChatRoom/" "Art-Daily/" "phantomjs-2.0.0/" "mobile-boilerplate/" "bootstrap/" "bootstrap-sass/" "autojump/" "TyanDataStructrue-Algorithm/" "vim/" "./" "jquery/" "Aero-Map/" "Guess-Game/" "package/" "redis-2.8.19/" "Font-Awesome-3.2.1/" "../")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/migrations/" (21900 16600 0 0) "20150625175258-add-blogcomment.js" "sqls/" "20150625171250-add-product.js" "20150503123410-add-coffeer.js" "../" "./" "data/" "user/" "20150625175547-add-wiki.js" "20150504043347-add-article.js")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/migrations/user/" (21900 16601 0 0) "../" "./" "create.sql")
+
+ ("/home/tyan/linaro/CoffeeClub/backend/migrations/data/" (21900 15945 0 0) "product.sql" "../" "./")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/angular-ui-router/" (21835 18761 0 0) ".bower.json" "CONTRIBUTING.md" "api/" "../" "./" "bower.json" "src/" "LICENSE" "release/" "README.md" "CHANGELOG.md")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/controller/" (21898 41546 0 0) "markpost.js" "marker.js" "login.js" "avatar.js" "changepassword.js" "chat.js" "timemap.js" "map.js" "friends.js" "setting.js" "register.js" "message.js" "controllers.js" "reqmsg.js" "profile.js" "usermarkpost.js" "./" "post.js" "comment.js" "../" "searchuser.js" "friendsMap.js" "detail.js" "user.js")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/" (21898 42615 0 0) "controller/" "directive/" "config.js" "factory/" "main.js" "app.js" "service/" "./" "../")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/templates/" (21864 41834 0 0) "login.html" "searchuser.html" "map.html" "message.html" "profile.html" "timemap.html" "markpost.html" "user_markpost.html" "friends.html" "friendsmap.html" "chat.html" "user_detail.html" "./" "reqmsg.html" "../" "avatar.html" "setting.html" "comment.html" "user.html" "post.html" "marker.html" "register.html")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/" (21864 41769 0 0) "font/" "bower_components/" "js/" "npm-debug.log" "img/" "template/" "mypol.pp" "cordova/" "./" "index.html" "templates/" "mypol.te" "../" "css/")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/" (21848 45339 0 0) "www/" "gulpfile.js" "node_modules/" "hooks/" "./" "config.xml" ".gitignore" "../" "scss/")
+
+ ("/home/tyan/linaro/CBLOCALSPACE/Aero-Map/" (21872 20802 0 0) "README.md" "APP-Angular/" "SERVER/" ".git/" "./" ".gitignore" "../")
+
+ ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/angular/" (21894 54158 0 0) "package.json" ".bower.json" "angular.min.js.gzip" "index.js" "angular.min.js" "../" "./" "bower.json" "angular.min.js.map" "angular-csp.css" "angular.js" "README.md")
 
  ("/home/tyan/linaro/LoveTime/front/app/" (21893 258 0 0) "js/" "upload.html" "crossdomain.xml" "favicon.ico" "robots.txt" "scss/" "login.html" "404.html" ".bowerrc" "css/" "../" "index.html" ".editorconfig" "./" "bower.json" "apple-touch-icon.png" "newline.html" "tile.png" "components/" "humans.txt" "img/" "font/" ".gitignore" "tile-wide.png" ".gitattributes" "doc/")
 
  ("/home/tyan/linaro/LoveTime/" (21891 55872 0 0) "front/" "design/" "../" "./" "backend/" ".git/" "README.md")
-
- ("/home/tyan/" (21895 36834 272142 729000) "t/" "DesignBook/" ".plugman/" ".smex-items" ".openvasrc" ".local/" ".mplayer/" "音乐/" ".httpie/" ".gradle/" ".gstreamer-0.10/" ".themes/" ".xsession-errors.old" ".xsession-errors-:0" ".zcompdump-linux-0pwr-5.0.7" ".recentf" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" ".remmina/" ".gnupg/" ".ionic/" ".kde/" "fontconfig/" ".pip/" "IMG/" ".gnome2/" ".zshrc" ".mongorc.js" ".w3af/" "Linaro/" "BAIDU/" ".lesshst" ".subversion/" "record/" ".dbus/" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".face.icon" ".autojump/" ".pgpass" ".shutter/" "VIRTTMEP/" ".kde4/" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".xdg_menu_cache/" ".pulse-cookie" ".rnd" ".python_history" ".grunt-init/" ".zgen/" ".mozilla/" ".ICEauthority" ".gnome/" ".v8flags.3.28.73.tyan.json" ".pki/" ".y2usersettings" ".Xauthority" ".viminfo" ".cordova/" ".marks/" ".meteorsession" "tmp/" "welcome/" ".lein/" ".cask/" ".gtkrc-2.0-kde4" ".zprofile" ".zsh-history-substring-search.zsh" ".bash_history" ".gtkrc-2.0" ".welcome" ".meteor/" "VIRT-VMs/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".zsh-syntax-highlighting.zsh" ".alias" ".esd_auth" ".virt-manager/" "design/" "Gentoo/" ".mission-control/" ".adobe/" ".skel/" "PACKAGE/" ".dia/" ".zcompdump-linux-vo40-5.0.7" ".epiphany" ".goldendict/" ".location.txt" "linaro/" ".emacs.d/" ".mysql/" "WebPicture/" "gpg/" ".zcompdump.zwc" ".y2log" ".python-eggs/" ".zsh-update" ".pyhistory" ".installjammerinfo/" ".android/" ".oh-my-zsh/" ".freerdp/" "视频/" ".zpreztorc" "WORKSPACE/" ".thumbnails/" ".aptitude/" ".aliedit/" ".sunpinyin/" ".gconf/" ".java/" ".zcompdump-OpenSuSE-5.0.7" ".fontconfig/" ".zcompdump-Ubuntu-5.0.2" ".recently-used" ".openyoudao/" ".presage/" "lost+found/" ".gphoto/" "gentoo/" ".gnome2_private/" ".zprezto/" ".zshenv" ".zshrc.pre-oh-my-zsh" ".fonts/" ".dbshell" "USR/" "bcloud_3.7.1-3_all.deb" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".gem/" ".openvas/" ".netrc" ".opera/" "GITHUB/" ".m2/" ".fonts.conf" ".vimrc" ".pulse/" "下载/" ".zcompdump-CrystalKing-5.0.2" "RPI/" ".macromedia/" ".zlogin" "docs/" ".zsh_history" "桌面/" "SDK/" "VPN/" "图片/" ".zcompdump-Ubuntu-5.0.5" "模板/" ".node-gyp/" "video/" ".gimp-2.8/" "PROJECT/" "misc/" ".oh-my-fish/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".zlogout" ".cnpmrc" ".zcompdump" ".compiz/" ".keysnail.js" ".percol.d/" "VirtualBox VMs/" "raspberry/" ".argouml/" ".npm/" "Book/" "../" "./")
 
  ("/home/tyan/linaro/LoveTime/front/app/css/vendor/" (21890 29831 0 0) "foundation-icons.svg" "foundation-icons.css" "fonts.css" "../" "./" "app.css" "foundation-icons.woff" "foundation.css" "mobilelogin.css" "cola.css" "foundation-icons.eot" "normalize.css" "foundation-icons.ttf")
 
@@ -300,10 +464,6 @@
  ("/home/tyan/linaro/LoveTime/front/" (21889 47214 0 0) "package.json" "scss/" ".bowerrc" "../" "./" "bower.json" "app/" "dist/" "gulpfile.js" ".gitignore" "node_modules/" "test/")
 
  ("/home/tyan/linaro/lost+found/" (21758 52873 0 0) "../" "./")
-
- ("/home/tyan/linaro/Cola/app/templates/" (21890 32159 0 0) "font-english-fancy.html" "component-container.html" "component-header.html" "font.html" "color-purple.html" "test-wave.html" "css-helper.html" "component-nav.html" "color-red.html" "#css-link.html#" "color-blue.html" "component.html" "css-typography.html" "dash.html" "color.html" "javascript.html" "css-grid.html" "js-dialogs.html" "color-while.html" "../" "font-english-offical.html" "./" "js-icon-float.html" "font-chinese.html" "#js-progress.html#" "component-icon-button.html" "component-card.html" "color-green.html" "css-form.html" "color-bule.html" "css-button.html" "js-progress.html" "color-yellow.html" "css-label.html" "color-dark.html" "css-link.html" "component-footer.html" "component-list.html" "color-font-palettes.html" "material-color.html" "color-palettes.html" ".#js-progress.html" "component-float-nav.html" "js-tip.html" "css.html" "component-hamburger.html" "component-font-icon-list.html" "test.html" "component-panel.html")
-
- ("/home/tyan/linaro/Cola/" (21890 30226 0 0) "package.json" "scss/" ".bowerrc" "_site/" "../" "./" "bower.json" "app/" "dist/" "components/" "gulpfile.js" ".gitignore" ".git/" "node_modules/" "README.md" "test/" "gulp_templates/" ".jscsrc")
 
  ("/home/tyan/linaro/CoffeeClub/front/app/css/vendor/" (21890 30052 0 0) "fonts.css" "../" "./" "cola.css")
 
@@ -317,8 +477,6 @@
 
  ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/" (21842 65115 0 0) "Rakefile" "README.md" "bootstrap-sass.gemspec" "CONTRIBUTING.md" "Gemfile" "sache.json" "lib/" "composer.json" ".git/" "./" "bower.json" ".gitignore" "templates/" "LICENSE" "../" "assets/" "CHANGELOG.md" ".travis.yml" "package.json" "tasks/" "test/")
 
- ("/home/tyan/linaro/CBLOCALSPACE/" (21889 45767 0 0) "My-Shell/" "OCRServer/" "lost+found/" "captcha/" "HappyBird-ChatRoom/" "Art-Daily/" "phantomjs-2.0.0/" "mobile-boilerplate/" "bootstrap/" "bootstrap-sass/" "autojump/" "TyanDataStructrue-Algorithm/" "vim/" "./" "jquery/" "Aero-Map/" "Guess-Game/" "package/" "redis-2.8.19/" "Font-Awesome-3.2.1/" "../")
-
  ("/home/tyan/linaro/PsychologyDog/" (21889 43099 0 0) "front/" "../" "backent/" "./" ".git/" "README.md")
 
  ("/home/tyan/linaro/PsychologyDog/front/" (21889 46092 0 0) "package.json" ".bowerrc" "../" "./" "app/" "dist/" "gulpfile.js" ".gitignore" "node_modules/" "test/")
@@ -327,145 +485,7 @@
 
  ("/home/tyan/linaro/LoveTime/front/app/js/" (21887 6415 0 0) "main.js" "vendor/" "../" "./" "plugins.js")
 
- ("/home/tyan/linaro/Cola/app/img/" (21889 39723 0 0) "item-card.jpg" "color-palettes/" "list-t2.jpg" "list-t4.jpg" "card-i-1.jpg" "card3.jpg" "card-r-1.jpg" "card-p-2.jpg" "../" "./" "list-t3.jpg" "card-p-3.jpg" "list-t1.jpg" "cola_logo.png" "card1.jpg" "card-c-3.jpg" "card-p-1.jpg" "card2.jpg" "card-c-1.jpeg" "card-c-2.jpg" "tarot/")
-
- ("/home/tyan/linaro/Cola/components/cola/js/" (21889 12602 0 0) "announcement.js" "../" "./" "collapse.js" "nav.js" "observer.js" "event.js" "hamburger.js" "dialogs.js" "scrollspy.js" "cola.js" "waves.js")
-
- ("/home/tyan/.emacs.d/settings/" (21889 7963 606581 188000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-column-marker.el" "setup-shell.el" "setup-company.el" "setup-ruby-mode.el" "setup-syntax-table.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-emmet.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-pretty.el" "setup-autopair.el" "my-misc.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-tern.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-cmd-t.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-indent-guide.el" "setup-jshint.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-wrap-region.el" "setup-highlight.el" "setup-auto-complete.el" "setup-rebind-move.el" "setup-yasnippet.el")
-
- ("/home/tyan/.emacs.d/" (21889 29729 487060 635000) "session.10380c4f8c2a8c3004143357742282591200000028030070" "site-lisp/" "bookmarks" "backups/" "defuns/" ".mc-lists.el" "project-archetypes/" "dictionaries/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" "%backup%~" ".places" "var/" ".cask/" "ido.last" "jshintrc" "session.109d7d823fdb5cb220143439019821730600000033880078" "recentf" "./" "README.md" "snippets/" "themes/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" "session.10a2e5b8b3000143376430800000023380044" "custom.el" "history" "session.10b88946934acdd785143339207024531100000027050071" "init.el" "tramp" "auto-save-list/" "#ido.last#" "url/" ".gitmodules" "../" "session.10862246bcbf3efedd143348470526092600000034330068" "session.1066327f75ce54337b143428583762700800000028830105" "settings/" "users/")
-
- ("/home/tyan/linaro/Cola/app/" (21889 29712 0 0) "js/" "#index.html#" "crossdomain.xml" "favicon.ico" "robots.txt" "templates/" "404.html" "css/" "../" "index.html" "./" "bower.json" "apple-touch-icon.png" "tile.png" "components/" "misc/" "humans.txt" "img/" "font/" ".gitignore" "tile-wide.png" "icon/" "browserconfig.xml" "test.html")
-
  ("/home/tyan/linaro/LoveTime/front/src/css/" (21887 6415 0 0) "vendor/" "../" "./" "app.css" "mobilelogin.css" "main.css")
-
- ("/home/tyan/linaro/LoveTime/front/src/" (21887 6415 0 0) "js/" "crossdomain.xml" "favicon.ico" "robots.txt" "scss/" "mobile_login.html" "404.html" "css/" "../" "index.html" ".editorconfig" "./" "bower.json" "apple-touch-icon.png" "tile.png" "foundation.html" "humans.txt" "img/" ".gitignore" "tile-wide.png" ".gitattributes" "doc/" "browserconfig.xml" "test.html" "upload_avatar.html")
-
- ("/home/tyan/GITHUB/" (21888 22088 771527 395000) "tornado/" "AbyChan.github.io/" "SocialMap/" "jquery/" "Aero-Map/" "My-Shell/" "foundation/" "oh-my-zsh/" "emacs-color-theme-solarized/" "gnome-shell-extensions/" "zsh-history-substring-search/" "html5-boilerplate/" "game/" "css-chassis/" "Art-Daily/" "./" "emacs-color-themes/" "org/" "bootstrap-sass/" "w3af/" "zsh-syntax-highlighting/" "angular-foundation/" "hexo/" "bootstrap/" "angular-leaflet-directive/" "../" "fire-and-ice/" "CoffeeClub/" "vtch99.github.io/")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/" (21889 14230 138430 710000) "_config.yml" ".deploy_git/" ".gitignore" "node_modules/" ".git/" "scaffolds/" "genUrlList.py" "./" "README.md" "db.json" "themes/" "public/" "urlarchive" "../" "CNAME" "source/" "package.json")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/public/" (21888 28017 581044 458000) "page/" "archives/" "tags/" "2015/" "README.html" "404.html" "fancybox/" "index.html" "webfonts/" "js/" "baidusitemap.xml" "./" "2014/" "css/" "../" "sitemap.xml" "demo/" "CNAME" "google281a0d5aa47339e0.html")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/source/_posts/" (21889 11704 902961 741000) "R语言中RMySQL的简单应用.md" "CubieBoard4用Chroot监狱安装Gentoo子系统/" "CubieBoard4用Chroot监狱安装Gentoo子系统.md" "OpenSuSE13-2-安装-oracle-12c.md" "linux下mysql四种启动方式AND烦人的编码.md" "Spring-事务无法回滚.md" "#HTML中的替换与非替换元素.md#" "CSS实现auto高度过渡/" "chrome使用技巧/" "安卓数据线ssh连树莓派（超简单）.md" "python数据采集百度知道.md" "chrome使用技巧.md" "决策树ID3-C4-5详解和python实现与R语言实现比较/" "R语言中RMySQL的简单应用/" "CSS实现auto高度过渡.md" "OpenSuSE13-fcitx无法调用输入法问题.md" "linux下mysql启动报错Can-t-connect-to-local-MySQL-server-through-socket-tmp-mysql-sock-2.md" "安卓数据线ssh连树莓派（超简单）/" "linux二进制安装mysql5-6.md" "OpenSuSE13-fcitx无法调用输入法问题/" "sqoop-job-mapreduce运行失败.md" "linux网络分享杂谈/" "OpenSuSE无法读取OSS源的问题.md" "Emacs中自定义关键字显示/" "树莓派运载Realtek-RTL8188启动hotspot开启wifi（编译驱动）/" "jQuery的one方法简单实现.md" "HTML中的替换与非替换元素.md" "./" "junit4-spring单元测试java-lang-NoClassDefFoundError-org-springframework-core-SpringProperties.md" "前端需不需要OOP.md" ".#HTML中的替换与非替换元素.md" "树莓派运载Realtek-RTL8188启动hotspot开启wifi（编译驱动）.md" "linux网络分享杂谈.md" "把你的用户关进监牢里面-控制ssh登陆自动chroot.md" "../" "jQuery的one方法简单实现/" "sqoop-job-mapreduce运行失败/" "把你的用户关进监牢里面-控制ssh登陆自动chroot/" "决策树ID3-C4-5详解和python实现与R语言实现比较.md" "Emacs中自定义关键字显示.md" "HTML中的替换与非替换元素/")
-
- ("/home/tyan/linaro/Cola/app/js/lib/" (21877 52512 0 0) "../" "./" "min/" "cola.js")
-
- ("/home/tyan/linaro/Cola/app/js/" (21879 57910 0 0) "directive/" "app.js" "main.js" "vendor/" "#app.js#" "../" "./" "plugins.js" "lib/" "controllers.js")
-
- ("/home/tyan/linaro/Cola/components/cola/amd/" (21885 28703 0 0) "core.js" "announcement.js" "../" "./" "cola.js")
-
- ("/home/tyan/linaro/Cola/dist/" (21885 28015 0 0) "../" "./" "cola.js")
-
- ("/home/tyan/linaro/Cola/components/cola/" (21885 26763 0 0) "js/" "scss/" "../" "./" "output/" "amd/")
-
- ("/home/tyan/GITHUB/jquery/build/tasks/" (21885 27221 70814 213000) "install_jsdom.js" "node_smoke_tests.js" "lib/" "promises_aplus_tests.js" "./" "sourcemap.js" "testswarm.js" "build.js" "dist.js" "../")
-
- ("/home/tyan/GITHUB/jquery/dist/" (21883 3246 520437 525000) ".tern-port" "#jquery.js#" "jquery.min.map" "./" "jquery.min.js" "jquery.js" "../")
-
- ("/home/tyan/GITHUB/jquery/" (21885 24732 126851 914000) ".jscsrc" "TAGS" "external/" "LICENSE.txt" ".travis.yml" "tags" "src/" ".gitignore" "node_modules/" ".git/" "CONTRIBUTING.md" ".jshintignore" ".editorconfig" ".mailmap" "./" "README.md" "dist/" ".gitattributes" "Gruntfile.js" "../" ".npmignore" "test/" ".jshintrc" "build/" "package.json" "AUTHORS.txt")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/source/" (21885 8122 266165 560000) "_posts/" "404.html" "./" "README.md" "../" "demo/" "CNAME" "google281a0d5aa47339e0.html")
-
- ("/home/tyan/RPI/PasswordGenerage/web/" (21880 46144 0 0) "app.py" "./" "../" "static/")
-
- ("/home/tyan/RPI/" (21882 64180 0 0) "Passdict2/" ".gitconfig" "wordlist/" ".oh-my-fish/" "文档/" "PasswordGenerage/" ".w3af/" ".bashrc" ".gvfs/" ".vim/" ".npm/" ".rnd" "./" ".zsh-update" "passdict/" ".ICEauthority" ".local/" ".thumbnails/" ".xsession-errors" ".profile" ".oh-my-zsh/" ".pip/" "namedict/" "../" "模板/" ".gconf/" ".wireshark/" ".ssh/" ".zsh_history" ".Xauthority" ".zcompdump-kali-4.3.17" ".tilda/" "下载/" "node-v0.12.0/" ".gtk-bookmarks" ".zgen/" ".zshrc" "桌面/" ".gstreamer-0.10/" ".zsh_favlist" "公共/" ".vnc/" ".mozilla/" ".dbus/" "音乐/" "ssh_time_attack.py" ".cache/" "视频/" ".config/" "vim/" ".viminfo" ".emacs.d/" ".aptitude/" ".bash_history" "Simple-OCR-Server/" "USB/" ".halberd/" ".msf4/" ".vimrc" "图片/" ".gnome2/" "redis-3.0.1/")
-
- ("/home/tyan/GITHUB/jquery/src/" (21882 47262 652687 446000) "attributes/" "css.js" "effects.js" "core/" "traversing/" "dimensions.js" "queue/" "ajax.js" "event/" "deferred.js" "serialize.js" "traversing.js" "core.js" "effects/" "var/" "exports/" "manipulation.js" "selector-sizzle.js" "queue.js" "outro.js" "./" "callbacks.js" "selector.js" "wrap.js" "data.js" "selector-native.js" "attributes.js" "offset.js" "jquery.js" "ajax/" "css/" "manipulation/" "intro.js" "../" "data/" ".jshintrc" "event.js" "deprecated.js")
-
- ("/home/tyan/GITHUB/jquery/build/" (21882 47072 314680 500000) "release.js" "release/" "./" "tasks/" ".sizecache.json" "../")
-
- ("/home/tyan/GITHUB/jquery/build/release/" (21879 1943 408097 551000) "release-notes.js" "ensure-sizzle.js" "./" "dist.js" "../" "cdn.js")
-
- ("/home/tyan/linaro/CBLOCALSPACE/Guess-Game/" (21862 50762 0 0) ".ropeproject/" ".app.py.swo" "README.md" "venv/" "front/" ".git/" ".app.py.swm" "./" "Procfile" ".gitignore" "screenshot/" "../" "app.pyc" "app.py" "dest/" "requirements.txt" ".app.py.swp" "backend/")
-
- ("/home/tyan/Linaro/" (21808 51387 814967 425000) "./" "../")
-
- ("/home/tyan/RPI/PasswordGenerage/" (21880 43106 0 0) "./" "../" "web/" ".git/" "README.md" "generager/" "shell/" "analysis/")
-
- ("/home/tyan/RPI/PasswordGenerage/web/static/" (21880 45310 0 0) "./" "app.css" "../" "main.js" "index.html" "plugin.js" "cola.css")
-
- ("/home/tyan/linaro/materialize-master/sass/components/" (21881 11123 0 0) "_prefixer.scss" "_table_of_contents.scss" "_forms.scss" "_preloader.scss" "_roboto.scss" "_color.scss" "_grid.scss" "../" "./" "_toast.scss" "_typography.scss" "_buttons.scss" "_slider.scss" "date_picker/" "_tooltip.scss" "_tabs.scss" "_dropdown.scss" "_icons-material-design.scss" "_cards.scss" "_waves.scss" "_global.scss" "_modal.scss" "_sideNav.scss" "_normalize.scss" "_navbar.scss" "_collapsible.scss" "_materialbox.scss" "_mixins.scss" "_variables.scss" "_form.scss")
-
- ("/home/tyan/linaro/materialize-master/sass/" (21853 62186 0 0) "ghpages-materialize.scss" "materialize.scss" "../" "./" "components/" "style.scss")
-
- ("/home/tyan/linaro/materialize-master/" (21853 62186 0 0) "res/" "grid.html" "js/" "collapsible.html" "side-nav.html" "transitions.html" "package.json" "buttons.html" "robots.txt" "cards.html" "icons.html" "templates/" "media.html" "jade/" "navbar.html" "CONTRIBUTING.md" "waves.html" "pagination.html" "color.html" "forms.html" "modals.html" "parallax-demo.html" "parallax.html" "Gruntfile.js" "css/" "../" "index.html" "./" "bower.json" "package.js" "pushpin.html" "shadow.html" "typography.html" "fullscreen-slider-demo.html" "about.html" "dist/" "LICENSE" "tabs.html" "dialogs.html" "getting-started.html" "showcase.html" "preloader.html" "sass/" "footer.html" "mobile.html" "images/" "font/" "scrollspy.html" "collections.html" ".gitignore" "bin/" "badges.html" "CNAME" ".gitattributes" "README.md" "test/" "scrollfire.html" "sass.html" "media-css.html" "dropdown.html" "sitemap.xml" "table.html" "helpers.html" "CHANGELOG.md")
-
- ("/home/tyan/.vim/" (21870 64998 345087 408000) ".git/" ".editorconfig" "./" "README.md" "bundle/" ".netrwhist" "autoload/" "../" ".vimrc")
-
- ("/home/tyan/linaro/Cola/app/js/directive/" (21878 59374 0 0) "../" "./" "hamburger.js")
-
- ("/home/tyan/linaro/Cola/scss/" (21879 53568 0 0) "../" "./" "app.scss")
-
- ("/home/tyan/linaro/Cola/components/bootstrap/stylesheets/bootstrap/" (21849 40907 0 0) "_breadcrumbs.scss" "_media.scss" "_pagination.scss" "_forms.scss" "_theme.scss" "_responsive-embed.scss" "_panels.scss" "_glyphicons.scss" "_responsive-utilities.scss" "_alerts.scss" "_labels.scss" "_grid.scss" "../" "./" "_popovers.scss" "_thumbnails.scss" "_scaffolding.scss" "_buttons.scss" "_button-groups.scss" "_pager.scss" "_type.scss" "_tooltip.scss" "_modals.scss" "mixins/" "_jumbotron.scss" "_wells.scss" "_input-groups.scss" "_carousel.scss" "_print.scss" "_close.scss" "_component-animations.scss" "_dropdowns.scss" "_badges.scss" "_normalize.scss" "_navbar.scss" "_tables.scss" "_list-group.scss" "_mixins.scss" "_variables.scss" "_navs.scss" "_progress-bars.scss" "_code.scss" "_utilities.scss")
-
- ("/home/tyan/linaro/Cola/app/css/" (21869 53394 0 0) "font-awesome-ie7.css" "cola/" "font-awesome.css" "fonts.css" "../" "./" "app.css" "bootstrap.css" "foundation.css" "cola.css" "main.css" "normalize.css" "helper.css")
-
- ("/home/tyan/linaro/CoffeeClub/front/scss/" (21846 755 0 0) "_function.scss" "profile.scss" "login.scss" "editor.scss" "../" "./" "font.scss" "app.scss" "articles.scss" "signin.scss")
-
- ("/home/tyan/linaro/CoffeeClub/front/" (21835 21409 0 0) "package.json" "scss/" "../" "./" "app/" "components/" "gulpfile.js" ".gitignore" "node_modules/" "README.md" "test/")
-
- ("/home/tyan/linaro/Cola/components/font-awesome/" (21869 53892 0 0) "_extras.scss" "../" "./" "_path.scss" "font-awesome.scss" "_bootstrap.scss" "_icons.scss" "font-awesome-ie7.scss" "_core.scss" "_mixins.scss" "_variables.scss")
-
- ("/home/tyan/linaro/Cola/components/" (21851 10849 0 0) "font-awesome/" "cola/" "../" "./" "foundation/" "bootstrap/")
-
- ("/home/tyan/linaro/Cola/app/components/" (21849 34704 0 0) "angular-ui-router/" "angular-animate/" "jquery/" "../" "./" "angular/")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/routes/" (21855 5287 838825 426000) "user.js" "friend.js" "helper.js" "./" "test.js" "api.js" "manager.js" "markpost.js" "../")
-
- ("/home/tyan/.emacs.d/users/tyan/" (21868 35874 328503 561000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "#sadas.js#" "travel-mode.el")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/" (21856 27692 20809 190000) "upload/" "somefile.log" "database/" "sql/" "socket/" "routes/" ".gitignore" "node_modules/" "setting.js" "cert/" "auth/" "templates/" "utils/" "./" "db.js" "collection/" "app.js" "models/" "../" "services/" "test/" "logger.js" "cache/" "package.json")
-
- ("/home/tyan/GITHUB/org/toRead/2015/May/" (21854 58584 300072 609000) "./" "book.rog" "../")
-
- ("/home/tyan/GITHUB/org/plan/2015/June/" (21854 5740 695401 923000) "first.org" "./" "../")
-
- ("/home/" (21857 16280 244000 259000) "tryan/" "dogkiller/" "./" "tyan/" "aby/" "lost+found/" "../")
-
- ("/home/tyan/GITHUB/org/target/" (21863 15590 47298 187000) "./" "../" "email.org")
-
- ("/home/tyan/GITHUB/org/daily/2015/May/" (21861 49486 475903 760000) "24.org" "25.org" "./" "27.org" "../" "26.org")
-
- ("/home/tyan/GITHUB/org/daily/2015/" (21858 291 883086 552000) "May/" "./" "../")
-
- ("/home/tyan/GITHUB/org/daily/" (21858 291 864086 553000) "2015/" "./" "../")
-
- ("/home/tyan/GITHUB/org/" (21858 1858 196016 719000) "toRead/" "record/" ".git/" "project_thinking/" "./" "plan/" "daily/" "../")
-
- ("/home/tyan/GITHUB/org/plan/2015/" (21853 61039 338002 307000) "June/" "May/" "./" "../")
-
- ("/home/tyan/GITHUB/org/project_thinking/2015/" (21853 29924 973623 571000) "./" "../" "thinking.org")
-
- ("/home/tyan/GITHUB/org/plan/2015/May/" (21849 34422 622599 981000) "second.org" "./" "fourth.org" "../" "third.org")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/www/" (21851 28639 750672 836000) "mypol.te" "templates/" "index.html" "img/" "js/" "./" "cordova/" "font/" "css/" "../" "bower_components/" "template/" "npm-debug.log" "mypol.pp")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/services/" (21851 28551 829598 938000) "user.js" "friend.js" "./" "markpost.js" "../")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/www/js/" (21851 28241 658807 912000) "service/" "main.js" "config.js" "controller/" "./" "factory/" "directive/" "app.js" "../")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/www/templates/" (21851 28191 720201 529000) "friends.html" "post.html" "chat.html" "user_detail.html" "map.html" "markpost.html" "login.html" "reqmsg.html" "setting.html" "avatar.html" "marker.html" "friendsmap.html" "comment.html" "user_markpost.html" "./" "changepassword.html" "searchuser.html" "user.html" "message.html" "timemap.html" "../" "profile.html" "register.html")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/www/js/controller/" (21851 28152 227721 949000) "map.js" "chat.js" "user.js" "friendsMap.js" "usermarkpost.js" "controllers.js" "setting.js" "friends.js" "timemap.js" "reqmsg.js" "./" "register.js" "message.js" "comment.js" "profile.js" "markpost.js" "changepassword.js" "searchuser.js" "../" "avatar.js" "login.js" "marker.js" "detail.js" "post.js")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/ReserveServer/auth/" (21827 29373 903432 846000) "passport.js" "./" "../")
-
- ("/home/tyan/GITHUB/Aero-Map/SERVER/" (21850 2814 440303 452000) "ReserveServer/" ".gitignore" "db_script/" "./" "BB/" "../" "WuhanCoordinate.data" "editconfig.json" "ReserveServer-x/")
-
- ("/home/tyan/GITHUB/Aero-Map/" (21850 2816 714331 148000) ".gitignore" ".git/" "SERVER/" "./" "APP-Angular/" "README.md" "APP-Angular-X/" "../" "WWW/")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/www/js/directive/" (21844 58728 21093 165000) "passwordVerify.js" "equals.js" "./" "directive/" "../" "marker.js")
-
- ("/home/tyan/GITHUB/org/project_thinking/" (21842 11449 621489 540000) "2015/" "./" "../")
-
- ("/home/tyan/GITHUB/Aero-Map/APP-Angular/scss/" (21847 34725 418958 468000) "app.scss" "./" "../")
-
- ("/home/tyan/WORKSPACE/V76 by Vaughn - Customer Login_files/" (21839 33974 394247 501000) "effects.js" "captcha.js" "b5f3cd9769" "controls.js" "cookies.js" "nr-632.js" "dragdrop.js" "widgets.css" "menu.js" "js.js" "builder.js" "prototype.js" "slider.js" "./" "analytics.js" "scripts.js" "form.js" "ccard.js" "jquery.js" "fonts.html" "catalogevent.js" "../" "mirasvit_searchindex.css" "translate.js" "validation.js" "styles.css" "style.css" "wishlist.js")
-
- ("/home/tyan/WORKSPACE/" (21839 32403 325931 194000) "Stickaroo | Welcome :)_files/" "simple-todos/" "chat/" "M.A BEAT!.html" "011_yes-2-128.png" "my-project/" "M.A BEAT!_files/" "./" "V76 by Vaughn - Customer Login.html" "Stickaroo | Welcome :).html" "hello/" "myApp/" "V76 by Vaughn - Customer Login_files/" "DeadWater - Direction artistique & Développement web.html" "DeadWater - Direction artistique & Développement web_files/" "../" "assemble/" "youdao-dict-0.1.0_all.deb" "virtualbox.repo")
-
- ("/home/tyan/GITHUB/org/plan/" (21836 58413 967465 489000) "2015/" "./" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----
