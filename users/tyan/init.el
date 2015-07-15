@@ -55,6 +55,7 @@
 (require 'setup-pretty)
 (require 'setup-emmet)
 (require 'setup-cmd-t)
+(require 'setup-python)
 (require 'setup-wrap-region)
 (require 'setup-syntax-table)
 
@@ -97,5 +98,6 @@
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
-(set-frame-parameter (selected-frame) 'alpha '(89 89))
-(add-to-list 'default-frame-alist '(alpha 89 89))
+
+(set-frame-parameter (selected-frame) 'alpha '(88 88))
+(add-to-list 'default-frame-alist '(alpha 88 88))
