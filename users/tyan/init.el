@@ -48,8 +48,8 @@
 (require 'sass-mode)
 (require 'setup-jshint)
 (require 'setup-highlight)
-(require 'setup-column-marker)
-;;(require 'setup-indent-guide) ;;keybind confim with js2-refactor
+;;(require 'setup-column-marker) ;;keybind confim with js2-refactor
+(require 'setup-indent-guide) 
 ;;ready in site-lisp
 ;;(require 'setup-tern)
 (require 'setup-pretty)
