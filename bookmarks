@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("localcola"
+(("index.html"
+ (filename . "~/linaro/Cola/app/index.html")
+ (front-context-string . "<!doctype html>\n")
+ (rear-context-string)
+ (position . 1))
+("localcola"
  (filename . "~/linaro/Cola/app/index.html")
  (front-context-string . "<html class=\"no-")
  (rear-context-string . "<!doctype html>\n")

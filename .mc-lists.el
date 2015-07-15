@@ -11,6 +11,7 @@
         js3-mode-show-node
         kill-region-or-backward-word
         previous-buffer
+        save-region-or-current-line
         subword-left
         subword-right
         tagedit-insert-equal

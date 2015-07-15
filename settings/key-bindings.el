@@ -3,7 +3,7 @@
 (global-set-key (kbd "C-c C-a") 'anything)
 
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
-(global-set-key (kbd "C-x C-c c") 'delete-frame)
+(global-set-key (kbd "C-x c c") 'delete-frame)
 
 ;; Completion that uses many different methods to find options.
 (global-set-key (kbd "C-.") 'hippie-expand-no-case-fold)

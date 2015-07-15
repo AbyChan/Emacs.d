@@ -49,7 +49,7 @@
 (require 'setup-jshint)
 (require 'setup-highlight)
 (require 'setup-column-marker)
-(require 'setup-indent-guide)
+;;(require 'setup-indent-guide) ;;keybind confim with js2-refactor
 ;;ready in site-lisp
 ;;(require 'setup-tern)
 (require 'setup-pretty)
@@ -92,7 +92,10 @@
     ))
 
 
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
+
+(set-frame-parameter (selected-frame) 'alpha '(89 89))
+(add-to-list 'default-frame-alist '(alpha 89 89))
