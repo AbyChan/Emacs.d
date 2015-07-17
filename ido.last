@@ -1,0 +1,102 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/usr/local/lib/node_modules/fis/node_modules/" . "fis-kernel/")
+ ("/usr/local/lib/node_modules/fis/" . "node_modules/")
+ ("/home/aby/.emacs.d/users/" . "aby/")
+ ("/home/aby/.emacs.d/snippets/" . "js2-mode/")
+ ("/home/aby/.emacs.d/" . "users/")
+ ("/home/aby/MeizuDemo2/i18n-www/common/page/" . "index/")
+ ("/home/aby/MeizuDemo2/i18n-www/common/" . "page/")
+ ("/home/aby/MeizuDemo2/i18n-www/" . "common/")
+ ("/home/aby/MeizuDemo2/" . "i18n-www/")
+ ("/home/aby/MeizuDemo/i18n-www/common/page/" . "index/")
+ ("/home/aby/MeizuDemo/i18n-www/common/" . "page/")
+ ("/home/aby/MeizuDemo/i18n-www/" . "common/")
+ ("/home/aby/MeizuDemo/" . "i18n-www/")
+ ("/home/aby/" . "fis-command-i18n/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/usr/local/lib/node_modules/fis/node_modules/fis-kernel/"
+ "/home/aby/fis-command-i18n/"
+ "/home/aby/.emacs.d/users/aby/"
+ "/home/aby/"
+ "/home/aby/.emacs.d/snippets/js2-mode/"
+ "/home/aby/fis-command-server-master/"
+ "/home/aby/MeizuDemo2/i18n-www/"
+ "/home/aby/MeizuDemo2/i18n-www/common/page/"
+ "/home/aby/MeizuDemo2/i18n-www/common/page/index/"
+ "/home/aby/MeizuDemo2/i18n-www/common/"
+ "/home/aby/MeizuDemo/i18n-www/"
+ "/home/aby/MeizuDemo/"
+ "/home/aby/MeizuDemo/i18n-www/common/page/index/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "fis-kernel.js"
+ "package.json"
+ "i18n.js"
+ ".jshintrc"
+ "init.el"
+ ".emacs.d.zip"
+ "switch.yasnippet"
+ "server.js"
+ "config.json"
+ "layout_default.tpl"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/usr/local/lib/node_modules/fis/node_modules/fis-kernel/" (21923 29851 453506 371000) "node_modules/" "./" "../" "README.md" "lib/" "fis-kernel.js" "package.json" ".npmignore" "LICENSE.md")
+
+ ("/usr/local/lib/node_modules/fis/node_modules/" (21924 49360 305917 888000) "fis-optimizer-clean-css/" "fis-packager-map/" "fis-deploy-default/" "fis-command-server/" "fis-optimizer-png-compressor/" "colors/" "./" "fis-spriter-csssprites/" "../" "commander/" "fis-preprocessor-components/" "fis-optimizer-uglify-js/" "fis-command-release/" "fis-prepackager-derived/" "fis-command-i18n/" "fis-kernel/" "fis-command-install/" "fis-postprocessor-jswrapper/")
+
+ ("/usr/local/lib/node_modules/fis/" (21923 29843 653408 238000) "CHANGELOG.md" "node_modules/" ".gitmodules" "./" "../" "README.md" "bin/" "fis.js" "package.json" ".npmignore" "LICENSE.md")
+
+ ("/home/aby/fis-command-i18n/" (21927 3440 37825 238000) ".tern-port" ".jshintrc" "./" "../" "#i18n.js#" "lib/" "package.json" "i18n.js" ".git/")
+
+ ("/home/aby/" (21927 3508 17826 908000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".fonts/" ".local/" ".ssh/" "./" "MeizuDemo2/" "../" "Downloads/" ".php-linux/" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" ".pki/" ".zsh_history" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" ".gconf/" "examples.desktop" ".dmrc" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".smex-items" ".gnupg/" "Pictures/")
+
+ ("/home/aby/.emacs.d/" (21927 3474 509826 85000) ".gitignore" "npm-debug.log" "dictionaries/" ".places" "session.1066327f75ce54337b143428583762700800000028830105" "session.109d7d823fdb5cb220143439019821730600000033880078" "defuns/" ".mc-lists.el" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "session.10a2e5b8b3000143376430800000023380044" ".gitmodules" "ac-comphist.dat" "./" "../" "README.md" "session.107a63e790c86c225c143460802537543500000034690070" "ido.last" "settings/" "elpa/" "#ido.last#" "snippets/" "recentf" "custom.el" "%backup%~" "site-lisp/" "history" "bookmarks" "session.10380c4f8c2a8c3004143357742282591200000028030070" "users/" "init.el" "var/" "project-archetypes/" "backups/" "session.10862246bcbf3efedd143348470526092600000034330068" "themes/" "auto-save-list/" "tramp" "session.10b88946934acdd785143339207024531100000027050071" "url/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" ".git/")
+
+ ("/home/aby/.emacs.d/settings/" (21927 3336 365822 690000) "setup-auto-complete.el" "setup-ruby-mode.el" "setup-markdown-mode.el" "setup-dired.el" "mode-mappings.el" "setup-tern.el" "setup-jshint-mode.el" "setup-emmet.el" "setup-skewer.el" "setup-highlight.el" "setup-html-mode.el" "setup-shell.el" "setup-yesqlg.el" "setup-hippie.el" "setup-jshint.el" "appearance.el" "key-bindings.el" "setup-magit.el" "./" "../" "setup-flycheck.el" "setup-paredit.el" "setup-syntax-table.el" "setup-rebind-move.el" "my-misc.el" "setup-perspective.el" "setup-web-beautify.el" "setup-ffip.el" "sane-defaults.el" "setup-sr-speedbar.el" "setup-rgrep.el" "setup-python.el" "setup-indent-guide.el" "setup-elnode.el" "setup-org.el" "setup-cmd-t.el" "setup-clojure-mode.el" "setup-company.el" "setup-package.el" "setup-web-mode.el" "setup-autopair.el" "mac.el" "setup-wrap-region.el" "setup-pretty.el" "setup-ido.el" "setup-column-marker.el" "setup-yasnippet.el" "setup-js2-mode.el")
+
+ ("/home/aby/.emacs.d/users/aby/" (21925 47894 216993 901000) "my-defuns.el" "./" "../" "#sadas.js#" "travel-mode.el" "js2r-keys.el" "custom.el" "init.el" "project-mappings.el")
+
+ ("/home/aby/.emacs.d/users/" (21923 30420 866482 174000) "christian/" "./" "../" "tyan/" "aby/" "magnars/" "fimasvee/")
+
+ ("/home/aby/.emacs.d/snippets/js2-mode/" (21909 24499 570813 0) "mod.yasnippet" "slice.yasnippet" "log" "wh.yasnippet" "el" "throw.yasnippet" "id.yasnippet" "exports.yasnippet" "for" "com" "cb.yasnippet" "us.yasnippet" "prop.yasnippet" "invoc.yasnippet" "req.json" "ev.fire" "./" "../" "switch.yasnippet" "log.yasnippet" "rq.yasnippet" "rt.yasnippet" "f" "al" "ev.add" "super.yasnippet" "while.yasnippet" "it.yasnippet" "method.yasnippet" "if.yasnippet" "try.yasnippet" "fn.yasnippet" "assert.yasnippet" "def" "var.yasnippet" "each" "for.yasnippet" "proto.yasnippet" "describe.yasnippet" "class" "com.yasnippet" "expect.yasnippet" "init" "req.html" "if" ".yas-parents")
+
+ ("/home/aby/.emacs.d/snippets/" (21909 24499 818813 0) "clojure-mode/" "udev-mode/" "antlr-mode/" "lisp-interaction-mode/" "groovy-mode/" "snippet-mode/" "c-mode/" "latex-mode/" "applescript-mode/" "scala-mode/" "org-mode/" "nxml-mode/" "yaml-mode/" "m4-mode/" "f90-mode/" "css-mode/" "cpp-omnet-mode/" "nsis-mode/" "js2-mode/" "lua-mode/" "prog-mode/" "cmake-mode/" "feature-mode/" "ruby-mode/" "enh-ruby-mode" "makefile-mode/" "./" "LICENSE" "../" "README.md" "perl-mode/" "octave-mode/" "cperl-mode/" "erlang-mode/" "chef-mode/" "js-mode/" "ensime-mode" "python-mode/" "java-mode/" "sh-mode/" "html-mode/" "typerex-mode" "markdown-mode/" "ned-mode/" "js3-mode/" "git-commit-mode/" "conf-unix-mode/" "csharp-mode/" "rename_add_contr.py" "CONTRIBUTORS.txt" "php-mode/" "emacs-lisp-mode/" "makefile-gmake-mode/" "sql-mode/" "rst-mode/" "c++-mode/" "nesc-mode/" "haskell-mode/" "makefile-automake-mode/" "fundamental-mode/" "cc-mode/" "erc-mode/" "tuareg-mode/" "text-mode/" "crappy-jsp-mode/" "go-mode/" "makefile-bsdmake-mode/")
+
+ ("/home/aby/fis-command-server-master/" (21924 50437 873944 367000) ".gitignore" "./" "../" "README.md" "lib/" "package.json" "fis.keystore" "server.js" "src/" ".npmignore" "LICENSE.md")
+
+ ("/home/aby/MeizuDemo2/i18n-www/" (21925 64937 261412 695000) "hk/" "_hk/" "common/" "./" "../" "config.json" "php-linux/" ".DS_Store")
+
+ ("/home/aby/MeizuDemo2/i18n-www/common/page/index/" (21918 12838 0 0) "./" "../" "index.tpl")
+
+ ("/home/aby/MeizuDemo2/i18n-www/common/page/" (21919 31878 0 0) "layout_default.tpl" "index/" "about/" "./" "../" "layout_base.tpl" "others/" "products/" ".DS_Store")
+
+ ("/home/aby/MeizuDemo2/i18n-www/common/" (21925 61667 569332 350000) "static/" "widget/" "test/" "components/" "./" "../" "server.conf" "smarty.conf" "message.po" "lang/" "fis-conf.js" "plugin/" "page/" ".DS_Store")
+
+ ("/home/aby/MeizuDemo2/" (21925 52802 105114 501000) "./" "../" "i18n-www/")
+
+ ("/home/aby/MeizuDemo/i18n-www/" (21925 51941 409093 352000) "hk/" "_hk/" "common/" "./" "../" "config.json" "en/" "package.json" ".DS_Store")
+
+ ("/usr/share/applications/" (21925 51245 889076 261000) "baobab.desktop" "bamf-2.index" "unitywebappsqmllauncher.desktop" "gnome-sudoku.desktop" "compiz.desktop" "im-config.desktop" "activity-log-manager.desktop" "unity-region-panel.desktop" "gnome-power-statistics.desktop" "yelp.desktop" "vino-preferences.desktop" "onboard-settings.desktop" "libreoffice-math.desktop" "gnome-disk-image-writer.desktop" "hplj1020.desktop" "unity-power-panel.desktop" "python3.4.desktop" "debian-uxterm.desktop" "thunderbird.desktop" "google-chrome.desktop" "gnome-contacts.desktop" "gedit.desktop" "openjdk-8-java.desktop" "python2.7.desktop" "libreoffice-draw.desktop" "file-roller.desktop" "session-properties.desktop" "libreoffice-xsltfilter.desktop" "language-selector.desktop" "nautilus-home.desktop" "empathy.desktop" "signon-ui.desktop" "software-properties-gnome.desktop" "libreoffice-calc.desktop" "libreoffice-startcenter.desktop" "nm-connection-editor.desktop" "unity-info-panel.desktop" "cheese.desktop" "update-manager.desktop" "unity-mouse-panel.desktop" "gnome-system-monitor-kde.desktop" "unity-screen-panel.desktop" "orca.desktop" "remmina.desktop" "brasero.desktop" "gnome-font-viewer.desktop" "nautilus.desktop" "sublime_text.desktop" "transmission-gtk.desktop" "gucharmap.desktop" "deja-dup-preferences.desktop" "seahorse.desktop" "unity-color-panel.desktop" "bluetooth-wizard.desktop" "apport-gtk.desktop" "unity-universal-access-panel.desktop" "rhythmbox.desktop" "eog.desktop" "deja-dup.desktop" "webbrowser-app.desktop" "unity-credentials-panel.desktop" "gnome-deja-dup-panel.desktop" "gnome-system-log.desktop" "gkbd-keyboard-display.desktop" "software-properties-drivers.desktop" "gnome-user-share-properties.desktop" "credentials-preferences.desktop" "shotwell-viewer.desktop" "nm-applet.desktop" "gnome-mines.desktop" "gnome-screenshot.desktop" "software-properties-gtk.desktop" "nautilus-autorun-software.desktop" "unity-network-panel.desktop" "simple-scan.desktop" "libreoffice-impress.desktop" "nautilus-classic.desktop" "update-accounts.desktop" "display.im6.desktop" "evince-previewer.desktop" "gnome-system-monitor.desktop" "unity-bluetooth-panel.desktop" "sol.desktop" "ubuntu-amazon-default.desktop" "firefox.desktop" "ibus-setup-bopomofo.desktop" "usb-creator-gtk.desktop" "totem.desktop" "rhythmbox-device.desktop" "debian-xterm.desktop" "landscape-client-settings.desktop" "unity-user-accounts-panel.desktop" "xdiagnose.desktop" "checkbox-gui.desktop" "evolution-data-server-uoa.desktop" "unity-scope-gdrive.desktop" "ibus-setup.desktop" "defaults.list" "libreoffice-writer.desktop" "unity-wacom-panel.desktop" "gnome-mahjongg.desktop" "unity-datetime-panel.desktop" "onboard.desktop" "bluetooth-sendto.desktop" "gcr-prompter.desktop" "apturl.desktop" "brasero-nautilus.desktop" "gnome-terminal.desktop" "unity-sound-panel.desktop" "gcr-viewer.desktop" "unity-control-center.desktop" "mount-archive.desktop" "unity-appearance-panel.desktop" "unity-keyboard-panel.desktop" "openjdk-8-policytool.desktop" "shotwell.desktop" "gnome-disk-image-mounter.desktop" "nautilus-folder-handler.desktop" "nautilus-connect-server.desktop" "gcalctool.desktop" "unity-display-panel.desktop" "ibus-setup-pinyin.desktop" "system-config-printer.desktop" "unity-deja-dup-panel.desktop" "unity-lens-photos.desktop" "evince.desktop" "mimeinfo.cache" "gnome-disks.desktop" "ubuntu-software-center.desktop" "unity-activity-log-manager-panel.desktop" "../" "./")
+
+ ("/home/aby/MeizuDemo/i18n-www/common/page/index/" (21918 12838 0 0) "./" "../" "index.tpl")
+
+ ("/home/aby/MeizuDemo/i18n-www/common/page/" (21919 31878 0 0) "layout_default.tpl" "index/" "about/" "./" "../" "layout_base.tpl" "others/" "products/" ".DS_Store")
+
+ ("/home/aby/MeizuDemo/i18n-www/common/" (21924 54577 438046 88000) "static/" "widget/" "test/" "components/" "./" "../" "server.conf" "smarty.conf" "message.po" "lang/" "fis-conf.js" "plugin/" "page/" ".DS_Store")
+
+ ("/home/aby/MeizuDemo/" (21925 46939 644970 444000) "work.org" "./" "../" "i18n-www/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

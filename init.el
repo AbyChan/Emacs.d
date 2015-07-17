@@ -123,6 +123,8 @@
 (autoload 'skewer-start "setup-skewer" nil t)
 (autoload 'skewer-demo "setup-skewer" nil t)
 (autoload 'auto-complete-mode "auto-complete" nil t)
+
+;;NOTICE!!! I comment it beacuse js2-mode jshint work not really well
 (eval-after-load 'flycheck '(require 'setup-flycheck))
 
 ;; Map files to modes

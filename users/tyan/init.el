@@ -47,6 +47,7 @@
 (require 'setup-autopair)
 (require 'sass-mode)
 (require 'setup-jshint)
+;;(require 'setup-jshint-mode)
 (require 'setup-highlight)
 ;;(require 'setup-column-marker) ;;keybind confim with js2-refactor
 (require 'setup-indent-guide) 
