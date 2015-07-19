@@ -2,14 +2,19 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tyan/PasswordGenerage/generager/" . "test/")
+ ("/home/tyan/PasswordGenerage/test/" . "data/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/layout/" . "_partial/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/" . "layout/")
+ ("/home/tyan/PasswordGenerage/" . "generager/")
  ("/home/tyan/GITHUB/fis-quickstart-demo/js/" . "common/")
  ("/home/tyan/GITHUB/fis-quickstart-demo/" . "js/")
  ("/home/tyan/GITHUB/AbyChan.github.io/source/hand/" . "index/")
  ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/" . "_partial/")
  ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/" . "layout/")
  ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/" . "_partial/")
- ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/" . "languages/")
- ("/home/tyan/GITHUB/AbyChan.github.io/themes/" . "pacman-master/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/" . "layout/")
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/" . "pacman/")
  ("/home/tyan/linaro/CoffeeClub/front/app/bower_components/fastclick/" . "lib/")
  ("/home/tyan/linaro/Cola/components/bootstrap/stylesheets/" . "bootstrap/")
  ("/home/tyan/linaro/Cola/components/bootstrap/" . "stylesheets/")
@@ -158,7 +163,7 @@
  ("/home/tyan/GITHUB/Aero-Map/APP/www/" . "css/")
  ("/home/tyan/GITHUB/Aero-Map/APP/" . "scss/")
  ("/home/tyan/GITHUB/Aero-Map/" . "APP-Angular/")
- ("/home/tyan/GITHUB/" . "fis-quickstart-demo/")
+ ("/home/tyan/GITHUB/" . "AbyChan.github.io/")
  ("/home/" . "tyan/")
  ("/" . "home/")
  ("/ssh:pi@10.42.0.133:/home/pi/CoffeeClub/front/app/" . "css/")
@@ -220,6 +225,14 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/tyan/.emacs.d/settings/"
+ "/home/tyan/.emacs.d/users/tyan/"
+ "/home/tyan/PasswordGenerage/generager/"
+ "/home/tyan/PasswordGenerage/generager/test/"
+ "/home/tyan/PasswordGenerage/shell/"
+ "/home/tyan/PasswordGenerage/"
+ "/home/tyan/PasswordGenerage/test/data/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/layout/_partial/"
+ "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/"
  "/home/tyan/RPI/PasswordGenerage/shell/"
  "/home/tyan/RPI/PasswordGenerage/test/data/"
  "/home/tyan/GITHUB/fis-quickstart-demo/js/common/"
@@ -231,7 +244,6 @@
  "/home/tyan/GITHUB/AbyChan.github.io/source/hand/"
  "/home/tyan/GITHUB/AbyChan.github.io/scaffolds/"
  "/home/tyan/GITHUB/AbyChan.github.io/source/"
- "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/"
  "/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/_partial/"
  "/home/tyan/GITHUB/AbyChan.github.io/"
  "/home/tyan/linaro/Cola/app/"
@@ -253,7 +265,6 @@
  "/home/tyan/linaro/Cola/components/cola/js/"
  "/home/tyan/linaro/Cola/components/bootstrap/stylesheets/bootstrap/"
  "/home/tyan/linaro/CoffeeClub/front/scss/"
- "/home/tyan/.emacs.d/users/tyan/"
  "/home/tyan/linaro/CoffeeClub/front/"
  "/home/tyan/linaro/CoffeeClub/backend/migrations/sqls/"
  "/home/tyan/linaro/CoffeeClub/backend/routes/"
@@ -263,37 +274,69 @@
  "/home/tyan/linaro/CoffeeClub/backend/error/"
  "/home/tyan/linaro/CoffeeClub/backend/models/"
  "/home/tyan/linaro/CoffeeClub/backend/migrations/user/"
- "/home/tyan/linaro/CoffeeClub/backend/migrations/data/"
- "/home/tyan/linaro/CoffeeClub/front/app/bower_components/angular-ui-router/"
- "/home/tyan/linaro/CoffeeClub/front/app/templates/blogs/"
- "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/controller/"
- "/home/tyan/linaro/CBLOCALSPACE/Aero-Map/APP-Angular/www/js/"
- "/home/tyan/linaro/LoveTime/front/app/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "setup-pretty.el"
- "app.py"
+ "setup-indent-guide.el"
+ "init.el"
+ "util.py"
+ "main.py"
+ "test_generater.py"
+ "__init__.py"
+ "generager.py"
+ "test_simple.py"
  "simple.data"
- "common.js"
- "index.html"
- "_config.yml"
- "zh-CN.yml"
- "手作：怒目慈悲腰带.md"
- "index.md"
- "hand.md"
+ "head.ejs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/tyan/.emacs.d/settings/" (21896 57983 784814 895000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-column-marker.el" "setup-shell.el" "setup-company.el" "setup-ruby-mode.el" "setup-syntax-table.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-emmet.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-pretty.el" "setup-autopair.el" "my-misc.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-tern.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-cmd-t.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-indent-guide.el" "setup-jshint.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-wrap-region.el" "setup-highlight.el" "setup-auto-complete.el" "setup-rebind-move.el" "setup-yasnippet.el")
+ ("/home/tyan/.emacs.d/users/tyan/" (21925 13159 753098 477000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "#sadas.js#" "travel-mode.el")
 
- ("/home/tyan/.emacs.d/" (21925 12606 689110 818000) "session.10380c4f8c2a8c3004143357742282591200000028030070" "site-lisp/" "bookmarks" "backups/" "defuns/" ".mc-lists.el" "project-archetypes/" "dictionaries/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" "%backup%~" ".places" "var/" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "ido.last" "jshintrc" "session.109d7d823fdb5cb220143439019821730600000033880078" "recentf" "./" "README.md" "snippets/" "themes/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" "session.10a2e5b8b3000143376430800000023380044" "custom.el" "history" "session.10b88946934acdd785143339207024531100000027050071" "init.el" "tramp" "auto-save-list/" "#ido.last#" "url/" ".gitmodules" "../" "session.10862246bcbf3efedd143348470526092600000034330068" "session.1066327f75ce54337b143428583762700800000028830105" "session.107a63e790c86c225c143460802537543500000034690070" "settings/" "users/")
+ ("/home/tyan/.emacs.d/" (21927 56751 431034 845000) "session.10380c4f8c2a8c3004143357742282591200000028030070" "site-lisp/" "bookmarks" "backups/" "defuns/" ".mc-lists.el" "project-archetypes/" "dictionaries/" ".gitignore" ".git/" "ac-comphist.dat" "elpa/" "%backup%~" ".places" "var/" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "ido.last" "jshintrc" "session.109d7d823fdb5cb220143439019821730600000033880078" "recentf" "./" "README.md" "snippets/" "themes/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" "session.10a2e5b8b3000143376430800000023380044" "custom.el" "history" "session.10b88946934acdd785143339207024531100000027050071" "init.el" "tramp" "auto-save-list/" "#ido.last#" "url/" ".gitmodules" "../" "session.10862246bcbf3efedd143348470526092600000034330068" "session.1066327f75ce54337b143428583762700800000028830105" "session.107a63e790c86c225c143460802537543500000034690070" "settings/" "users/")
 
- ("/home/tyan/" (21925 12602 85110 920000) "t/" "DesignBook/" ".plugman/" ".smex-items" ".openvasrc" ".local/" ".mplayer/" "音乐/" ".httpie/" ".gradle/" ".gstreamer-0.10/" "5350605f7c224.png" ".themes/" ".xsession-errors.old" ".xsession-errors-:0" ".zcompdump-linux-0pwr-5.0.7" ".recentf" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" "Tencent Files/" ".remmina/" ".gnupg/" "Screen_Shot_2015-06-16_at_9.32.55_AM.png" ".ionic/" ".kde/" ".thunderbird/" "fontconfig/" ".pip/" "IMG/" ".gnome2/" ".zshrc" ".mongorc.js" ".w3af/" "Linaro/" "BAIDU/" ".wine/" ".lesshst" ".subversion/" "record/" ".dbus/" "tyaniologo.png" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".face.icon" ".autojump/" ".pgpass" ".shutter/" "VIRTTMEP/" ".kde4/" ".vim/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".xdg_menu_cache/" ".pulse-cookie" ".rnd" ".python_history" ".grunt-init/" ".zgen/" ".mozilla/" ".ICEauthority" ".gnome/" ".v8flags.3.28.73.tyan.json" ".pki/" ".y2usersettings" ".Xauthority" ".gvfs/" "keys/" ".viminfo" ".cordova/" ".marks/" ".meteorsession" "tmp/" "welcome/" ".lein/" ".cask/" ".gtkrc-2.0-kde4" ".zprofile" ".zsh-history-substring-search.zsh" ".bash_history" ".gtkrc-2.0" ".welcome" ".meteor/" "VIRT-VMs/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".zsh-syntax-highlighting.zsh" ".alias" ".esd_auth" ".virt-manager/" "design/" "Gentoo/" ".mission-control/" ".adobe/" ".skel/" "PACKAGE/" ".dia/" ".zcompdump-linux-vo40-5.0.7" ".epiphany" ".goldendict/" ".location.txt" "original.jpg" "linaro/" ".emacs.d/" ".mysql/" "WebPicture/" "gpg/" ".zcompdump.zwc" ".y2log" ".python-eggs/" ".zsh-update" ".pyhistory" ".installjammerinfo/" ".android/" ".oh-my-zsh/" "pgadmin.log" ".freerdp/" "视频/" ".zpreztorc" "WORKSPACE/" ".thumbnails/" ".aptitude/" ".aliedit/" ".sunpinyin/" "陈灿豪简历全栈.pdf" ".gconf/" ".java/" ".zcompdump-OpenSuSE-5.0.7" ".fontconfig/" ".zcompdump-Ubuntu-5.0.2" "Screen_Shot_2015-03-31_at_5.35.17_PM.png" ".recently-used" ".openyoudao/" ".presage/" "lost+found/" ".gphoto/" "gentoo/" ".gnome2_private/" ".zprezto/" ".zshenv" "5388f42459b69.png" ".zshrc.pre-oh-my-zsh" ".fonts/" ".dbshell" "USR/" "bcloud_3.7.1-3_all.deb" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".gem/" ".openvas/" ".netrc" "陈灿豪简历.pdf" ".opera/" "GITHUB/" ".m2/" ".fonts.conf" ".vimrc" ".pulse/" "下载/" ".zcompdump-CrystalKing-5.0.2" "RPI/" ".macromedia/" ".zlogin" "docs/" ".zsh_history" "桌面/" "SDK/" "VPN/" "图片/" "533313c86f1b3.png" ".zcompdump-Ubuntu-5.0.5" "模板/" ".node-gyp/" "video/" ".gimp-2.8/" "misc/" ".oh-my-fish/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".zlogout" ".cnpmrc" ".zcompdump" ".compiz/" ".keysnail.js" ".percol.d/" ".fis-tmp/" "VirtualBox VMs/" "raspberry/" ".argouml/" ".npm/" "Book/" "../" "./")
+ ("/home/tyan/" (21927 56281 935007 600000) "t/" "DesignBook/" ".plugman/" ".smex-items" ".openvasrc" ".local/" ".mplayer/" "音乐/" ".httpie/" ".gradle/" ".gstreamer-0.10/" "5350605f7c224.png" ".themes/" ".xsession-errors.old" ".xsession-errors-:0" ".zcompdump-linux-0pwr-5.0.7" ".recentf" ".zshrc.omz-uninstalled-20150402230011" ".pgadmin_histoqueries" ".config/" ".dmrc" ".pgadmin3" "Tencent Files/" ".remmina/" ".gnupg/" "Screen_Shot_2015-06-16_at_9.32.55_AM.png" ".ionic/" ".kde/" ".thunderbird/" "fontconfig/" ".pip/" "IMG/" ".gnome2/" ".zshrc" "SOURCEANALYSIS/" ".mongorc.js" ".w3af/" "Linaro/" "BAIDU/" ".wine/" ".lesshst" ".subversion/" "record/" ".dbus/" "tyaniologo.png" ".emacs.d.b2/" "BAIDUDISK/" ".xinputrc" "文档/" ".face.icon" ".autojump/" ".pgpass" ".shutter/" "VIRTTMEP/" ".kde4/" ".vim/" ".pylint.d/" "公共/" ".gitconfig" ".cache/" ".cnpm/" ".xdg_menu_cache/" ".pulse-cookie" ".rnd" ".python_history" ".grunt-init/" ".zgen/" ".mozilla/" ".ICEauthority" ".gnome/" ".v8flags.3.28.73.tyan.json" ".pki/" ".y2usersettings" ".Xauthority" ".gvfs/" "keys/" ".viminfo" ".cordova/" ".marks/" ".meteorsession" "tmp/" "welcome/" ".lein/" ".cask/" ".gtkrc-2.0-kde4" ".zprofile" ".zsh-history-substring-search.zsh" ".bash_history" ".gtkrc-2.0" ".welcome" ".meteor/" "VIRT-VMs/" ".zshrc.omz-uninstalled-20150406123014" ".ssh/" ".emacs.d.b3/" ".zsh-syntax-highlighting.zsh" ".alias" ".esd_auth" ".virt-manager/" "design/" "Gentoo/" ".mission-control/" ".adobe/" ".skel/" "PACKAGE/" ".dia/" ".zcompdump-linux-vo40-5.0.7" ".epiphany" ".goldendict/" ".location.txt" "original.jpg" "linaro/" ".emacs.d/" ".mysql/" "WebPicture/" "gpg/" "Passdict2/" ".zcompdump.zwc" ".y2log" ".python-eggs/" ".zsh-update" ".pyhistory" ".installjammerinfo/" ".android/" ".oh-my-zsh/" "pgadmin.log" ".freerdp/" "视频/" "PasswordGenerage/" ".zpreztorc" "WORKSPACE/" ".thumbnails/" "book_segment.jpg" ".aptitude/" ".aliedit/" ".sunpinyin/" "陈灿豪简历全栈.pdf" ".gconf/" ".java/" ".zcompdump-OpenSuSE-5.0.7" ".fontconfig/" ".zcompdump-Ubuntu-5.0.2" "Screen_Shot_2015-03-31_at_5.35.17_PM.png" ".recently-used" ".openyoudao/" ".presage/" "lost+found/" ".gphoto/" "gentoo/" ".gnome2_private/" ".zprezto/" ".zshenv" "5388f42459b69.png" ".zshrc.pre-oh-my-zsh" ".fonts/" ".dbshell" "USR/" "bcloud_3.7.1-3_all.deb" ".zcompdump-CrystalKing-4.3.17" "bin/" ".heroku/" ".stardict/" ".gem/" ".openvas/" ".netrc" "陈灿豪简历.pdf" ".opera/" "GITHUB/" ".m2/" ".fonts.conf" ".vimrc" ".pulse/" "下载/" ".zcompdump-CrystalKing-5.0.2" "RPI/" ".macromedia/" ".zlogin" "docs/" ".zsh_history" "桌面/" "SDK/" "VPN/" "图片/" "533313c86f1b3.png" ".zcompdump-Ubuntu-5.0.5" "模板/" ".node-gyp/" "video/" ".gimp-2.8/" "misc/" ".oh-my-fish/" ".emacs.d.backup/" ".VirtualBox/" ".xsession-errors" ".zlogout" ".cnpmrc" ".zcompdump" ".compiz/" ".keysnail.js" "passdict/" ".percol.d/" ".fis-tmp/" "VirtualBox VMs/" "raspberry/" ".argouml/" ".npm/" "Book/" "../" "./")
 
- ("/home/tyan/RPI/PasswordGenerage/shell/" (21925 12413 0 0) "app.py" "./" "../")
+ ("/home/tyan/PasswordGenerage/generager/" (21927 56857 923041 25000) "__init__.py" "simple.pyc" "generager.pyc" "util.py" "./" "generager.py" "../" "test/" "simple.py")
+
+ ("/home/tyan/PasswordGenerage/generager/test/" (21927 55676 546972 470000) "./" "../" "test_simple.py" "test_generater.py")
+
+ ("/home/tyan/PasswordGenerage/shell/" (21927 55171 338943 153000) "__init__.py" "app.py" "./" "../")
+
+ ("/home/tyan/PasswordGenerage/" (21927 54476 582902 836000) "__init__.py" ".git/" "generager/" "./" "README.md" "analysis/" "shell/" "../" "test/" "web/")
+
+ ("/home/tyan/PasswordGenerage/test/data/" (21925 11567 233728 0) "simple.data" "./" "../")
+
+ ("/home/tyan/PasswordGenerage/test/" (21925 11291 823728 0) "./" "../" "data/")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/layout/_partial/" (21904 880 229625 214000) "after_footer.ejs" "footer.ejs" "header.ejs" "tags.ejs" "post/" "categories.ejs" "search.ejs" "archive.ejs" "./" "sidebar.ejs" "google_analytics.ejs" "pagination.ejs" "head.ejs" "../" "article.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/layout/" (21897 43557 602819 201000) "post.ejs" "_partial/" "archive.ejs" "./" "layout.ejs" "_widget/" "page.ejs" "category.ejs" "tag.ejs" "../" "index.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman/" (21903 64745 169528 243000) "_config.yml" ".git/" "layout/" "./" "README.md" "../" "LICENSE" "languages/" "source/" "scripts/")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/" (21927 50583 902676 945000) "after_footer.ejs" "footer.ejs" "header.ejs" "tags.ejs" "post/" "categories.ejs" "search.ejs" "comment.ejs" "archive.ejs" "./" "sidebar.ejs" "google_analytics.ejs" "pagination.ejs" "head.ejs" "../" "article.ejs")
+
+ ("/home/tyan/GITHUB/AbyChan.github.io/" (21909 23977 30783 612000) "_config.yml" ".deploy_git/" ".gitignore" "node_modules/" ".git/" "scaffolds/" "genUrlList.py" "./" "README.md" "db.json" "themes/" "public/" "urlarchive" "../" "CNAME" "source/" "package.json")
+
+ ("/home/tyan/GITHUB/" (21927 49189 62596 3000) "Resume/" "tornado/" "AbyChan.github.io/" "nanobar/" "Orbit-of-Five-Design/" "SocialMap/" "jquery/" "Aero-Map/" "My-Shell/" "Orange-Hexo/" "foundation/" "oh-my-zsh/" "emacs-color-theme-solarized/" "gnome-shell-extensions/" "zsh-history-substring-search/" "angular.js/" "html5-boilerplate/" "game/" "css-chassis/" "Art-Daily/" "./" "ResumeSample/" "TyanDataStructrue-Algorithm/" "emacs-color-themes/" "resume/" "org/" "fis/" "bootstrap-sass/" "w3af/" "fis-quickstart-demo/" "zsh-syntax-highlighting/" "angular-foundation/" "hexo/" "bootstrap/" "angular-leaflet-directive/" "Password-Generager/" "../" "fire-and-ice/" "CoffeeClub/" "vtch99.github.io/")
+
+ ("/home/tyan/PasswordGenerage/analysis/" (21869 18987 619780 0) "./" "XSDN/" "../" "misc/")
+
+ ("/home/tyan/PasswordGenerage/analysis/XSDN/" (21926 32565 913651 529000) "loadToDB.py" "result/" "analysis.sql" "./" "../" "filterZero.py" "findInName.py")
+
+ ("/home/tyan/GITHUB/Password-Generager/" (21926 27971 281856 378000) ".git/" "./" "../")
+
+ ("/home/" (21319 5950 0 0) "tryan/" "dogkiller/" "./" "tyan/" "aby/" "lost+found/" "../")
+
+ ("/home/tyan/.emacs.d/settings/" (21925 13138 181098 959000) "setup-hippie.el" "setup-js2-mode.el" "setup-flycheck.el" "setup-column-marker.el" "setup-shell.el" "setup-company.el" "setup-ruby-mode.el" "setup-syntax-table.el" "setup-paredit.el" "setup-html-mode.el" "setup-ido.el" "setup-magit.el" "setup-web-mode.el" "setup-emmet.el" "setup-dired.el" "key-bindings.el" "setup-web-beautify.el" "setup-package.el" "mac.el" "setup-pretty.el" "setup-autopair.el" "my-misc.el" "setup-sr-speedbar.el" "setup-yesqlg.el" "./" "setup-org.el" "setup-tern.el" "setup-elnode.el" "sane-defaults.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-python.el" "setup-cmd-t.el" "appearance.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-indent-guide.el" "setup-jshint.el" "setup-perspective.el" "setup-rgrep.el" "setup-skewer.el" "../" "setup-wrap-region.el" "setup-highlight.el" "setup-auto-complete.el" "setup-rebind-move.el" "setup-yasnippet.el")
+
+ ("/home/tyan/RPI/" (21925 12967 0 0) "Passdict2/" ".gitconfig" "wordlist/" ".sqlmap/" ".oh-my-fish/" "文档/" "PasswordGenerage/" ".w3af/" ".bashrc" ".gvfs/" ".vim/" ".npm/" "yunba" ".rnd" "./" ".zsh-update" "passdict/" ".ICEauthority" ".local/" ".thumbnails/" ".xsession-errors" "我的资源/" ".profile" ".oh-my-zsh/" ".pip/" "namedict/" "../" ".zprezto/" "模板/" "scripts-n-tools/" ".gconf/" ".wireshark/" ".ssh/" ".zsh_history" ".Xauthority" ".zcompdump-kali-4.3.17" ".tilda/" "demo.js" "下载/" "node-v0.12.0/" ".gtk-bookmarks" "bcloud_3.7.1-3_all.deb" ".zgen/" ".zshrc" "桌面/" ".gstreamer-0.10/" ".zsh_favlist" "公共/" ".vnc/" ".mozilla/" ".dbus/" "音乐/" "ssh_time_attack.py" ".gem/" "rop/" ".cache/" "视频/" "OpenVAS_TI.asc" ".config/" "vim/" ".viminfo" ".emacs.d/" ".aptitude/" ".bash_history" "Simple-OCR-Server/" "USB/" ".halberd/" ".msf4/" ".vimrc" "图片/" ".gnome2/" "redis-3.0.1/")
+
+ ("/home/tyan/RPI/PasswordGenerage/shell/" (21925 13043 0 0) "app.py" "./" "../")
+
+ ("/home/tyan/WORKSPACE/" (21925 12030 393123 676000) "Stickaroo | Welcome :)_files/" "Projektowanie stron internetowych Warszawa, Kraków, Katowice - Agencja interaktywna Intellect.html" "simple-todos/" "chat/" "ranger-stable.tar.gz" "M.A BEAT!.html" "ranger-stable.tar.gz.1" "011_yes-2-128.png" "ranger-1.7.1/" "autojump/" "my-project/" "gnome-terminal-colors-solarized/" "keysnail.xpi" "20 of Our Best Posts to Make You a Better Designer_files/" "M.A BEAT!_files/" "./" "konsole-colors-solarized/" "V76 by Vaughn - Customer Login.html" "Stickaroo | Welcome :).html" "hello/" "myApp/" "V76 by Vaughn - Customer Login_files/" "jpush-api-nodejs-client-3.2.1/" "Projektowanie stron internetowych Warszawa, Kraków, Katowice - Agencja interaktywna Intellect_files/" "helloweb/" "DeadWater - Direction artistique & Développement web.html" "DeadWater - Direction artistique & Développement web_files/" "w_files/" "../" "assemble/" "demo/" "youdao-dict-0.1.0_all.deb" "kde-colors-solarized/" "virtualbox.repo" "keysnail.xpi.1")
 
  ("/home/tyan/RPI/PasswordGenerage/" (21925 11291 0 0) "./" "../" "web/" ".git/" "test/" "README.md" "generager/" "shell/" "analysis/")
 
@@ -301,17 +344,11 @@
 
  ("/home/tyan/RPI/PasswordGenerage/test/data/" (21925 11567 0 0) "simple.data" "./" "../")
 
- ("/home/tyan/RPI/" (21925 9874 0 0) "Passdict2/" ".gitconfig" "wordlist/" ".sqlmap/" ".oh-my-fish/" "文档/" "PasswordGenerage/" ".w3af/" ".bashrc" ".gvfs/" ".vim/" ".npm/" "yunba" ".rnd" "./" ".zsh-update" "passdict/" ".ICEauthority" ".local/" ".thumbnails/" ".xsession-errors" "我的资源/" ".profile" ".oh-my-zsh/" ".pip/" "namedict/" "../" ".zprezto/" "模板/" "scripts-n-tools/" ".gconf/" ".wireshark/" ".ssh/" ".zsh_history" ".Xauthority" ".zcompdump-kali-4.3.17" ".tilda/" "demo.js" "下载/" "node-v0.12.0/" ".gtk-bookmarks" "bcloud_3.7.1-3_all.deb" ".zgen/" ".zshrc" "桌面/" ".gstreamer-0.10/" ".zsh_favlist" "公共/" ".vnc/" ".mozilla/" ".dbus/" "音乐/" "ssh_time_attack.py" ".gem/" "rop/" ".cache/" "视频/" "OpenVAS_TI.asc" ".config/" "vim/" ".viminfo" ".emacs.d/" ".aptitude/" ".bash_history" "Simple-OCR-Server/" "USB/" ".halberd/" ".msf4/" ".vimrc" "图片/" ".gnome2/" "redis-3.0.1/")
-
- ("/home/tyan/.emacs.d/users/tyan/" (21925 10197 637164 570000) "js2r-keys.el" "./" "project-mappings.el" "custom.el" "init.el" "my-defuns.el" "../" "#sadas.js#" "travel-mode.el")
-
  ("/home/tyan/GITHUB/fis-quickstart-demo/js/common/" (21923 56867 482397 335000) "common.js" "./" "../")
 
  ("/home/tyan/GITHUB/fis-quickstart-demo/js/" (21923 56867 502397 336000) "views/" "main.js" "lib/" "collections/" "./" "models/" "../" "routers/" "common/")
 
  ("/home/tyan/GITHUB/fis-quickstart-demo/" (21923 56867 502397 336000) ".gitignore" ".git/" "index.html" "js/" "./" "README.md" ".gitattributes" "css/" "../" "fis-conf.js" "package.json")
-
- ("/home/tyan/GITHUB/" (21923 56850 826396 368000) "Resume/" "tornado/" "AbyChan.github.io/" "nanobar/" "Orbit-of-Five-Design/" "SocialMap/" "jquery/" "Aero-Map/" "My-Shell/" "Orange-Hexo/" "foundation/" "oh-my-zsh/" "emacs-color-theme-solarized/" "gnome-shell-extensions/" "zsh-history-substring-search/" "angular.js/" "html5-boilerplate/" "game/" "css-chassis/" "Art-Daily/" "./" "ResumeSample/" "TyanDataStructrue-Algorithm/" "emacs-color-themes/" "resume/" "org/" "bootstrap-sass/" "w3af/" "fis-quickstart-demo/" "zsh-syntax-highlighting/" "angular-foundation/" "hexo/" "bootstrap/" "angular-leaflet-directive/" "../" "fire-and-ice/" "CoffeeClub/" "vtch99.github.io/")
 
  ("/home/tyan/linaro/" (21907 55705 0 0) ".lein/" ".rvm/" ".netrc" ".vim/" ".heroku/" ".alias" ".cnpm/" ".rediscli_history" "openssl-output" ".zgen/" ".swo" ".zshrc.pre-oh-my-zsh" "USB/" "Public/" "WORKSHOP/" ".lesshst" ".ssh/" ".httpie/" "Music/" "goagent/" ".smex-items" ".thumbnails/" ".node-gyp/" ".emacs.d/" ".ionic/" "Videos/" "Pictures/" "openvas-check-setup" "package/" "ranger-1.7.1/" ".vnc/" "gpg/" "CaptchaServer/" ".redis-commander" "redis-commander/" ".gconf/" ".composer/" ".openvas/" "dump.rdb" ".cnpmrc" ".zlogin" ".pki/" ".aptitude/" ".psql_history" ".virtualenvs/" "CBLOCALSPACE/" ".cache/" "lost+found/" ".bash_logout" "../" ".java/" "./" ".xsession-errors" ".mkshrc" ".selected_editor" "emacs-24.4/" ".zsh-update" ".zcompdump" "tmp/" "Downloads/" ".npm/" ".autojump/" ".dbshell" ".vimrc" ".oh-my-zsh/" ".zshrc.backup" "Documents/" ".viminfo" "LoveTime/" ".plugman/" ".zcompdump-cubieboard4-5.0.2" ".cordova/" "AbyChan.github.io/" ".mysql_history" "keys/" ".gitconfig" ".sudo_as_admin_successful" ".grunt-init/" ".marks/" "foundation/" ".msf4/" "ssid=CMCC-EDU/" "Guess-Game/" ".vimrc.back" ".swp" ".local/" ".bash_history" "jdk1.8.0_33/" ".Xauthority" "PsychologyDog/" ".m2/" ".zsh_history" ".gnupg/" ".ICEauthority" ".index.html.swp" ".zshrc.bak" "mongo-express/" "radio/" ".jshintrc" "ctags-5.8/" ".oh-my-fish/" "html5-boilerplate/" ".config/" "wusthost" ".welcome" ".pip/" ".directory" ".rnd" ".gem/" "Desktop/" "bin/" ".dbus/" ".v8flags.3.28.73.linaro.json" ".Trash-1000/" "wustnmap.log" ".openvasrc" "wusthost~" "Templates/" ".mongorc.js" "Ghost/" ".bash_profile" ".zshrc" ".profile" ".gemrc" "CoffeeClub/" "materialize-master/" "Cola/" ".bashrc")
 
@@ -327,11 +364,7 @@
 
  ("/home/tyan/GITHUB/AbyChan.github.io/source/" (21907 57359 353114 709000) "icon.png" "_posts/" "404.html" "./" "README.md" "_hand/" "hand/" "tyanio2.png" "../" "demo/" "CNAME" "google281a0d5aa47339e0.html")
 
- ("/home/tyan/GITHUB/AbyChan.github.io/" (21907 57826 733141 831000) "_config.yml" ".deploy_git/" ".gitignore" "node_modules/" ".git/" "scaffolds/" "genUrlList.py" "./" "README.md" "db.json" "themes/" "public/" "urlarchive" "../" "CNAME" "source/" "package.json")
-
  ("/home/tyan/GITHUB/AbyChan.github.io/scaffolds/" (21865 25018 499704 575000) "draft.md" "page.md" "./" "post.md" "../")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_partial/" (21904 4265 421821 656000) "after_footer.ejs" "footer.ejs" "header.ejs" "tags.ejs" "post/" "categories.ejs" "search.ejs" "comment.ejs" "archive.ejs" "./" "sidebar.ejs" "google_analytics.ejs" "pagination.ejs" "head.ejs" "../" "article.ejs")
 
  ("/home/tyan/GITHUB/AbyChan.github.io/themes/minos/layout/_partial/" (21887 41867 51970 408000) "footer.ejs" "after-footer.ejs" "header.ejs" "archive-post.ejs" "post/" "comment.ejs" "archive.ejs" "./" "google-analytics.ejs" "head.ejs" "../" "article.ejs")
 
@@ -458,34 +491,6 @@
  ("/home/tyan/linaro/LoveTime/front/app/css/vendor/" (21890 29831 0 0) "foundation-icons.svg" "foundation-icons.css" "fonts.css" "../" "./" "app.css" "foundation-icons.woff" "foundation.css" "mobilelogin.css" "cola.css" "foundation-icons.eot" "normalize.css" "foundation-icons.ttf")
 
  ("/home/tyan/linaro/LoveTime/front/app/css/" (21890 48408 0 0) "vendor/" "../" "./" "app.css" "index.css" "mobilelogin.css" "main.css")
-
- ("/home/tyan/linaro/LoveTime/front/scss/" (21890 54804 0 0) "index.scss" "../" "./")
-
- ("/home/tyan/linaro/LoveTime/front/" (21889 47214 0 0) "package.json" "scss/" ".bowerrc" "../" "./" "bower.json" "app/" "dist/" "gulpfile.js" ".gitignore" "node_modules/" "test/")
-
- ("/home/tyan/linaro/lost+found/" (21758 52873 0 0) "../" "./")
-
- ("/home/tyan/linaro/CoffeeClub/front/app/css/vendor/" (21890 30052 0 0) "fonts.css" "../" "./" "cola.css")
-
- ("/home/tyan/linaro/CoffeeClub/front/app/css/" (21890 30052 0 0) "login.css" "profile.css" "font.css" "vendor/" "../" "./" "app.css" "bootstrap.css" "articles.css" "foundation.css" "signin.css" "editor.css" "main.css" "normalize.css" "animate.css" "helper.css")
-
- ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/assets/stylesheets/bootstrap/" (21842 65115 0 0) "_normalize.scss" "_button-groups.scss" "_type.scss" "_navs.scss" "_tooltip.scss" "_variables.scss" "_mixins.scss" "_breadcrumbs.scss" "_close.scss" "_labels.scss" "_popovers.scss" "_input-groups.scss" "_media.scss" "_progress-bars.scss" "_grid.scss" "_utilities.scss" "mixins/" "_responsive-utilities.scss" "_badges.scss" "_navbar.scss" "_pagination.scss" "_tables.scss" "_carousel.scss" "_theme.scss" "_wells.scss" "./" "_dropdowns.scss" "_component-animations.scss" "_responsive-embed.scss" "_thumbnails.scss" "_alerts.scss" "_jumbotron.scss" "../" "_panels.scss" "_forms.scss" "_glyphicons.scss" "_modals.scss" "_pager.scss" "_scaffolding.scss" "_buttons.scss" "_code.scss" "_print.scss" "_list-group.scss")
-
- ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/assets/stylesheets/" (21842 65115 0 0) "bootstrap/" "_bootstrap.scss" "_bootstrap-mincer.scss" "_bootstrap-sprockets.scss" "./" "../" "_bootstrap-compass.scss")
-
- ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/assets/" (21842 65115 0 0) "javascripts/" "./" "fonts/" "../" "stylesheets/" "images/")
-
- ("/home/tyan/linaro/CBLOCALSPACE/bootstrap-sass/" (21842 65115 0 0) "Rakefile" "README.md" "bootstrap-sass.gemspec" "CONTRIBUTING.md" "Gemfile" "sache.json" "lib/" "composer.json" ".git/" "./" "bower.json" ".gitignore" "templates/" "LICENSE" "../" "assets/" "CHANGELOG.md" ".travis.yml" "package.json" "tasks/" "test/")
-
- ("/home/tyan/linaro/PsychologyDog/" (21889 43099 0 0) "front/" "../" "backent/" "./" ".git/" "README.md")
-
- ("/home/tyan/linaro/PsychologyDog/front/" (21889 46092 0 0) "package.json" ".bowerrc" "../" "./" "app/" "dist/" "gulpfile.js" ".gitignore" "node_modules/" "test/")
-
- ("/home/tyan/linaro/LoveTime/front/app/js/vendor/" (21887 6415 0 0) "modernizr-2.8.3.min.js" "../" "./")
-
- ("/home/tyan/linaro/LoveTime/front/app/js/" (21887 6415 0 0) "main.js" "vendor/" "../" "./" "plugins.js")
-
- ("/home/tyan/linaro/LoveTime/front/src/css/" (21887 6415 0 0) "vendor/" "../" "./" "app.css" "mobilelogin.css" "main.css")
 )
 
 ;; ----- ido-unc-hosts-cache -----
