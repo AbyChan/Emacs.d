@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/aby/GITHUB/Password-Generager/test/" . "data/")
+ ("/home/aby/GITHUB/" . "Password-Generager/")
+ ("/home/aby/GITHUB/Password-Generager/" . "test/")
  ("/usr/local/lib/node_modules/fis/node_modules/" . "fis-kernel/")
  ("/usr/local/lib/node_modules/fis/" . "node_modules/")
  ("/home/aby/.emacs.d/users/" . "aby/")
@@ -15,11 +18,14 @@
  ("/home/aby/MeizuDemo/i18n-www/common/" . "page/")
  ("/home/aby/MeizuDemo/i18n-www/" . "common/")
  ("/home/aby/MeizuDemo/" . "i18n-www/")
- ("/home/aby/" . "fis-command-i18n/")
+ ("/home/aby/" . "GITHUB/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/aby/GITHUB/Password-Generager/generager/"
+ "/home/aby/GITHUB/Password-Generager/test/data/"
+ "/home/aby/GITHUB/Password-Generager/shell/"
  "/usr/local/lib/node_modules/fis/node_modules/fis-kernel/"
  "/home/aby/fis-command-i18n/"
  "/home/aby/.emacs.d/users/aby/"
@@ -37,20 +43,34 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "idea.org"
+ "generager.org"
+ "simple.data"
+ "simple.py"
+ "generator.py"
+ "app.py"
  "fis-kernel.js"
  "package.json"
  "i18n.js"
  ".jshintrc"
- "init.el"
- ".emacs.d.zip"
- "switch.yasnippet"
- "server.js"
- "config.json"
- "layout_default.tpl"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/aby/GITHUB/Password-Generager/generager/" (21934 15202 873387 86000) "util.py" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
+
+ ("/home/aby/GITHUB/Password-Generager/test/data/" (21934 14732 825375 535000) "simple.data" "./" "../")
+
+ ("/home/aby/GITHUB/Password-Generager/test/" (21928 30992 816112 686000) "./" "../" "generager/" "data/")
+
+ ("/home/aby/GITHUB/" (21934 13100 733335 430000) "node/" "Password-Generager/" "jquery/" "./" "../" "AbyChan.github.io/" "Orbit-of-Five-Design/" "hammer.js/")
+
+ ("/home/aby/" (21934 14219 925362 932000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "node_modules/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".vim/" ".pypar2/" "VSCode-linux-x64/" ".fonts/" "www.csdn.net.sql" ".local/" ".ssh/" "./" "../" "Downloads/" ".php-linux/" ".v8flags.3.28.73.aby.json" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" "VSCode-linux-x64.zip" ".pki/" ".zsh_history" "demo/" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" "PROJECT/" ".gconf/" "examples.desktop" ".dmrc" "SOURCE/" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".node-gyp/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".mysql/" ".smex-items" "temp/" ".gnupg/" "Pictures/")
+
+ ("/home/aby/GITHUB/Password-Generager/shell/" (21934 13591 777347 497000) "./" "../" "__init__.py" "app.py")
+
+ ("/home/aby/GITHUB/Password-Generager/" (21928 30992 816112 686000) "test/" "web/" "./" "../" "README.md" "generager/" "__init__.py" "shell/" ".git/" "analysis/")
+
  ("/usr/local/lib/node_modules/fis/node_modules/fis-kernel/" (21923 29851 453506 371000) "node_modules/" "./" "../" "README.md" "lib/" "fis-kernel.js" "package.json" ".npmignore" "LICENSE.md")
 
  ("/usr/local/lib/node_modules/fis/node_modules/" (21924 49360 305917 888000) "fis-optimizer-clean-css/" "fis-packager-map/" "fis-deploy-default/" "fis-command-server/" "fis-optimizer-png-compressor/" "colors/" "./" "fis-spriter-csssprites/" "../" "commander/" "fis-preprocessor-components/" "fis-optimizer-uglify-js/" "fis-command-release/" "fis-prepackager-derived/" "fis-command-i18n/" "fis-kernel/" "fis-command-install/" "fis-postprocessor-jswrapper/")
@@ -58,8 +78,6 @@
  ("/usr/local/lib/node_modules/fis/" (21923 29843 653408 238000) "CHANGELOG.md" "node_modules/" ".gitmodules" "./" "../" "README.md" "bin/" "fis.js" "package.json" ".npmignore" "LICENSE.md")
 
  ("/home/aby/fis-command-i18n/" (21927 3440 37825 238000) ".tern-port" ".jshintrc" "./" "../" "#i18n.js#" "lib/" "package.json" "i18n.js" ".git/")
-
- ("/home/aby/" (21927 3508 17826 908000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".fonts/" ".local/" ".ssh/" "./" "MeizuDemo2/" "../" "Downloads/" ".php-linux/" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" ".pki/" ".zsh_history" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" ".gconf/" "examples.desktop" ".dmrc" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".smex-items" ".gnupg/" "Pictures/")
 
  ("/home/aby/.emacs.d/" (21927 3474 509826 85000) ".gitignore" "npm-debug.log" "dictionaries/" ".places" "session.1066327f75ce54337b143428583762700800000028830105" "session.109d7d823fdb5cb220143439019821730600000033880078" "defuns/" ".mc-lists.el" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "session.10a2e5b8b3000143376430800000023380044" ".gitmodules" "ac-comphist.dat" "./" "../" "README.md" "session.107a63e790c86c225c143460802537543500000034690070" "ido.last" "settings/" "elpa/" "#ido.last#" "snippets/" "recentf" "custom.el" "%backup%~" "site-lisp/" "history" "bookmarks" "session.10380c4f8c2a8c3004143357742282591200000028030070" "users/" "init.el" "var/" "project-archetypes/" "backups/" "session.10862246bcbf3efedd143348470526092600000034330068" "themes/" "auto-save-list/" "tramp" "session.10b88946934acdd785143339207024531100000027050071" "url/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" ".git/")
 
