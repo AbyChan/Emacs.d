@@ -3,6 +3,8 @@ backups
 *~
 .places
 session.*
+ido.last
+history
 tramp
 elpa
 swank

@@ -2,8 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/aby/PROJECT/" . "MeiyouHome/")
+ ("/home/aby/GITHUB/html5-boilerplate/" . "app/")
+ ("/home/aby/PROJECT/MeiyouHome/app/" . "js/")
+ ("/home/aby/PROJECT/MeiyouHome/" . "app/")
  ("/home/aby/GITHUB/Password-Generager/test/" . "data/")
- ("/home/aby/GITHUB/" . "Password-Generager/")
+ ("/home/aby/GITHUB/" . "html5-boilerplate/")
  ("/home/aby/GITHUB/Password-Generager/" . "test/")
  ("/usr/local/lib/node_modules/fis/node_modules/" . "fis-kernel/")
  ("/usr/local/lib/node_modules/fis/" . "node_modules/")
@@ -23,6 +27,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/aby/PROJECT/MeiyouHome/app/js/"
+ "/home/aby/PROJECT/MeiyouHome/scss/"
+ "/home/aby/PROJECT/MeiyouHome/app/"
+ "/home/aby/PROJECT/MeiyouHome/"
+ "/home/aby/PROJECT/MeiyouHome/mok/"
+ "/home/aby/GITHUB/html5-boilerplate/app/"
+ "/home/aby/GITHUB/html5-boilerplate/src/"
  "/home/aby/GITHUB/Password-Generager/generager/"
  "/home/aby/GITHUB/Password-Generager/test/data/"
  "/home/aby/GITHUB/Password-Generager/shell/"
@@ -43,29 +54,47 @@
 
 ;; ----- ido-work-file-list -----
 (
- "idea.org"
- "generager.org"
- "simple.data"
- "simple.py"
- "generator.py"
- "app.py"
- "fis-kernel.js"
- "package.json"
- "i18n.js"
- ".jshintrc"
+ "index.js"
+ "index.scss"
+ "gotit.scss"
+ "gotit.html"
+ "index.html"
+ "gotit.js"
+ "lottery.js"
+ "lottery.scss"
+ "timeout.scss"
+ "miss.scss"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/aby/PROJECT/MeiyouHome/app/js/" (21936 55564 664762 360000) "lottery.js" "gotit.js" ".tern-port" "./" "../" "index.js")
+
+ ("/home/aby/PROJECT/MeiyouHome/scss/" (21936 55525 712761 689000) "timeout.scss" ".tern-port" "miss.scss" "./" "../" "gotit.scss" "main.scss" "lottery.scss" "index.scss")
+
+ ("/home/aby/PROJECT/MeiyouHome/app/" (21936 55475 676760 828000) "css/" "./" "gotit.html" "index.html" "../" "timeout.html" "lottery.html" "js/" "miss.html" "img/")
+
+ ("/home/aby/PROJECT/MeiyouHome/mok/" (21936 39023 896477 633000) "./" "../" "app.js")
+
+ ("/home/aby/PROJECT/MeiyouHome/" (21936 37771 884456 81000) ".gitignore" "scss/" "gulpfile.js" "node_modules/" "app/" "./" "../" "dist/" "package.json" "mok/" ".git/")
+
+ ("/home/aby/GITHUB/html5-boilerplate/app/" (21935 40093 375367 928000) "robots.txt" ".gitignore" "css/" "crossdomain.xml" "404.html" "humans.txt" "./" "index.html" "../" "tile.png" "apple-touch-icon.png" "tile-wide.png" "js/" "favicon.ico" "img/" ".gitattributes" ".editorconfig" "browserconfig.xml")
+
+ ("/home/aby/GITHUB/html5-boilerplate/" (21935 39957 667365 592000) ".gitignore" "scss/" "gulpfile.js" "test/" ".jscsrc" ".jshintrc" ".travis.yml" "app/" "./" "../" "dist/" "LICENSE.txt" ".gitattributes" "package.json" ".editorconfig" "gulpfile.js~" ".git/")
+
+ ("/home/aby/" (21935 40002 315366 361000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "node_modules/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".vim/" ".pypar2/" "VSCode-linux-x64/" ".fonts/" "www.csdn.net.sql" ".local/" ".ssh/" "./" "../" "Downloads/" ".php-linux/" ".v8flags.3.28.73.aby.json" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" "VSCode-linux-x64.zip" ".pki/" ".zsh_history" "demo/" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" "PROJECT/" ".gconf/" "examples.desktop" ".dmrc" "SOURCE/" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".node-gyp/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".mysql/" ".smex-items" "temp/" ".gnupg/" "Pictures/")
+
+ ("/home/aby/GITHUB/html5-boilerplate/src/" (21935 38970 335348 596000) "robots.txt" ".gitignore" "doc/" "css/" "crossdomain.xml" "404.html" "humans.txt" "./" "index.html" "../" "tile.png" "apple-touch-icon.png" "tile-wide.png" "js/" "favicon.ico" "img/" ".gitattributes" ".editorconfig" "browserconfig.xml")
+
+ ("/home/aby/GITHUB/" (21935 38806 947345 784000) "node/" "Password-Generager/" "jquery/" "./" "../" "AbyChan.github.io/" "html5-boilerplate/" "Orbit-of-Five-Design/" "hammer.js/")
+
+ ("/home/aby/PROJECT/" (21932 53042 287096 104000) "./" "../" "MeiyouHome/")
+
  ("/home/aby/GITHUB/Password-Generager/generager/" (21934 15202 873387 86000) "util.py" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
 
  ("/home/aby/GITHUB/Password-Generager/test/data/" (21934 14732 825375 535000) "simple.data" "./" "../")
 
  ("/home/aby/GITHUB/Password-Generager/test/" (21928 30992 816112 686000) "./" "../" "generager/" "data/")
-
- ("/home/aby/GITHUB/" (21934 13100 733335 430000) "node/" "Password-Generager/" "jquery/" "./" "../" "AbyChan.github.io/" "Orbit-of-Five-Design/" "hammer.js/")
-
- ("/home/aby/" (21934 14219 925362 932000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "node_modules/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".vim/" ".pypar2/" "VSCode-linux-x64/" ".fonts/" "www.csdn.net.sql" ".local/" ".ssh/" "./" "../" "Downloads/" ".php-linux/" ".v8flags.3.28.73.aby.json" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" "VSCode-linux-x64.zip" ".pki/" ".zsh_history" "demo/" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" "PROJECT/" ".gconf/" "examples.desktop" ".dmrc" "SOURCE/" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".node-gyp/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".mysql/" ".smex-items" "temp/" ".gnupg/" "Pictures/")
 
  ("/home/aby/GITHUB/Password-Generager/shell/" (21934 13591 777347 497000) "./" "../" "__init__.py" "app.py")
 
