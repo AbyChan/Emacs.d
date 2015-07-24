@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My emacs settings
 
 An ever-changing set of emacs settings. Micro-optimizations are super fun.
@@ -123,3 +124,9 @@ overview of the most commonly used shortcuts to get you through this pain:
 * `F1 t   ` Basic tutorial
 * `F1 k   ` Help for a keybinding
 * `F1 r   ` Emacs' extensive documentation
+=======
+# Emacs.d
+
+-   nodejs-mode
+-   clojure-mode
+>>>>>>> 8553123a643b8c3f764aa70a2a56f1059ebad3fd
