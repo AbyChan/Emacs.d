@@ -46,10 +46,11 @@
 (require 'setup-sr-speedbar)
 (require 'setup-autopair)
 (require 'sass-mode)
-(require 'setup-jshint)
+;;(require 'setup-jshint)
+;;(require 'setup-jshint-mode)
 (require 'setup-highlight)
-(require 'setup-column-marker)
-(require 'setup-indent-guide)
+;;(require 'setup-column-marker) ;;keybind confim with js2-refactor
+(require 'setup-indent-guide) 
 ;;ready in site-lisp
 ;;(require 'setup-tern)
 (require 'setup-pretty)
