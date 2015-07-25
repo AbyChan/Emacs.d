@@ -2,18 +2,23 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/" . "aby/")
+ ("/home/aby/org/meizu-work/2015/" . "7/")
+ ("/home/aby/org/meizu-work/" . "2015/")
+ ("/home/aby/org/" . "meizu-work/")
+ ("/home/aby/GITHUB/tap/" . "dist/")
  ("/home/aby/PROJECT/" . "MeiyouHome/")
  ("/home/aby/GITHUB/html5-boilerplate/" . "app/")
  ("/home/aby/PROJECT/MeiyouHome/app/" . "js/")
- ("/home/aby/PROJECT/MeiyouHome/" . "app/")
+ ("/home/aby/PROJECT/MeiyouHome/" . "scss/")
  ("/home/aby/GITHUB/Password-Generager/test/" . "data/")
- ("/home/aby/GITHUB/" . "html5-boilerplate/")
- ("/home/aby/GITHUB/Password-Generager/" . "generager/")
+ ("/home/aby/GITHUB/" . "tap/")
+ ("/home/aby/GITHUB/Password-Generager/" . "test/")
  ("/usr/local/lib/node_modules/fis/node_modules/" . "fis-kernel/")
  ("/usr/local/lib/node_modules/fis/" . "node_modules/")
  ("/home/aby/.emacs.d/users/" . "aby/")
  ("/home/aby/.emacs.d/snippets/" . "js2-mode/")
- ("/home/aby/.emacs.d/" . "users/")
+ ("/home/aby/.emacs.d/" . "settings/")
  ("/home/aby/MeizuDemo2/i18n-www/common/page/" . "index/")
  ("/home/aby/MeizuDemo2/i18n-www/common/" . "page/")
  ("/home/aby/MeizuDemo2/i18n-www/" . "common/")
@@ -22,27 +27,33 @@
  ("/home/aby/MeizuDemo/i18n-www/common/" . "page/")
  ("/home/aby/MeizuDemo/i18n-www/" . "common/")
  ("/home/aby/MeizuDemo/" . "i18n-www/")
- ("/home/aby/" . "GITHUB/")
+ ("/home/aby/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/aby/GITHUB/Password-Generager/generager/"
- "/home/aby/GITHUB/Password-Generager/generager/common/"
+ "/home/aby/PROJECT/MeiyouHome/app/"
  "/home/aby/PROJECT/MeiyouHome/app/js/"
  "/home/aby/PROJECT/MeiyouHome/scss/"
- "/home/aby/PROJECT/MeiyouHome/app/"
- "/home/aby/PROJECT/MeiyouHome/"
  "/home/aby/PROJECT/MeiyouHome/mok/"
+ "/home/aby/.emacs.d/settings/"
+ "/home/aby/.emacs.d/"
+ "/home/aby/org/meizu-work/2015/7/"
+ "/home/aby/.emacs.d/users/aby/"
+ "/home/aby/"
+ "/home/aby/PROJECT/MeiyouHome/"
+ "/home/aby/org/meizu-work/"
+ "/home/aby/GITHUB/tap/dist/"
+ "/home/aby/GITHUB/tap/src/"
+ "/home/aby/GITHUB/tap/"
+ "/home/aby/.emacs.d/snippets/js2-mode/"
  "/home/aby/GITHUB/html5-boilerplate/app/"
  "/home/aby/GITHUB/html5-boilerplate/src/"
+ "/home/aby/GITHUB/Password-Generager/generager/"
  "/home/aby/GITHUB/Password-Generager/test/data/"
  "/home/aby/GITHUB/Password-Generager/shell/"
  "/usr/local/lib/node_modules/fis/node_modules/fis-kernel/"
  "/home/aby/fis-command-i18n/"
- "/home/aby/.emacs.d/users/aby/"
- "/home/aby/"
- "/home/aby/.emacs.d/snippets/js2-mode/"
  "/home/aby/fis-command-server-master/"
  "/home/aby/MeizuDemo2/i18n-www/"
  "/home/aby/MeizuDemo2/i18n-www/common/page/"
@@ -55,43 +66,69 @@
 
 ;; ----- ido-work-file-list -----
 (
- "simple.py"
- "__init__.py"
+ "lottery.html"
+ "index.html"
+ "lottery.js"
  "index.js"
  "index.scss"
- "gotit.scss"
- "gotit.html"
- "index.html"
- "gotit.js"
- "lottery.js"
  "lottery.scss"
+ "app.js"
+ "key-bindings.el"
+ "init.el"
+ "custom.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/aby/GITHUB/Password-Generager/generager/" (21938 11828 122596 74000) "util.py" "util.pyc" "common/" "idea.org" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
+ ("/home/aby/PROJECT/MeiyouHome/app/js/" (21939 23752 611929 452000) "lottery.js" "./" "../" "index.js")
 
- ("/home/aby/PROJECT/MeiyouHome/app/js/" (21936 55564 664762 360000) "lottery.js" "gotit.js" ".tern-port" "./" "../" "index.js")
+ ("/home/aby/PROJECT/MeiyouHome/app/" (21939 23567 927926 273000) "css/" "./" "index.html" "../" "lottery.html" "js/" "img/")
 
- ("/home/aby/PROJECT/MeiyouHome/scss/" (21936 55525 712761 689000) "timeout.scss" ".tern-port" "miss.scss" "./" "../" "gotit.scss" "main.scss" "lottery.scss" "index.scss")
+ ("/home/aby/PROJECT/MeiyouHome/mok/" (21939 22540 827908 593000) "./" "../" "app.js")
 
- ("/home/aby/PROJECT/MeiyouHome/app/" (21936 55475 676760 828000) "css/" "./" "gotit.html" "index.html" "../" "timeout.html" "lottery.html" "js/" "miss.html" "img/")
+ ("/home/aby/PROJECT/MeiyouHome/scss/" (21939 18798 743844 178000) "./" "../" "lottery.scss" "index.scss")
 
- ("/home/aby/PROJECT/MeiyouHome/mok/" (21936 39023 896477 633000) "./" "../" "app.js")
+ ("/home/aby/.emacs.d/settings/" (21928 27544 168027 943000) "setup-auto-complete.el" "setup-ruby-mode.el" "setup-markdown-mode.el" "setup-dired.el" "mode-mappings.el" "setup-tern.el" "setup-jshint-mode.el" "setup-emmet.el" "setup-skewer.el" "setup-highlight.el" "setup-html-mode.el" "setup-shell.el" "setup-yesqlg.el" "setup-hippie.el" "setup-jshint.el" "appearance.el" "key-bindings.el" "setup-magit.el" "./" "../" "setup-flycheck.el" "setup-paredit.el" "setup-syntax-table.el" "setup-rebind-move.el" "my-misc.el" "setup-perspective.el" "setup-web-beautify.el" "setup-ffip.el" "sane-defaults.el" "setup-sr-speedbar.el" "setup-rgrep.el" "setup-python.el" "setup-indent-guide.el" "setup-elnode.el" "setup-org.el" "setup-cmd-t.el" "setup-clojure-mode.el" "setup-company.el" "setup-package.el" "setup-web-mode.el" "setup-autopair.el" "mac.el" "setup-wrap-region.el" "setup-pretty.el" "setup-ido.el" "setup-column-marker.el" "setup-yasnippet.el" "setup-js2-mode.el")
 
- ("/home/aby/PROJECT/MeiyouHome/" (21936 37771 884456 81000) ".gitignore" "scss/" "gulpfile.js" "node_modules/" "app/" "./" "../" "dist/" "package.json" "mok/" ".git/")
+ ("/home/aby/.emacs.d/" (21939 13654 215755 622000) ".gitignore" "npm-debug.log" ".#init.el" "dictionaries/" ".places" "session.1066327f75ce54337b143428583762700800000028830105" "session.109d7d823fdb5cb220143439019821730600000033880078" "defuns/" ".mc-lists.el" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "session.10a2e5b8b3000143376430800000023380044" ".gitmodules" "ac-comphist.dat" "./" "../" "README.md" "session.107a63e790c86c225c143460802537543500000034690070" "ido.last" "settings/" "elpa/" "#ido.last#" "snippets/" "recentf" "custom.el" "%backup%~" "site-lisp/" "history" "bookmarks" "session.10380c4f8c2a8c3004143357742282591200000028030070" "users/" "init.el" "var/" "project-archetypes/" "backups/" "session.10862246bcbf3efedd143348470526092600000034330068" ".org-id-locations" "themes/" "auto-save-list/" "tramp" "session.10b88946934acdd785143339207024531100000027050071" "url/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" ".git/")
+
+ ("/home/aby/" (21939 12941 203743 348000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "meiyoujia/" "fis-command-i18n.zip" "fis-command-server-master.zip" ".smartsvn/" ".ICEauthority" ".subversion/" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "node_modules/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".vim/" ".pypar2/" ".emacs.d.tar.gz" "VSCode-linux-x64/" ".fonts/" "www.csdn.net.sql" ".local/" ".ssh/" "./" "../" "Downloads/" ".php-linux/" ".v8flags.3.28.73.aby.json" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" "VSCode-linux-x64.zip" ".pki/" ".zsh_history" "demo/" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "smartsvn-linux-8_6_7.tar.gz" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "digitalocean-debian/" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" "PROJECT/" ".gconf/" "examples.desktop" ".dmrc" "SOURCE/" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "apache-cordova-weinre-2.0.0-pre-H0WVARLU-incubating-bin.tar.gz" "Music/" "fis-command-i18n/" ".node-gyp/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".mysql/" ".smex-items" "temp/" "smartsvn-8_6_7/" ".gnupg/" "Pictures/")
+
+ ("/home/aby/org/meizu-work/2015/7/" (21939 573 359530 452000) "./" "../" "25.org" "16.org" "20.org" "17.org")
+
+ ("/home/aby/PROJECT/MeiyouHome/" (21939 908 663536 224000) ".gitignore" "scss/" "gulpfile.js" "node_modules/" "app/" "./" "../" "dist/" "package.json" "mok/" ".git/")
+
+ ("/home/aby/.emacs.d/users/aby/" (21927 3503 581826 799000) "my-defuns.el" "./" "../" "#sadas.js#" "travel-mode.el" "js2r-keys.el" "custom.el" "init.el" "project-mappings.el")
+
+ ("/home/" (21923 25337 919865 290000) "./" "../" "aby/")
+
+ ("/home/aby/org/meizu-work/2015/" (21927 5781 657882 778000) "7/" "./" "../")
+
+ ("/home/aby/org/meizu-work/" (21938 63018 467477 247000) "README.text" "2015/" "./" "../" "README.md" "towrite.org" ".git/")
+
+ ("/home/aby/org/" (21926 14336 517779 696000) "./" "../" "meizu-work/")
+
+ ("/home/aby/GITHUB/tap/dist/" (21938 7485 966521 329000) "tap.angular.js" "./" "../" "tap.js" "tap.min.js")
+
+ ("/home/aby/GITHUB/tap/src/" (21938 7485 966521 329000) "./" "../" "utils.js" "tap.js" "events.js")
+
+ ("/home/aby/GITHUB/tap/" (21938 7485 966521 329000) ".gitignore" "bower.json" ".jscsrc" "Gruntfile.js" "./" "../" "README.md" "dist/" "package.json" ".editorconfig" "src/" "LICENSE.md" ".git/")
+
+ ("/home/aby/GITHUB/" (21938 7481 390521 250000) "node/" "Password-Generager/" "jquery/" "cordova-weinre/" "tap/" "./" "../" "AbyChan.github.io/" "html5-boilerplate/" "Orbit-of-Five-Design/" "mok/" "hammer.js/")
+
+ ("/home/aby/.emacs.d/snippets/js2-mode/" (21937 42706 321999 486000) "mod.yasnippet" "slice.yasnippet" "log" "wh.yasnippet" "el" "throw.yasnippet" "id.yasnippet" "exports.yasnippet" "for" "com" "us.yasnippet" "prop.yasnippet" "invoc.yasnippet" "req.json" "ev.fire" "./" "../" "switch.yasnippet" "rq.yasnippet" "rt.yasnippet" "f" "ev.add" "super.yasnippet" "while.yasnippet" "fn;" "it.yasnippet" "method.yasnippet" "if.yasnippet" "try.yasnippet" "fn.yasnippet" "def" "var.yasnippet" "each" "for.yasnippet" "proto.yasnippet" "expect.yasnippet" "init" "req.html" "if" ".yas-parents")
+
+ ("/home/aby/.emacs.d/snippets/js3-mode/" (21934 64919 386608 758000) "mod.yasnippet" "slice.yasnippet" "log" "wh.yasnippet" "el" "throw.yasnippet" "id.yasnippet" "exports.yasnippet" "for" "com" "us.yasnippet" "prop.yasnippet" "invoc.yasnippet" "req.json" "ev.fire" "./" "../" "switch.yasnippet" "rq.yasnippet" "rt.yasnippet" "f" "ev.add" "super.yasnippet" "while.yasnippet" "fn;" "it.yasnippet" "method.yasnippet" "if.yasnippet" "try.yasnippet" "fn.yasnippet" "def" "var.yasnippet" "each" "for.yasnippet" "proto.yasnippet" "expect.yasnippet" "init" "req.html" "if" ".yas-parents")
 
  ("/home/aby/GITHUB/html5-boilerplate/app/" (21935 40093 375367 928000) "robots.txt" ".gitignore" "css/" "crossdomain.xml" "404.html" "humans.txt" "./" "index.html" "../" "tile.png" "apple-touch-icon.png" "tile-wide.png" "js/" "favicon.ico" "img/" ".gitattributes" ".editorconfig" "browserconfig.xml")
 
  ("/home/aby/GITHUB/html5-boilerplate/" (21935 39957 667365 592000) ".gitignore" "scss/" "gulpfile.js" "test/" ".jscsrc" ".jshintrc" ".travis.yml" "app/" "./" "../" "dist/" "LICENSE.txt" ".gitattributes" "package.json" ".editorconfig" "gulpfile.js~" ".git/")
 
- ("/home/aby/" (21935 40002 315366 361000) "gnome-terminal-colors-solarized/" ".zshrc" ".fis-plus-tmp/" ".xsession-errors" ".gnome2_private/" "emacs-24.5.tar.gz" "MeizuDemo/" "node-v0.12.0.tar.gz" "fis-command-i18n.zip" "fis-command-server-master.zip" ".ICEauthority" "fis/" "fis-postpackager-copy/" ".zcompdump-ubuntu-5.0.5" ".Xauthority" ".profile" "work/" "Public/" "jdk-8u20-linux-x64.tar.gz" "fis-packager-i18n/" "node_modules/" "Desktop/" "GITHUB/" ".cache/" "jdk1.8.0_20/" ".xinputrc" "autojump/" ".vim/" ".pypar2/" "VSCode-linux-x64/" ".fonts/" "www.csdn.net.sql" ".local/" ".ssh/" "./" "../" "Downloads/" ".php-linux/" ".v8flags.3.28.73.aby.json" "fis-plus/" ".xsession-errors.old" ".zcompdump" "Documents/" ".config/" "VSCode-linux-x64.zip" ".pki/" ".zsh_history" "demo/" "VMwareTools-9.9.0-2304977.tar.gz" ".bash_history" ".autojump/" "vmware-tools-distrib/" "google-chrome-stable_current_amd64.deb" ".emacs.d/" "zgen/" "fis-packager-copy/" ".gnome2/" ".gitconfig" ".bash_logout" "Videos/" ".zgen/" ".bashrc" "misc/" "org/" ".viminfo" "fis-command-server-master/" ".zsh-update" "node-v0.12.0/" "PROJECT/" ".gconf/" "examples.desktop" ".dmrc" "SOURCE/" ".npm/" "fis-command-release/" "Templates/" ".dbus/" "emacs-24.5/" "Music/" "fis-command-i18n/" ".node-gyp/" ".fis-tmp/" ".mozilla/" "fis-command-install/" ".mysql/" ".smex-items" "temp/" ".gnupg/" "Pictures/")
-
  ("/home/aby/GITHUB/html5-boilerplate/src/" (21935 38970 335348 596000) "robots.txt" ".gitignore" "doc/" "css/" "crossdomain.xml" "404.html" "humans.txt" "./" "index.html" "../" "tile.png" "apple-touch-icon.png" "tile-wide.png" "js/" "favicon.ico" "img/" ".gitattributes" ".editorconfig" "browserconfig.xml")
 
- ("/home/aby/GITHUB/" (21935 38806 947345 784000) "node/" "Password-Generager/" "jquery/" "./" "../" "AbyChan.github.io/" "html5-boilerplate/" "Orbit-of-Five-Design/" "hammer.js/")
-
  ("/home/aby/PROJECT/" (21932 53042 287096 104000) "./" "../" "MeiyouHome/")
+
+ ("/home/aby/GITHUB/Password-Generager/generager/" (21934 15202 873387 86000) "util.py" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
 
  ("/home/aby/GITHUB/Password-Generager/test/data/" (21934 14732 825375 535000) "simple.data" "./" "../")
 
@@ -109,15 +146,7 @@
 
  ("/home/aby/fis-command-i18n/" (21927 3440 37825 238000) ".tern-port" ".jshintrc" "./" "../" "#i18n.js#" "lib/" "package.json" "i18n.js" ".git/")
 
- ("/home/aby/.emacs.d/" (21927 3474 509826 85000) ".gitignore" "npm-debug.log" "dictionaries/" ".places" "session.1066327f75ce54337b143428583762700800000028830105" "session.109d7d823fdb5cb220143439019821730600000033880078" "defuns/" ".mc-lists.el" ".cask/" "session.10404ec86cf063b277143454736497191800000034870087" "session.10a2e5b8b3000143376430800000023380044" ".gitmodules" "ac-comphist.dat" "./" "../" "README.md" "session.107a63e790c86c225c143460802537543500000034690070" "ido.last" "settings/" "elpa/" "#ido.last#" "snippets/" "recentf" "custom.el" "%backup%~" "site-lisp/" "history" "bookmarks" "session.10380c4f8c2a8c3004143357742282591200000028030070" "users/" "init.el" "var/" "project-archetypes/" "backups/" "session.10862246bcbf3efedd143348470526092600000034330068" "themes/" "auto-save-list/" "tramp" "session.10b88946934acdd785143339207024531100000027050071" "url/" "session.109bf2c1fe0c8c2f143365453230377200000030300068" ".git/")
-
- ("/home/aby/.emacs.d/settings/" (21927 3336 365822 690000) "setup-auto-complete.el" "setup-ruby-mode.el" "setup-markdown-mode.el" "setup-dired.el" "mode-mappings.el" "setup-tern.el" "setup-jshint-mode.el" "setup-emmet.el" "setup-skewer.el" "setup-highlight.el" "setup-html-mode.el" "setup-shell.el" "setup-yesqlg.el" "setup-hippie.el" "setup-jshint.el" "appearance.el" "key-bindings.el" "setup-magit.el" "./" "../" "setup-flycheck.el" "setup-paredit.el" "setup-syntax-table.el" "setup-rebind-move.el" "my-misc.el" "setup-perspective.el" "setup-web-beautify.el" "setup-ffip.el" "sane-defaults.el" "setup-sr-speedbar.el" "setup-rgrep.el" "setup-python.el" "setup-indent-guide.el" "setup-elnode.el" "setup-org.el" "setup-cmd-t.el" "setup-clojure-mode.el" "setup-company.el" "setup-package.el" "setup-web-mode.el" "setup-autopair.el" "mac.el" "setup-wrap-region.el" "setup-pretty.el" "setup-ido.el" "setup-column-marker.el" "setup-yasnippet.el" "setup-js2-mode.el")
-
- ("/home/aby/.emacs.d/users/aby/" (21925 47894 216993 901000) "my-defuns.el" "./" "../" "#sadas.js#" "travel-mode.el" "js2r-keys.el" "custom.el" "init.el" "project-mappings.el")
-
  ("/home/aby/.emacs.d/users/" (21923 30420 866482 174000) "christian/" "./" "../" "tyan/" "aby/" "magnars/" "fimasvee/")
-
- ("/home/aby/.emacs.d/snippets/js2-mode/" (21909 24499 570813 0) "mod.yasnippet" "slice.yasnippet" "log" "wh.yasnippet" "el" "throw.yasnippet" "id.yasnippet" "exports.yasnippet" "for" "com" "cb.yasnippet" "us.yasnippet" "prop.yasnippet" "invoc.yasnippet" "req.json" "ev.fire" "./" "../" "switch.yasnippet" "log.yasnippet" "rq.yasnippet" "rt.yasnippet" "f" "al" "ev.add" "super.yasnippet" "while.yasnippet" "it.yasnippet" "method.yasnippet" "if.yasnippet" "try.yasnippet" "fn.yasnippet" "assert.yasnippet" "def" "var.yasnippet" "each" "for.yasnippet" "proto.yasnippet" "describe.yasnippet" "class" "com.yasnippet" "expect.yasnippet" "init" "req.html" "if" ".yas-parents")
 
  ("/home/aby/.emacs.d/snippets/" (21909 24499 818813 0) "clojure-mode/" "udev-mode/" "antlr-mode/" "lisp-interaction-mode/" "groovy-mode/" "snippet-mode/" "c-mode/" "latex-mode/" "applescript-mode/" "scala-mode/" "org-mode/" "nxml-mode/" "yaml-mode/" "m4-mode/" "f90-mode/" "css-mode/" "cpp-omnet-mode/" "nsis-mode/" "js2-mode/" "lua-mode/" "prog-mode/" "cmake-mode/" "feature-mode/" "ruby-mode/" "enh-ruby-mode" "makefile-mode/" "./" "LICENSE" "../" "README.md" "perl-mode/" "octave-mode/" "cperl-mode/" "erlang-mode/" "chef-mode/" "js-mode/" "ensime-mode" "python-mode/" "java-mode/" "sh-mode/" "html-mode/" "typerex-mode" "markdown-mode/" "ned-mode/" "js3-mode/" "git-commit-mode/" "conf-unix-mode/" "csharp-mode/" "rename_add_contr.py" "CONTRIBUTORS.txt" "php-mode/" "emacs-lisp-mode/" "makefile-gmake-mode/" "sql-mode/" "rst-mode/" "c++-mode/" "nesc-mode/" "haskell-mode/" "makefile-automake-mode/" "fundamental-mode/" "cc-mode/" "erc-mode/" "tuareg-mode/" "text-mode/" "crappy-jsp-mode/" "go-mode/" "makefile-bsdmake-mode/")
 

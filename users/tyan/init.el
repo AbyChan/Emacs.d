@@ -59,6 +59,7 @@
 (require 'setup-python)
 (require 'setup-wrap-region)
 (require 'setup-syntax-table)
+(require 'setup-message-suppression)
 
 (require 'epa-file)
 (epa-file-enable)
@@ -103,6 +104,8 @@
 (set-frame-parameter (selected-frame) 'alpha '(80 80))
 (add-to-list 'default-frame-alist '(alpha 80 80))
 
-
-(unless (ignore-errors (or (etags-select-find-tag-at-point) t))
-  (etags-select-find-tag))
+(add-hook 'minibuffer-exit-hook 
+      '(lambda ()
+         (let ((buffer "*Completions*"))
+           (and (get-buffer buffer)
+            (kill-buffer buffer)))))
