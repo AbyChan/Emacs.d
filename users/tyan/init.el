@@ -100,5 +100,9 @@
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
 
-(set-frame-parameter (selected-frame) 'alpha '(88 88))
-(add-to-list 'default-frame-alist '(alpha 88 88))
+(set-frame-parameter (selected-frame) 'alpha '(80 80))
+(add-to-list 'default-frame-alist '(alpha 80 80))
+
+
+(unless (ignore-errors (or (etags-select-find-tag-at-point) t))
+  (etags-select-find-tag))

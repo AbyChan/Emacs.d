@@ -8,7 +8,7 @@
  ("/home/aby/PROJECT/MeiyouHome/" . "app/")
  ("/home/aby/GITHUB/Password-Generager/test/" . "data/")
  ("/home/aby/GITHUB/" . "html5-boilerplate/")
- ("/home/aby/GITHUB/Password-Generager/" . "test/")
+ ("/home/aby/GITHUB/Password-Generager/" . "generager/")
  ("/usr/local/lib/node_modules/fis/node_modules/" . "fis-kernel/")
  ("/usr/local/lib/node_modules/fis/" . "node_modules/")
  ("/home/aby/.emacs.d/users/" . "aby/")
@@ -27,6 +27,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/aby/GITHUB/Password-Generager/generager/"
+ "/home/aby/GITHUB/Password-Generager/generager/common/"
  "/home/aby/PROJECT/MeiyouHome/app/js/"
  "/home/aby/PROJECT/MeiyouHome/scss/"
  "/home/aby/PROJECT/MeiyouHome/app/"
@@ -34,7 +36,6 @@
  "/home/aby/PROJECT/MeiyouHome/mok/"
  "/home/aby/GITHUB/html5-boilerplate/app/"
  "/home/aby/GITHUB/html5-boilerplate/src/"
- "/home/aby/GITHUB/Password-Generager/generager/"
  "/home/aby/GITHUB/Password-Generager/test/data/"
  "/home/aby/GITHUB/Password-Generager/shell/"
  "/usr/local/lib/node_modules/fis/node_modules/fis-kernel/"
@@ -54,6 +55,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "simple.py"
+ "__init__.py"
  "index.js"
  "index.scss"
  "gotit.scss"
@@ -62,12 +65,12 @@
  "gotit.js"
  "lottery.js"
  "lottery.scss"
- "timeout.scss"
- "miss.scss"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/aby/GITHUB/Password-Generager/generager/" (21938 11828 122596 74000) "util.py" "util.pyc" "common/" "idea.org" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
+
  ("/home/aby/PROJECT/MeiyouHome/app/js/" (21936 55564 664762 360000) "lottery.js" "gotit.js" ".tern-port" "./" "../" "index.js")
 
  ("/home/aby/PROJECT/MeiyouHome/scss/" (21936 55525 712761 689000) "timeout.scss" ".tern-port" "miss.scss" "./" "../" "gotit.scss" "main.scss" "lottery.scss" "index.scss")
@@ -89,8 +92,6 @@
  ("/home/aby/GITHUB/" (21935 38806 947345 784000) "node/" "Password-Generager/" "jquery/" "./" "../" "AbyChan.github.io/" "html5-boilerplate/" "Orbit-of-Five-Design/" "hammer.js/")
 
  ("/home/aby/PROJECT/" (21932 53042 287096 104000) "./" "../" "MeiyouHome/")
-
- ("/home/aby/GITHUB/Password-Generager/generager/" (21934 15202 873387 86000) "util.py" "./" "../" "generator.py" "simple.pyc" "__init__.py" "generator.pyc" "simple.py" "generagor.pyc" "generager.org" "generager.pyc")
 
  ("/home/aby/GITHUB/Password-Generager/test/data/" (21934 14732 825375 535000) "simple.data" "./" "../")
 
