@@ -19,7 +19,7 @@
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 ;; Use C-x C-m to do M-x per Steve Yegge's advice
-(global-set-key (kbd "C-x C-m") 'smex)
+;;(global-set-key (kbd "C-x C-m") 'smex)
 
 ;; Expand region (increases selected region by semantic units)
 (global-set-key (if is-mac (kbd "C-@") (kbd "C-'")) 'er/expand-region)
@@ -37,11 +37,11 @@
 ;;(global-set-key (kbd "M-å") 'mc/mark-all-in-region)
 
 ;; Symbol and word specific mark-more
-(global-set-key (kbd "s-1") 'mc/mark-next-word-like-this)
-(global-set-key (kbd "s-2") 'mc/mark-previous-word-like-this)
-(global-set-key (kbd "s-3") 'mc/mark-all-words-like-this)
-(global-set-key (kbd "s-4") 'mc/mark-next-symbol-like-this)
-(global-set-key (kbd "s-5") 'mc/mark-previous-symbol-like-this)
+(global-set-key (kbd "C-s-1") 'mc/mark-next-word-like-this)
+(global-set-key (kbd "C-s-2") 'mc/mark-previous-word-like-this)
+(global-set-key (kbd "C-s-3") 'mc/mark-all-words-like-this)
+(global-set-key (kbd "C-s-4") 'mc/mark-next-symbol-like-this)
+(global-set-key (kbd "C-s-5") 'mc/mark-previous-symbol-like-this)
 ;;(global-set-key (kbd "M-s-Æ") 'mc/mark-all-symbols-like-this)
 
 ;; Extra multiple cursors stuff
@@ -58,8 +58,8 @@
 (global-set-key (kbd "C-x r t") 'inline-string-rectangle)
 
 ;; Quickly jump in document with ace-jump-mode
+(define-key global-map (kbd "C-`") 'ace-jump-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
-
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 (global-set-key (kbd "C-c C-n") 'cleanup-buffer)
@@ -351,5 +351,9 @@
 (global-set-key (kbd "C-c a <left>") 'windmove-left)
 (global-set-key (kbd "C-c a <right>") 'windmove-right)
 
- (global-set-key (kbd "C-z") 'imenu)
+(global-set-key (kbd "C-z") 'imenu)
+
+(global-set-key (kbd "C-c z") 'goto-last-change)
+
 (provide 'key-bindings)
+

@@ -59,6 +59,7 @@
 (require 'setup-python)
 (require 'setup-wrap-region)
 (require 'setup-syntax-table)
+(require 'setup-message-suppression)
 
 (require 'epa-file)
 (epa-file-enable)
@@ -100,5 +101,11 @@
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
 
-(set-frame-parameter (selected-frame) 'alpha '(88 88))
-(add-to-list 'default-frame-alist '(alpha 88 88))
+(set-frame-parameter (selected-frame) 'alpha '(80 80))
+(add-to-list 'default-frame-alist '(alpha 80 80))
+
+(add-hook 'minibuffer-exit-hook 
+      '(lambda ()
+         (let ((buffer "*Completions*"))
+           (and (get-buffer buffer)
+            (kill-buffer buffer)))))
