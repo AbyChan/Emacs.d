@@ -2988,11 +2988,11 @@ Also affects 'linum-mode' background."
       (,terminal-class (:foreground ,terminal-orange
                                     :weight bold))))
 
-   `(magit-item-highlight
-     ((,class (:background ,monokai-hl
-                           :weight unspecified))
-      (,terminal-class (:background ,terminal-monokai-hl
-                                    :weight unspecified))))
+;;   `(magit-item-highlight
+;;     ((,class (:background ,monokai-hl
+;;                           :weight unspecified))
+;;      (,terminal-class (:background ,terminal-monokai-hl
+;;                                    :weight unspecified))))
 
    `(magit-log-author
      ((,class (:foreground ,cyan))

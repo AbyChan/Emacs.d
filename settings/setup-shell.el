@@ -30,4 +30,11 @@
           (lambda ()
             (define-key shell-mode-map (kbd "C-d") 'comint-delchar-or-eof-or-kill-buffer)))
 
+;;aby 2015-7-26
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
+(defun sh ()
+  (interactive)
+  (ansi-term "/bin/zsh"))
+
 (provide 'setup-shell)

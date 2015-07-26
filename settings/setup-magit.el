@@ -1,5 +1,5 @@
 ;; Subtler highlight
-(set-face-background 'magit-item-highlight "#121212")
+;;(set-face-background 'magit-item-highlight "#121212")
 (set-face-background 'diff-file-header "#121212")
 (set-face-foreground 'diff-context "#666666")
 (set-face-foreground 'diff-added "#00cc33")
@@ -48,8 +48,8 @@
   (kill-buffer)
   (delete-window))
 
-(eval-after-load "git-commit-mode"
-  '(define-key git-commit-mode-map (kbd "C-c C-k") 'magit-exit-commit-mode))
+;;(eval-after-load "git-commit"
+;;  '(define-key git-commit-map (kbd "C-c C-k") 'magit-exit-commit-mode))
 
 ;; C-c C-a to amend without any prompt
 

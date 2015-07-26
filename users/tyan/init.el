@@ -41,7 +41,7 @@
 
 (require 'setup-auto-complete)
 ;;company not support js now
-;;(require 'setup-company)
+(require 'setup-company)
 (require 'setup-web-beautify)
 (require 'setup-sr-speedbar)
 (require 'setup-autopair)
@@ -60,7 +60,7 @@
 (require 'setup-wrap-region)
 (require 'setup-syntax-table)
 (require 'setup-message-suppression)
-
+(require 'setup-zlc)
 (require 'epa-file)
 (epa-file-enable)
 
