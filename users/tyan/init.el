@@ -101,8 +101,8 @@
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
 
-(set-frame-parameter (selected-frame) 'alpha '(80 80))
-(add-to-list 'default-frame-alist '(alpha 80 80))
+(set-frame-parameter (selected-frame) 'alpha '(82 82))
+(add-to-list 'default-frame-alist '(alpha 82 82))
 
 (add-hook 'minibuffer-exit-hook 
       '(lambda ()

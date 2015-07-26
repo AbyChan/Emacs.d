@@ -20,11 +20,12 @@
 
 ;; Add Urban Dictionary to webjump (C-x g)
 (eval-after-load "webjump"
-  '(add-to-list 'webjump-sites '("Urban Dictionary" .
+  '(add-to-list 'webjump-sites '("Baidu" .
                              [simple-query
-                              "www.urbandictionary.com"
+                              "www.baidu.com"
                               "http://www.urbandictionary.com/define.php?term="
                               ""])))
+
 
 ;; Fix whitespace on save, but only if the file was clean
 (global-whitespace-cleanup-mode)
