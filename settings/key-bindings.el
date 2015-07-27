@@ -60,6 +60,8 @@
 ;; Quickly jump in document with ace-jump-mode
 (define-key global-map (kbd "C-`") 'ace-jump-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
+(define-key global-map (kbd "M-s a") 'ace-jump-mode)
+
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 (global-set-key (kbd "C-c C-n") 'cleanup-buffer)

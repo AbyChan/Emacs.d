@@ -63,6 +63,7 @@
      htmlize
      visual-regexp
      markdown-mode
+     zlc
      fill-column-indicator
      flycheck
      flycheck-pos-tip
