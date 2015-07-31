@@ -36,5 +36,9 @@ up before you execute another command."
   (flycheck-clear-idle-change-timer)
   (flycheck-buffer-automatically 'idle-change))
 
+
 ;;(add-hook 'flycheck-mode-hook 'python-mode)
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
 (provide 'setup-flycheck)

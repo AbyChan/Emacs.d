@@ -17,6 +17,7 @@
         tagedit-insert-equal
         tagedit-insert-hash
         tagedit-insert-lt
+        tern-ac-dot-complete
         web-beautify-css
         yas-expand
         ))

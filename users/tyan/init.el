@@ -5,7 +5,7 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-(set-variable 'fancy-startup-text 'hi)
+;;(set-variable 'fancy-startup-text 'hi)
 ;; Monday ftw
 (set-variable 'calendar-week-start-day 1)
 
@@ -30,7 +30,6 @@
                         'box 'bar)))
 
 ;(add-hook 'post-command-hook 'my-update-cursor)
-
 (defun my-delete-region-and-go-to-insert-mode ()
   (delete-region (region-beginning) (region-end))
   (god-local-mode -1))
@@ -39,7 +38,7 @@
 
 (setq magit-last-seen-setup-instructions "1.4.0")
 
-(require 'setup-auto-complete)
+;;(require 'setup-auto-complete)
 ;;company not support js now
 (require 'setup-company)
 (require 'setup-web-beautify)
@@ -52,15 +51,18 @@
 ;;(require 'setup-column-marker) ;;keybind confim with js2-refactor
 (require 'setup-indent-guide) 
 ;;ready in site-lisp
-;;(require 'setup-tern)
+(require 'setup-tern)
 (require 'setup-pretty)
 (require 'setup-emmet)
 (require 'setup-cmd-t)
 (require 'setup-python)
 (require 'setup-wrap-region)
 (require 'setup-syntax-table)
-(require 'setup-message-suppression)
+;;(require 'setup-message-suppression)
 (require 'setup-zlc)
+(require 'setup-flymakes)
+(require 'setup-recently)
+
 (require 'epa-file)
 (epa-file-enable)
 
@@ -91,11 +93,10 @@
       '(
     "/usr/local/bin"
     "/usr/bin"
-    "/home/tyan/USR/node-v0.12.1-linux-x64/bin"
     ))
 
 
-(setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
+;;(setq mouse-wheel-scroll-amount '(3 ((shift) . 3))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time

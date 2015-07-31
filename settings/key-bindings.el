@@ -359,3 +359,41 @@
 
 (provide 'key-bindings)
 
+;;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+;;
+;; Crappy-jsp-mode
+;;
+;; M-% query-replace
+;; Replace some occurrences of one string with another.
+
+;; C-c n cleanup-buffer
+;; Perform a bunch of operations on the whitespace content of a buffer. Get it here.
+
+;; C-s isearch-forward
+;; Search incrementally forward. Note that mark is set at start of search on exit.
+
+;; C-@ er/expand-region
+;; Increase selection by semantic units. Get it here.
+
+;; C-c C-r rename-sgml-tag
+;; Rename the current tag (closest from point nesting-wise). Get it here
+
+;; C-c DEL sgml-delete-tag
+;; Delete the current tag along with its respective other tag.
+
+;; C-h k describe-key
+;; Describe the function bound to a given key combination.
+
+;; C-x C-e eval-last-sexp
+;; Evaluate sexp before point; print value in minibuffer.
+
+;; M-x flush-lines
+;; Delete lines after point matching a given regexp.
+
+;; C-c C-e sgml-close-tag
+;; Close the current tag.
+
+;; C-x z repeat
+;; Repeat the last command.
+
+;; C-c C-j zencoding-expand-line

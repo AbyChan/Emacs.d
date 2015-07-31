@@ -61,5 +61,34 @@ Functions' in the Emacs Lisp Reference Manual, q.v.)"
 
 (ad-activate 'message)
 
+(unwind-protect
+    (let ((debug-on-error nil))
+      (with-demoted-errors
+        (message "The world is about to end")
+        (sleep-for 2)
+        (/ 10 0)                        ; divide by zero signals an error
+        (message "This will never evaluate")
+        (sleep-for 2)
+        (setq some-var 5)))
+  (message "Here are the unwind forms that will always evaluate")
+  (sleep-for 2)
+  (setq some-var 10)
+  (setq another-var "puppies")
+  (message "All done!"))
+
+(defvar init-error nil 
+  "The error which happened.")
+
+(condition-case the-error
+    (progn
+      ;; Do the dangerous stuff here.
+      (require 'what-I-want))
+  (error
+   ;; This is only evaluated if there's an error.
+   (setq init-error the-error)))
+
+;;; Do the safe stuff here.
+
+
 (provide 'setup-message-suppression)
 
