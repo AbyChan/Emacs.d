@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/0-easy/" . "shortest-repetition/")
+ ("/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/" . "0-easy/")
  ("/home/aby/PROJECT/MeiyouHome/app/" . "css/")
  ("/home/aby/PROJECT/MeiyouHome/" . "scss/")
  ("/home/aby/.emacs.d/site-lisp/" . "tern/")
@@ -250,6 +252,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/0-easy/shortest-repetition/"
  "/home/aby/mz-command-i18n/"
  "/home/aby/.emacs.d/users/aby/"
  "/home/aby/.emacs.d/settings/"
@@ -299,11 +302,13 @@
  "/home/tyan/linaro/Cola/app/js/directive/"
  "/home/tyan/linaro/CoffeeClub/front/app/js/directive/"
  "/home/tyan/linaro/Cola/scss/"
- "/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_widget/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "README.md"
+ "input.py"
+ "input.txt"
  "i18n.js"
  "init.el"
  "setup-recently.el"
@@ -311,13 +316,16 @@
  "setup-company.el"
  "setup-message-suppression.el"
  "appearance.el"
- "setup-flycheck.el"
- "setup-js2-mode.el"
- ".jshintrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/0-easy/shortest-repetition/" (21954 12652 808240 507000) "input.py" ".input.py.un~" "input.txt" "./" "README.md" ".input.txt.un~" ".README.md.un~" "../")
+
+ ("/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/" (21954 9181 324395 280000) ".ropeproject/" ".SHORTEST_REPETITION.py.un~" "./" ".HIDDEN_DIGITS.py.un~" "../" "0-easy/")
+
+ ("/home/tyan/GITHUB/TyanDataStructrue-Algorithm/codeeval/0-easy/" (21954 9195 824394 634000) "./" "../" "shortest-repetition/")
+
  ("/home/aby/.emacs.d/users/tyan/" (21947 10376 839271 951000) "my-defuns.el" "./" "../" "#sadas.js#" "travel-mode.el" "js2r-keys.el" ".init.el.un~" "custom.el" "init.el" "project-mappings.el")
 
  ("/home/aby/mz-command-i18n/" (21947 4728 627109 315000) ".gitignore" ".i18n2.js.swp" "i18n2.js" "i18nconfig.json" "node_modules/" ".tern-port" ".jshintrc" "./" "../" "README.md" "#i18n.js#" "i18n1.js" "package.json" "tags" "i18n.js" ".git/")
@@ -511,12 +519,6 @@
  ("/home/tyan/linaro/CoffeeClub/front/app/js/" (21905 16975 0 0) "directive/" "app.js" "templates/" "config.js" "index.js" "main.js" "controller/" "vendor/" "../" "./" "plugins.js" "controllers.js")
 
  ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/_widget/" (21906 23352 611338 272000) "recent_comment.ejs" "rss.ejs" "links.ejs" "tagcloud.ejs" "archive.ejs" "./" "category.ejs" "tag.ejs" "../")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/themes/pacman-master/layout/" (21904 4827 293854 261000) "post.ejs" "_partial/" "archive.ejs" "./" "layout.ejs" "_widget/" "page.ejs" "category.ejs" "tag.ejs" "../" "index.ejs")
-
- ("/home/tyan/GITHUB/AbyChan.github.io/themes/" (21904 1032 469634 49000) "landscape/" "pacman-master/" "pacman/" "minos/" "./" "../")
-
- ("/home/tyan/linaro/CoffeeClub/front/" (21906 1445 0 0) "package.json" "scss/" "../" "./" "app/" "dist/" "components/" "gulpfile.js" ".jshintrc" ".gitignore" "node_modules/" "README.md" "test/" ".jscsrc")
 )
 
 ;; ----- ido-unc-hosts-cache -----
