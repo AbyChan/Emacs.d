@@ -8,7 +8,7 @@
 (setq-default js2-indent-on-enter-key nil)
 (setq-default js2-mirror-mode nil)
 (setq-default js2-strict-inconsistent-return-warning nil)
-(setq-default js2-auto-indent-p t)
+(setq-default js2-auto-indent-p nil) ;;NOTICE!!!!!!!!!!!!!!!!!!!!!!
 (setq-default js2-include-rhino-externs nil)
 (setq-default js2-include-gears-externs nil)
 (setq-default js2-concat-multiline-strings 'eol)
