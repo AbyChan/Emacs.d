@@ -15,6 +15,6 @@
             (setq imenu-generic-expression markdown-imenu-generic-expression)))
 
 (custom-set-variables
-   '(markdown-command "/usr/local/bin/pandoc"))
+   '(markdown-command "/usr/bin/pandoc"))
 
 (provide 'setup-markdown-mode)

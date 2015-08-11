@@ -62,6 +62,7 @@
 (require 'setup-zlc)
 (require 'setup-flymakes)
 (require 'setup-recently)
+(require 'setup-indent)
 
 (require 'epa-file)
 (epa-file-enable)
