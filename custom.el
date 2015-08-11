@@ -39,7 +39,6 @@
  '(main-line-color1 "#222912")
  '(main-line-color2 "#09150F")
  '(markdown-command "/usr/local/bin/pandoc")
- '(menu-bar-mode nil)
  '(powerline-color1 "#222912")
  '(powerline-color2 "#09150F")
  '(safe-local-variable-values
@@ -104,6 +103,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Roboto Mono" :foundry "unknown" :slant normal :weight normal :height 120 :width normal))))
+ '(default ((t (:family "Ubuntu Mono" :foundry "unknown" :slant normal :weight bold :height 129 :width normal))))
+ '(company-scrollbar-bg ((t (:background "#414339"))))
+ '(company-scrollbar-fg ((t (:background "#34352d"))))
+ '(company-tooltip ((t (:inherit default :background "#2c2d26"))))
+ '(company-tooltip-common ((t (:inherit font-lock-constant-face))))
+ '(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
  '(js2-error-face ((t nil)) t)
  '(js2-warning-face ((t nil)) t))
