@@ -8,6 +8,7 @@ backups
 .places
 session.*
 ido.last
+#ido.last#
 history
 tramp
 elpa
@@ -21,3 +22,4 @@ site-lisp/adventur-mode
 /url/
 /var/
 /.sx/
+bookmarks
