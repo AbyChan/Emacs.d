@@ -52,7 +52,7 @@
 (require 'setup-indent-guide) 
 ;;ready in site-lisp
 (require 'setup-tern)
-(require 'setup-pretty)
+;;(require 'setup-pretty)
 (require 'setup-emmet)
 (require 'setup-cmd-t)
 (require 'setup-python)

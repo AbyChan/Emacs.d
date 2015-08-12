@@ -8,7 +8,6 @@
           '(lambda ()
              (define-key c-mode-map "\C-m" 'newline-and-indent)))
 
-(auto-indent-global-mode)
 
 (setq auto-indent-mode-untabify-on-yank-or-paste 'tabify)
 
@@ -17,5 +16,7 @@
 (setq auto-indent-newline-function 'newline-and-indent)
 
 (add-hook 'js2-mode-hook 'auto-indent-mode)
+
+
 
 (provide 'setup-indent)
