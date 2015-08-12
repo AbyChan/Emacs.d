@@ -4,9 +4,10 @@
   "make some word or string show as pretty Unicode symbols"
   (setq prettify-symbols-alist
         '(
-          ("function" . 10765) ; ⨍
-          ("var" . 10050)    ; →
-          ("return" . 10145)    ; ➡ 
+          ("function" . 9775)             ; ⨍
+          ("var" . 10017)    ; →
+          ("return" . 10239)    ; ➡
+          ("=" . 9854)
           )))
 
 (add-hook 'js2-mode-hook 'js-pretty-lambda)
