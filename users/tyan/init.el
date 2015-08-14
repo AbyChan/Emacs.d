@@ -63,6 +63,7 @@
 (require 'setup-flymakes)
 (require 'setup-recently)
 (require 'setup-indent)
+(require 'setup-kill-ring)
 
 (require 'epa-file)
 (epa-file-enable)
