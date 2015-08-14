@@ -9,6 +9,8 @@ backups
 .places
 session.*
 ido.last
+#*
+*#
 #ido.last#
 history
 tramp
