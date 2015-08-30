@@ -39,7 +39,6 @@
  '(main-line-color1 "#222912")
  '(main-line-color2 "#09150F")
  '(markdown-command "/usr/bin/pandoc")
- '(menu-bar-mode nil)
  '(powerline-color1 "#222912")
  '(powerline-color2 "#09150F")
  '(safe-local-variable-values
