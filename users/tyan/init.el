@@ -54,6 +54,7 @@
 (require 'setup-tern)
 ;;(require 'setup-pretty)
 (require 'setup-emmet)
+(require 'setup-nyan)
 (require 'setup-cmd-t)
 (require 'setup-python)
 (require 'setup-wrap-region)
